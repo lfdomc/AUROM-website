@@ -7,7 +7,10 @@ export function buildMetadata(site: SiteData, page: PageData): Metadata {
   const isHome = page.slug === "";
   const title = isHome ? { absolute: site.seo.defaultTitle } : page.seo.title;
   const fullTitle = isHome ? site.seo.defaultTitle : site.seo.titleTemplate.replace("%s", page.seo.title);
-  const ogImage = `${site.site.url}/og/${page.slug ? page.slug.replace(/\//g, "--") : "inicio"}.png`;
+  // Imagen para compartir. Mientras el dominio no esté conectado, OG_IMAGE_BASE_URL permite servirla
+  // desde la dirección temporal (por ejemplo https://aurom-website.lfdomc.workers.dev) sin cambiar el canonical.
+  const imageBase = (process.env.OG_IMAGE_BASE_URL || site.site.url).replace(/\/$/, "");
+  const ogImage = `${imageBase}/og/${page.slug ? page.slug.replace(/\//g, "--") : "inicio"}.png`;
 
   return {
     title,

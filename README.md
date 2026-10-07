@@ -68,7 +68,8 @@ Después de editar, ejecute `npm run validar`. Si algo está mal, le dice exacta
 
 Cada página genera su propia imagen de 1200×630 (`/og/....png`) con el logo, el titular y su proceso, además del título y la descripción. WhatsApp, Facebook, LinkedIn y X la muestran solos al pegar el enlace.
 
-- Solo funciona con el sitio publicado en su dominio (WhatsApp no puede leer `localhost`).
+- Solo funciona con el sitio publicado en internet (WhatsApp no puede leer `localhost`).
+- La imagen se toma de la dirección de `site.url` (www.auromtec.com). Mientras el dominio no esté conectado, en Cloudflare agregue la variable de build `OG_IMAGE_BASE_URL` = `https://aurom-website.lfdomc.workers.dev` para que la imagen se sirva desde la dirección temporal. Cuando conecte el dominio, puede borrarla.
 - WhatsApp guarda la vista previa por un tiempo. Si cambia la imagen o el texto, pase el enlace por el [Depurador de Facebook](https://developers.facebook.com/tools/debug/) y presione **Volver a extraer**; WhatsApp usa los mismos datos.
 
 ## SEO: qué hacer después de publicar (en este orden)
