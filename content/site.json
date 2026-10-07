@@ -1,0 +1,2642 @@
+{
+  "$schema": "./site.schema.json",
+  "version": 1,
+  "site": {
+    "name": "A.U.R.O.M.",
+    "legalName": "A.U.R.O.M. Advanced Universal Systems & Software Architecture",
+    "tagline": "Automatización empresarial y software a la medida",
+    "url": "https://www.auromtec.com",
+    "locale": "es",
+    "logoText": "AUROM",
+    "logoMark": "A"
+  },
+  "contact": {
+    "whatsapp": "+50670120250",
+    "whatsappMessage": "Hola, vi su sitio web y quiero automatizar un proceso de mi empresa.",
+    "github": "https://github.com/lfdomc",
+    "country": "CR",
+    "areaServed": [
+      "Costa Rica",
+      "Panamá",
+      "Nicaragua",
+      "Honduras",
+      "El Salvador",
+      "Guatemala",
+      "Belice",
+      "República Dominicana",
+      "Latinoamérica"
+    ]
+  },
+  "seo": {
+    "titleTemplate": "%s | A.U.R.O.M.",
+    "defaultTitle": "A.U.R.O.M. | Automatización empresarial y software a la medida",
+    "description": "Automatización empresarial y software a la medida en Costa Rica y Centroamérica: planillas en Odoo, bots, SICOP, mantenimiento de equipos y más.",
+    "keywords": [
+      "automatización empresarial Costa Rica",
+      "automatización de procesos Centroamérica",
+      "software a la medida Costa Rica",
+      "desarrollo de software a la medida Centroamérica",
+      "planillas Odoo Costa Rica",
+      "implementación Odoo Centroamérica",
+      "bot para Airbnb",
+      "chatbot con inteligencia artificial para empresas",
+      "monitoreo SICOP",
+      "software de presupuestos de construcción",
+      "software de mantenimiento de equipos",
+      "control de equipos por número de serie",
+      "clasificación automática de correos",
+      "análisis de datos para empresas",
+      "automatización empresarial Panamá",
+      "automatización empresarial Guatemala",
+      "diseño de sitios web Costa Rica",
+      "correos empresariales Costa Rica"
+    ],
+    "organizationType": "ProfessionalService",
+    "alternateLocales": [
+      "es_PA",
+      "es_NI",
+      "es_HN",
+      "es_SV",
+      "es_GT",
+      "es_DO",
+      "es_419"
+    ]
+  },
+  "design": {
+    "read": "Landing de servicios B2B para dueños y gerentes de pymes costarricenses, con lenguaje de ingeniería preciso y cálido, apoyado en un cinemático oscuro de grafito con un único acento oro.",
+    "dials": {
+      "variance": 8,
+      "motion": 8,
+      "density": 4
+    },
+    "theme": {
+      "mode": "dark",
+      "fonts": {
+        "display": "bricolage",
+        "body": "manrope",
+        "mono": "jetbrains"
+      },
+      "colors": {
+        "dark": {
+          "bg": "oklch(0.165 0.014 255)",
+          "surface": "oklch(0.205 0.016 255)",
+          "surface2": "oklch(0.245 0.018 255)",
+          "ink": "oklch(0.965 0.008 85)",
+          "inkMuted": "oklch(0.76 0.016 250)",
+          "accent": "oklch(0.83 0.14 80)",
+          "accentInk": "oklch(0.21 0.03 70)",
+          "accentText": "oklch(0.85 0.13 82)",
+          "border": "oklch(0.31 0.016 255)"
+        },
+        "light": {
+          "bg": "oklch(0.975 0.005 85)",
+          "surface": "oklch(0.945 0.007 85)",
+          "surface2": "oklch(0.915 0.009 85)",
+          "ink": "oklch(0.2 0.016 255)",
+          "inkMuted": "oklch(0.44 0.016 255)",
+          "accent": "oklch(0.8 0.14 80)",
+          "accentInk": "oklch(0.21 0.03 70)",
+          "accentText": "oklch(0.52 0.11 70)",
+          "border": "oklch(0.86 0.01 85)"
+        }
+      },
+      "radius": "soft"
+    },
+    "motion": {
+      "smoothScroll": true,
+      "scrollProgress": true
+    }
+  },
+  "navigation": {
+    "items": [
+      {
+        "label": "Soluciones",
+        "href": "/soluciones"
+      },
+      {
+        "label": "A la medida",
+        "href": "/software-a-la-medida"
+      },
+      {
+        "label": "Nosotros",
+        "href": "/nosotros"
+      },
+      {
+        "label": "Proceso",
+        "href": "/#proceso"
+      },
+      {
+        "label": "Preguntas",
+        "href": "/#preguntas"
+      }
+    ],
+    "cta": {
+      "label": "Hablemos de su proyecto",
+      "href": "#whatsapp"
+    }
+  },
+  "footer": {
+    "statement": "Sistemas que trabajan por su empresa, para que su equipo trabaje en lo importante.",
+    "columns": [
+      {
+        "title": "Soluciones",
+        "links": [
+          {
+            "label": "Todas las soluciones",
+            "href": "/soluciones"
+          },
+          {
+            "label": "Planillas en Odoo",
+            "href": "/soluciones/planillas-odoo"
+          },
+          {
+            "label": "Equipos y mantenimiento",
+            "href": "/soluciones/gestion-de-equipos-y-mantenimiento"
+          },
+          {
+            "label": "Clasificación de correos",
+            "href": "/soluciones/clasificacion-de-correos"
+          },
+          {
+            "label": "Sitios web profesionales",
+            "href": "/soluciones/sitios-web"
+          },
+          {
+            "label": "Bot para Airbnb",
+            "href": "/soluciones/bot-airbnb"
+          },
+          {
+            "label": "Asistente de consultas",
+            "href": "/soluciones/asistente-de-consultas"
+          },
+          {
+            "label": "Monitoreo de SICOP",
+            "href": "/soluciones/monitoreo-sicop"
+          },
+          {
+            "label": "Presupuestos de obra",
+            "href": "/soluciones/presupuestos-de-construccion"
+          },
+          {
+            "label": "Análisis de datos",
+            "href": "/soluciones/analisis-de-datos"
+          }
+        ]
+      },
+      {
+        "title": "Empresa",
+        "links": [
+          {
+            "label": "Nosotros",
+            "href": "/nosotros"
+          },
+          {
+            "label": "Software a la medida",
+            "href": "/software-a-la-medida"
+          },
+          {
+            "label": "Centroamérica y Latinoamérica",
+            "href": "/automatizacion-empresarial-centroamerica"
+          },
+          {
+            "label": "Cómo trabajamos",
+            "href": "/#proceso"
+          },
+          {
+            "label": "Preguntas frecuentes",
+            "href": "/#preguntas"
+          },
+          {
+            "label": "GitHub",
+            "href": "https://github.com/lfdomc"
+          }
+        ]
+      },
+      {
+        "title": "Contacto",
+        "links": [
+          {
+            "label": "WhatsApp +506 7012 0250",
+            "href": "#whatsapp"
+          },
+          {
+            "label": "www.auromtec.com",
+            "href": "https://www.auromtec.com"
+          }
+        ]
+      }
+    ],
+    "legal": "© {year} A.U.R.O.M. Advanced Universal Systems & Software Architecture. Costa Rica, Centroamérica y Latinoamérica."
+  },
+  "pages": [
+    {
+      "slug": "",
+      "seo": {
+        "title": "Automatización empresarial y software a la medida en Centroamérica",
+        "description": "Automatizamos planillas, mantenimiento de equipos, correos, atención al cliente, SICOP y presupuestos para empresas de Costa Rica y Centroamérica.",
+        "priority": 1,
+        "changeFrequency": "weekly"
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "flow",
+          "kicker": "Automatización empresarial y software a la medida en Costa Rica y Centroamérica",
+          "headline": "El trabajo repetitivo, que lo haga el sistema.",
+          "emphasis": "el sistema.",
+          "subhead": "Diseñamos bots, integraciones y sistemas a la medida que eliminan tareas manuales en planillas, atención al cliente, licitaciones y presupuestos.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver soluciones",
+            "href": "#soluciones"
+          },
+          "flow": [
+            {
+              "input": "Marcas de asistencia",
+              "output": "Planilla con CCSS y renta"
+            },
+            {
+              "input": "Mensaje de un huésped",
+              "output": "Respuesta al instante"
+            },
+            {
+              "input": "Concurso nuevo en SICOP",
+              "output": "Alerta a su equipo"
+            },
+            {
+              "input": "Cantidades de obra",
+              "output": "Presupuesto listo"
+            }
+          ]
+        },
+        {
+          "type": "marquee",
+          "label": "Tareas que su equipo deja de hacer a mano",
+          "items": [
+            "Digitar horas extra en Excel",
+            "Revisar SICOP todas las mañanas",
+            "Responder lo mismo a cada huésped",
+            "Copiar datos de un sistema a otro",
+            "Armar cada presupuesto desde cero",
+            "Buscar un dato en doce carpetas",
+            "Calcular deducciones de la CCSS",
+            "Consolidar reportes de cada área"
+          ],
+          "motion": {
+            "reveal": "none"
+          }
+        },
+        {
+          "type": "stickyStack",
+          "id": "soluciones",
+          "heading": "Sistemas que ya funcionan, adaptados a su empresa",
+          "intro": "No partimos de una hoja en blanco. Son sistemas propios, probados en operación real, que configuramos con sus reglas, sus datos y su forma de trabajar.",
+          "items": [
+            {
+              "title": "Planillas en Odoo",
+              "tag": "Recursos humanos",
+              "problem": "Calcular la planilla a mano consume días, y un error en una deducción termina en reclamos o en problemas con la CCSS.",
+              "result": "La planilla se calcula sola en Odoo, con cargas sociales, impuesto sobre la renta y aguinaldo configurados para Costa Rica.",
+              "bullets": [
+                "Cálculo de CCSS, renta y aguinaldo",
+                "Horas extra, incapacidades y vacaciones",
+                "Comprobantes de pago por correo",
+                "Reportes listos para contabilidad"
+              ],
+              "href": "/soluciones/planillas-odoo",
+              "visual": "payroll"
+            },
+            {
+              "title": "Gestión de equipos y mantenimiento",
+              "tag": "Operaciones",
+              "problem": "El historial de cada equipo vive en papeles y hojas sueltas: nadie sabe qué repuesto se cambió, cuándo toca el próximo servicio ni cuánto ha costado.",
+              "result": "Cada equipo se controla por número de serie, con su historial, los repuestos usados y un cronograma que avisa antes de cada mantenimiento.",
+              "bullets": [
+                "Control por número de serie y ubicación",
+                "Inventario de repuestos y consumos",
+                "Cronogramas de mantenimiento preventivo",
+                "Órdenes de trabajo e historial por equipo"
+              ],
+              "href": "/soluciones/gestion-de-equipos-y-mantenimiento",
+              "visual": "maintenance"
+            },
+            {
+              "title": "Clasificación automática de correos",
+              "tag": "Administración",
+              "problem": "La bandeja se llena de facturas, cotizaciones, pedidos y consultas mezclados, y alguien pasa horas leyendo, reenviando y copiando datos.",
+              "result": "El sistema lee cada correo, lo clasifica, extrae los datos importantes y los envía al flujo correcto: contabilidad, ventas, bodega o soporte.",
+              "bullets": [
+                "Clasificación por tipo de correo",
+                "Extracción de datos de facturas y adjuntos",
+                "Envío automático al área o sistema correcto",
+                "Registro y seguimiento de cada caso"
+              ],
+              "href": "/soluciones/clasificacion-de-correos",
+              "visual": "email"
+            },
+            {
+              "title": "Bot para anfitriones de Airbnb",
+              "tag": "Hospedaje",
+              "problem": "Los huéspedes preguntan lo mismo a cualquier hora, y una respuesta tardía se nota en las reseñas.",
+              "result": "Un asistente responde al instante con la información de cada propiedad y le avisa solo cuando hace falta una persona.",
+              "bullets": [
+                "Check-in, wifi, normas y recomendaciones",
+                "Información distinta por propiedad",
+                "Le pasa a usted los casos especiales",
+                "Disponible las 24 horas"
+              ],
+              "href": "/soluciones/bot-airbnb",
+              "visual": "airbnb"
+            },
+            {
+              "title": "Asistente de consultas para empresas",
+              "tag": "Atención y conocimiento interno",
+              "problem": "Clientes y colaboradores pierden tiempo buscando respuestas que ya existen en manuales, políticas y catálogos.",
+              "result": "Un asistente con inteligencia artificial que responde a partir de sus propios documentos, en su sitio web o por WhatsApp.",
+              "bullets": [
+                "Aprende de sus documentos y catálogos",
+                "Responde por WhatsApp o en su sitio web",
+                "Indica de dónde sale cada respuesta",
+                "Usted decide qué información comparte"
+              ],
+              "href": "/soluciones/asistente-de-consultas",
+              "visual": "assistant"
+            },
+            {
+              "title": "Monitoreo automático de SICOP",
+              "tag": "Compras públicas",
+              "problem": "Revisar SICOP a diario para no perder un concurso es lento, y una oportunidad vista tarde es una oferta que no se presenta.",
+              "result": "El sistema revisa los concursos publicados, filtra los que calzan con su negocio y avisa a su equipo con los datos clave.",
+              "bullets": [
+                "Filtros por palabras, institución y monto",
+                "Alertas por correo o WhatsApp",
+                "Resumen de fechas límite y requisitos",
+                "Registro de cada concurso revisado"
+              ],
+              "href": "/soluciones/monitoreo-sicop",
+              "visual": "sicop"
+            },
+            {
+              "title": "Presupuestos de construcción",
+              "tag": "Construcción",
+              "problem": "Cada presupuesto se arma desde cero en hojas de cálculo distintas, con precios desactualizados y fórmulas frágiles.",
+              "result": "Un sistema que genera el presupuesto a partir de las cantidades de obra, con su base de precios, rendimientos y márgenes.",
+              "bullets": [
+                "Base de materiales y mano de obra",
+                "Cálculo por partidas y cantidades",
+                "Márgenes, imprevistos e impuestos",
+                "Exporta a PDF y Excel"
+              ],
+              "href": "/soluciones/presupuestos-de-construccion",
+              "visual": "budget"
+            },
+            {
+              "title": "Sitios web profesionales",
+              "tag": "Presencia digital",
+              "problem": "Un sitio lento, sin correo propio y que no aparece en Google hace que los clientes elijan a la competencia antes de conocerlo.",
+              "result": "Entregamos el sitio completo y funcionando: diseño, dominio, hosting, correos empresariales, SEO y conexión con WhatsApp.",
+              "bullets": [
+                "Diseño a la medida y adaptable al celular",
+                "Dominio, hosting y certificado SSL",
+                "Correos empresariales con su dominio",
+                "SEO para aparecer en Google"
+              ],
+              "href": "/soluciones/sitios-web",
+              "visual": "website"
+            },
+            {
+              "title": "Análisis de datos y tableros",
+              "tag": "Dirección y finanzas",
+              "problem": "La información existe, pero está repartida entre archivos de Excel, el sistema contable y correos, y nadie la ve completa.",
+              "result": "Unimos sus fuentes de datos en tableros claros para decidir con números al día y no con intuición.",
+              "bullets": [
+                "Une Excel, Odoo, bases de datos y APIs",
+                "Indicadores de ventas, costos y operación",
+                "Reportes automáticos programados",
+                "Acceso por rol para cada área"
+              ],
+              "href": "/soluciones/analisis-de-datos",
+              "visual": "data"
+            }
+          ]
+        },
+        {
+          "type": "bento",
+          "id": "a-la-medida",
+          "heading": "Si su proceso no existe en ningún software, lo construimos",
+          "intro": "Cuando lo estándar no alcanza, diseñamos la solución completa: desde el análisis del proceso hasta el sistema funcionando en su empresa.",
+          "background": "surface",
+          "cells": [
+            {
+              "title": "Software a la medida",
+              "body": "Aplicaciones web y sistemas internos hechos para su operación, con la lógica de su negocio y no al revés.",
+              "icon": "code",
+              "size": "lg",
+              "tone": "accent",
+              "href": "/software-a-la-medida"
+            },
+            {
+              "title": "Implementación de ERP",
+              "body": "Odoo configurado por módulos: inventario, ventas, compras, facturación y recursos humanos, conectado con lo que ya usa.",
+              "icon": "stack",
+              "size": "wide",
+              "tone": "base"
+            },
+            {
+              "title": "Integraciones y APIs",
+              "body": "Conectamos sistemas que hoy no se hablan para que los datos viajen solos, sin copiar y pegar.",
+              "icon": "plugs",
+              "size": "md",
+              "tone": "base"
+            },
+            {
+              "title": "Sitios web que venden",
+              "body": "Sitios rápidos y bien posicionados en Google, entregados con dominio, hosting, correos y WhatsApp.",
+              "icon": "globe",
+              "size": "md",
+              "tone": "base",
+              "href": "/soluciones/sitios-web"
+            },
+            {
+              "title": "Flujos automáticos",
+              "body": "Aprobaciones, recordatorios, reportes y correos que se ejecutan solos según sus reglas.",
+              "icon": "flow",
+              "size": "sm",
+              "tone": "inverse"
+            }
+          ]
+        },
+        {
+          "type": "horizontal",
+          "id": "proceso",
+          "heading": "De la tarea manual al sistema funcionando",
+          "intro": "Un proceso corto y transparente, con avances que usted puede probar desde las primeras semanas.",
+          "steps": [
+            {
+              "title": "Diagnóstico",
+              "body": "Conversamos sobre su operación y detectamos las tareas que más tiempo y errores le cuestan hoy.",
+              "detail": "Usted habla, nosotros escuchamos"
+            },
+            {
+              "title": "Mapa del proceso",
+              "body": "Documentamos cómo funciona hoy, quién participa y qué datos se usan, para automatizar lo correcto y no lo urgente.",
+              "detail": "Un documento claro de lo que se hará"
+            },
+            {
+              "title": "Prototipo",
+              "body": "Construimos una primera versión con sus datos reales para comprobar que resuelve el problema antes de crecer.",
+              "detail": "Lo prueba con su equipo"
+            },
+            {
+              "title": "Implementación",
+              "body": "Integramos con sus sistemas, capacitamos al equipo y ponemos la solución a trabajar en su operación diaria.",
+              "detail": "Puesta en marcha acompañada"
+            },
+            {
+              "title": "Mejora continua",
+              "body": "Medimos resultados, ajustamos y damos soporte para que el sistema crezca al mismo ritmo que su empresa.",
+              "detail": "Soporte y nuevas mejoras"
+            }
+          ]
+        },
+        {
+          "type": "stats",
+          "heading": "Lo que recibe al trabajar con nosotros",
+          "items": [
+            {
+              "value": 9,
+              "label": "sistemas propios listos para adaptar a su empresa"
+            },
+            {
+              "value": 4,
+              "label": "empresas ya calculan su planilla con nuestro sistema en Odoo"
+            },
+            {
+              "value": 24,
+              "suffix": "/7",
+              "label": "atención automática a clientes y huéspedes"
+            }
+          ]
+        },
+        {
+          "type": "faq",
+          "id": "preguntas",
+          "heading": "Preguntas frecuentes sobre automatización",
+          "items": [
+            {
+              "q": "¿Qué tipo de procesos se pueden automatizar?",
+              "a": "Cualquier tarea repetitiva que siga reglas: cálculos de planilla, respuestas frecuentes a clientes, revisión de portales como SICOP, generación de presupuestos, reportes y traspaso de datos entre sistemas. En el diagnóstico identificamos cuáles le dan más retorno primero."
+            },
+            {
+              "q": "¿Tengo que cambiar los sistemas que ya uso?",
+              "a": "No necesariamente. Siempre que es posible nos integramos con lo que ya tiene, como Excel, Odoo, su sistema contable o su correo. Recomendamos cambiar de herramienta solo cuando la actual limita el crecimiento."
+            },
+            {
+              "q": "¿Cuánto cuesta un proyecto de automatización?",
+              "a": "Depende del alcance. Los sistemas propios que ya tenemos se adaptan en menos tiempo y a menor costo que un desarrollo desde cero. Después del diagnóstico recibe una propuesta con alcance, plazos y precio definidos."
+            },
+            {
+              "q": "¿Trabajan con empresas fuera de Costa Rica?",
+              "a": "Sí. Atendemos empresas en Costa Rica, Panamá, Nicaragua, Honduras, El Salvador, Guatemala y el resto de Latinoamérica. La implementación, la capacitación y el soporte se hacen en forma remota, y en Costa Rica coordinamos visitas cuando el proyecto lo necesita."
+            },
+            {
+              "q": "¿Qué pasa con la seguridad de mis datos?",
+              "a": "Sus datos siguen siendo suyos. Trabajamos con accesos por rol, conexiones cifradas y respaldos, y le documentamos dónde se guarda cada información y quién puede verla."
+            },
+            {
+              "q": "¿Dan soporte después de la entrega?",
+              "a": "Sí. Acompañamos la puesta en marcha y ofrecemos planes de soporte y mejora continua para que el sistema evolucione junto con su empresa."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "¿Qué tarea le gustaría no volver a hacer a mano?",
+          "body": "Cuéntenos por WhatsApp y le proponemos cómo automatizarla.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "soluciones",
+      "navLabel": "Soluciones",
+      "seo": {
+        "title": "Soluciones de automatización y software para empresas",
+        "description": "Todas nuestras soluciones: planillas en Odoo, mantenimiento de equipos, correos, bots, SICOP, presupuestos, sitios web, análisis de datos y software a la medida.",
+        "priority": 0.95,
+        "changeFrequency": "weekly"
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Soluciones de A.U.R.O.M.",
+          "headline": "Elija el proceso que quiere dejar de hacer a mano.",
+          "emphasis": "dejar de hacer a mano.",
+          "subhead": "Sistemas propios, probados en empresas reales y listos para adaptarse a la suya. Toque cualquiera para ver cómo funciona.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver la lista",
+            "href": "#lista"
+          }
+        },
+        {
+          "type": "solutionIndex",
+          "id": "lista",
+          "heading": "Todas las soluciones",
+          "intro": "Cada una tiene su página con el proceso completo, lo que incluye y preguntas frecuentes.",
+          "items": [
+            {
+              "slug": "soluciones/planillas-odoo",
+              "icon": "users",
+              "tag": "Recursos humanos"
+            },
+            {
+              "slug": "soluciones/gestion-de-equipos-y-mantenimiento",
+              "icon": "wrench",
+              "tag": "Operaciones"
+            },
+            {
+              "slug": "soluciones/clasificacion-de-correos",
+              "icon": "envelope",
+              "tag": "Administración"
+            },
+            {
+              "slug": "soluciones/bot-airbnb",
+              "icon": "house",
+              "tag": "Hospedaje"
+            },
+            {
+              "slug": "soluciones/asistente-de-consultas",
+              "icon": "robot",
+              "tag": "Atención al cliente"
+            },
+            {
+              "slug": "soluciones/monitoreo-sicop",
+              "icon": "magnifier",
+              "tag": "Compras públicas"
+            },
+            {
+              "slug": "soluciones/presupuestos-de-construccion",
+              "icon": "calculator",
+              "tag": "Construcción"
+            },
+            {
+              "slug": "soluciones/sitios-web",
+              "icon": "globe",
+              "tag": "Presencia digital"
+            },
+            {
+              "slug": "soluciones/analisis-de-datos",
+              "icon": "chart",
+              "tag": "Dirección y finanzas"
+            },
+            {
+              "slug": "software-a-la-medida",
+              "icon": "code",
+              "tag": "Desarrollo a la medida"
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "¿No ve su proceso en la lista?",
+          "body": "Lo construimos a la medida. Cuéntenos qué necesita automatizar.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "soluciones/planillas-odoo",
+      "navLabel": "Planillas en Odoo",
+      "seo": {
+        "title": "Sistema de planillas en Odoo para Costa Rica",
+        "description": "Planillas en Odoo configuradas para Costa Rica: CCSS, impuesto sobre la renta, aguinaldo, horas extra y vacaciones calculados de forma automática.",
+        "priority": 0.9,
+        "service": {
+          "name": "Sistema de planillas en Odoo",
+          "serviceType": "Automatización de planillas y recursos humanos"
+        }
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Planillas en Odoo para Costa Rica",
+          "headline": "La planilla, calculada sin una sola fórmula a mano.",
+          "emphasis": "sin una sola fórmula",
+          "subhead": "Configuramos Odoo para calcular salarios, cargas sociales de la CCSS, impuesto sobre la renta, aguinaldo y vacaciones según la normativa costarricense.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver cómo funciona",
+            "href": "#como-funciona"
+          },
+          "visual": "payroll"
+        },
+        {
+          "type": "beforeAfter",
+          "heading": "Del Excel de cada quincena a una planilla confiable",
+          "before": {
+            "title": "Hoy",
+            "items": [
+              "Las horas extra se digitan una por una",
+              "Cada deducción depende de una fórmula que alguien puede borrar",
+              "Los comprobantes se arman y se envían a mano",
+              "Contabilidad recibe la información tarde y en otro formato"
+            ]
+          },
+          "after": {
+            "title": "Con el sistema",
+            "items": [
+              "Las marcas y novedades alimentan la planilla directamente",
+              "Las reglas de CCSS, renta y aguinaldo están en el sistema",
+              "Cada colaborador recibe su comprobante por correo",
+              "Los asientos y reportes quedan listos para contabilidad"
+            ]
+          }
+        },
+        {
+          "type": "pipeline",
+          "heading": "Así se cierra una planilla en el sistema",
+          "steps": [
+            {
+              "title": "Marcas y novedades",
+              "body": "Horas, extras, incapacidades y vacaciones entran solas.",
+              "icon": "clock"
+            },
+            {
+              "title": "Reglas de ley",
+              "body": "CCSS, renta y aguinaldo aplicados según la configuración.",
+              "icon": "calculator"
+            },
+            {
+              "title": "Revisión",
+              "body": "Usted aprueba con un resumen claro por colaborador.",
+              "icon": "users"
+            },
+            {
+              "title": "Comprobantes",
+              "body": "Cada persona recibe su comprobante por correo.",
+              "icon": "envelope"
+            },
+            {
+              "title": "Contabilidad",
+              "body": "Asientos y reportes listos para exportar.",
+              "icon": "chart"
+            }
+          ],
+          "result": "Planilla cerrada sin fórmulas a mano",
+          "variant": "deck"
+        },
+        {
+          "type": "features",
+          "id": "como-funciona",
+          "heading": "Qué incluye el sistema de planillas",
+          "items": [
+            {
+              "title": "Cargas sociales y renta",
+              "body": "Cálculo de las cuotas obreras y patronales de la CCSS y del impuesto sobre la renta según los tramos vigentes.",
+              "icon": "calculator"
+            },
+            {
+              "title": "Novedades del periodo",
+              "body": "Horas extra, incapacidades, permisos, vacaciones y rebajos registrados una vez y aplicados en la planilla correcta.",
+              "icon": "clock"
+            },
+            {
+              "title": "Aguinaldo y liquidaciones",
+              "body": "Aguinaldo proporcional, vacaciones pendientes y cálculos de liquidación generados a partir del historial de cada persona.",
+              "icon": "file"
+            },
+            {
+              "title": "Reportes y comprobantes",
+              "body": "Comprobantes de pago por correo, reportes para la CCSS y el INS, y asientos contables listos para exportar.",
+              "icon": "chart"
+            }
+          ]
+        },
+        {
+          "type": "clients",
+          "heading": "Ya usan este sistema",
+          "highlight": {
+            "value": 4,
+            "label": "empresas con su planilla en Odoo"
+          },
+          "items": [
+            {
+              "name": "MuntoPet",
+              "detail": "Planillas en Odoo"
+            },
+            {
+              "name": "Comtel Ingeniería",
+              "detail": "Planillas en Odoo"
+            }
+          ],
+          "variant": "compact"
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas sobre planillas en Odoo",
+          "items": [
+            {
+              "q": "¿Necesito tener Odoo para usar el sistema de planillas?",
+              "a": "No. Si aún no usa Odoo, lo implementamos con el módulo de planillas y, si lo desea, con otros módulos como inventario o facturación. Si ya lo usa, configuramos la planilla sobre su instalación actual."
+            },
+            {
+              "q": "¿Qué pasa cuando cambian los porcentajes o los tramos de renta?",
+              "a": "Las reglas se actualizan en la configuración del sistema, sin reprogramar. Le acompañamos en cada cambio de normativa para que la planilla siga correcta."
+            },
+            {
+              "q": "¿Puedo migrar el historial de mis colaboradores?",
+              "a": "Sí. Importamos colaboradores, salarios e historial desde sus archivos de Excel o desde su sistema anterior para que el aguinaldo y las vacaciones se calculen bien desde el primer mes."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Otras soluciones que se integran",
+          "slugs": [
+            "soluciones/analisis-de-datos",
+            "soluciones/presupuestos-de-construccion",
+            "software-a-la-medida"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "Cierre la próxima planilla sin Excel.",
+          "body": "Escríbanos y revisamos cómo calcula hoy su planilla.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "soluciones/bot-airbnb",
+      "navLabel": "Bot para Airbnb",
+      "seo": {
+        "title": "Bot de atención para anfitriones de Airbnb",
+        "description": "Bot que responde a sus huéspedes de Airbnb al instante: check-in, wifi, normas y recomendaciones de cada propiedad, las 24 horas y en varios idiomas.",
+        "priority": 0.9,
+        "service": {
+          "name": "Bot de atención para anfitriones de Airbnb",
+          "serviceType": "Automatización de atención al cliente"
+        }
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Automatización para anfitriones y administradores de propiedades",
+          "headline": "Sus huéspedes reciben respuesta mientras usted duerme.",
+          "emphasis": "mientras usted duerme.",
+          "subhead": "Un asistente que conoce cada una de sus propiedades y responde al instante las preguntas de siempre, y le avisa a usted solo cuando de verdad hace falta.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver cómo funciona",
+            "href": "#como-funciona"
+          },
+          "visual": "airbnb"
+        },
+        {
+          "type": "beforeAfter",
+          "heading": "Menos mensajes repetidos, mejores reseñas",
+          "before": {
+            "title": "Hoy",
+            "items": [
+              "Contesta la misma pregunta del wifi varias veces al día",
+              "Un mensaje a medianoche espera hasta la mañana",
+              "Cada propiedad tiene sus datos en un lugar distinto",
+              "Los huéspedes extranjeros escriben en otros idiomas"
+            ]
+          },
+          "after": {
+            "title": "Con el bot",
+            "items": [
+              "Las preguntas frecuentes se responden al instante",
+              "Atención las 24 horas, todos los días",
+              "Cada propiedad tiene su propia información",
+              "Responde en el idioma en que le escriben"
+            ]
+          }
+        },
+        {
+          "type": "pipeline",
+          "heading": "Qué pasa cuando un huésped escribe",
+          "steps": [
+            {
+              "title": "Llega el mensaje",
+              "body": "A cualquier hora y en cualquier idioma.",
+              "icon": "chat"
+            },
+            {
+              "title": "Identifica la propiedad",
+              "body": "Sabe en cuál alojamiento está el huésped.",
+              "icon": "house"
+            },
+            {
+              "title": "Busca la respuesta",
+              "body": "Usa la información que usted configuró.",
+              "icon": "magnifier"
+            },
+            {
+              "title": "Responde",
+              "body": "En segundos y con el tono de su marca.",
+              "icon": "whatsapp"
+            },
+            {
+              "title": "Le avisa si hace falta",
+              "body": "Reclamos y casos especiales pasan a usted.",
+              "icon": "bell"
+            }
+          ],
+          "result": "Huésped atendido en segundos",
+          "variant": "timeline"
+        },
+        {
+          "type": "features",
+          "id": "como-funciona",
+          "heading": "Qué hace el bot por su negocio de hospedaje",
+          "items": [
+            {
+              "title": "Información por propiedad",
+              "body": "Check-in, ubicación, wifi, normas de la casa y recomendaciones de la zona configurados para cada alojamiento.",
+              "icon": "house"
+            },
+            {
+              "title": "Respuesta inmediata",
+              "body": "Contesta en segundos las preguntas frecuentes, a cualquier hora, con el tono de su marca.",
+              "icon": "chat"
+            },
+            {
+              "title": "Usted en el control",
+              "body": "Detecta reclamos, solicitudes especiales o urgencias y se los pasa a usted o a su equipo de inmediato.",
+              "icon": "bell"
+            },
+            {
+              "title": "Varios idiomas",
+              "body": "Atiende en español, inglés y otros idiomas para que ningún huésped se quede sin respuesta.",
+              "icon": "globe"
+            }
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas sobre el bot para Airbnb",
+          "items": [
+            {
+              "q": "¿El bot sirve si administro varias propiedades?",
+              "a": "Sí. Está pensado para anfitriones y administradores con una o muchas propiedades. Cada una tiene su propia información y sus propias reglas."
+            },
+            {
+              "q": "¿Qué pasa si un huésped pregunta algo que el bot no sabe?",
+              "a": "No inventa. Le avisa a usted o a la persona encargada para que responda, y esa respuesta puede agregarse para la próxima vez."
+            },
+            {
+              "q": "¿Funciona también para otros canales de reservas?",
+              "a": "Sí. El mismo asistente puede atender mensajes de otros canales y de WhatsApp. En el diagnóstico revisamos qué canales usa y cómo conectarlos."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Otras soluciones de atención",
+          "slugs": [
+            "soluciones/asistente-de-consultas",
+            "soluciones/analisis-de-datos",
+            "software-a-la-medida"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "Deje de responder lo mismo cada día.",
+          "body": "Cuéntenos cuántas propiedades administra y le mostramos cómo funcionaría.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "soluciones/asistente-de-consultas",
+      "navLabel": "Asistente de consultas",
+      "seo": {
+        "title": "Chatbot con IA para consultas de clientes y empresas",
+        "description": "Asistente con inteligencia artificial que responde consultas de clientes y colaboradores a partir de sus documentos, por WhatsApp o en su sitio web.",
+        "priority": 0.9,
+        "service": {
+          "name": "Asistente de consultas con inteligencia artificial",
+          "serviceType": "Chatbot empresarial"
+        }
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Chatbot empresarial con inteligencia artificial",
+          "headline": "Cada respuesta de su empresa, a un mensaje de distancia.",
+          "emphasis": "a un mensaje",
+          "subhead": "Un asistente que aprende de sus manuales, catálogos y políticas para responder a clientes y colaboradores por WhatsApp o en su sitio web.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver cómo funciona",
+            "href": "#como-funciona"
+          },
+          "visual": "assistant"
+        },
+        {
+          "type": "beforeAfter",
+          "heading": "La información deja de depender de una sola persona",
+          "before": {
+            "title": "Hoy",
+            "items": [
+              "Las mismas consultas llegan por correo, teléfono y WhatsApp",
+              "La respuesta depende de quién esté disponible",
+              "Los documentos existen, pero nadie los encuentra",
+              "Fuera de horario, el cliente espera"
+            ]
+          },
+          "after": {
+            "title": "Con el asistente",
+            "items": [
+              "Una sola fuente de respuestas, siempre igual",
+              "Respuestas basadas en sus propios documentos",
+              "Su equipo atiende solo lo que requiere criterio",
+              "Atención en cualquier horario"
+            ]
+          }
+        },
+        {
+          "type": "pipeline",
+          "heading": "Cómo responde el asistente",
+          "steps": [
+            {
+              "title": "Llega la consulta",
+              "body": "Por WhatsApp, su sitio web o un canal interno.",
+              "icon": "chat"
+            },
+            {
+              "title": "Busca en sus documentos",
+              "body": "Manuales, catálogos y políticas.",
+              "icon": "file"
+            },
+            {
+              "title": "Redacta la respuesta",
+              "body": "Clara y en el tono de su empresa.",
+              "icon": "robot"
+            },
+            {
+              "title": "Indica la fuente",
+              "body": "Para que cualquiera pueda verificarla.",
+              "icon": "magnifier"
+            },
+            {
+              "title": "Deriva si no sabe",
+              "body": "Pasa la consulta a una persona.",
+              "icon": "users"
+            }
+          ],
+          "result": "Respuesta correcta y con respaldo",
+          "variant": "tabs"
+        },
+        {
+          "type": "features",
+          "id": "como-funciona",
+          "heading": "Cómo trabaja el asistente de consultas",
+          "items": [
+            {
+              "title": "Aprende de sus documentos",
+              "body": "Manuales, catálogos, listas de precios y políticas se convierten en la base de conocimiento del asistente.",
+              "icon": "file"
+            },
+            {
+              "title": "Donde están sus clientes",
+              "body": "Responde por WhatsApp, en su sitio web o en un canal interno para su equipo.",
+              "icon": "whatsapp"
+            },
+            {
+              "title": "Respuestas con respaldo",
+              "body": "Indica de qué documento sale cada respuesta, para que sea fácil verificarla.",
+              "icon": "magnifier"
+            },
+            {
+              "title": "Información bajo control",
+              "body": "Usted define qué puede compartir con clientes y qué queda solo para uso interno.",
+              "icon": "lock"
+            }
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas sobre el asistente de consultas",
+          "items": [
+            {
+              "q": "¿El asistente puede inventar respuestas?",
+              "a": "Lo configuramos para responder solo con base en sus documentos. Cuando no encuentra la información, lo dice y deriva la consulta a una persona."
+            },
+            {
+              "q": "¿Sirve para uso interno de mi equipo?",
+              "a": "Sí. Muchas empresas lo usan para que sus colaboradores consulten procedimientos, políticas o fichas técnicas sin interrumpir a otras áreas."
+            },
+            {
+              "q": "¿Cómo se actualiza la información?",
+              "a": "Cuando cambia un documento, se actualiza en la base del asistente. Puede hacerlo su equipo o lo hacemos nosotros dentro del plan de soporte."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Otras soluciones de atención",
+          "slugs": [
+            "soluciones/bot-airbnb",
+            "soluciones/analisis-de-datos",
+            "software-a-la-medida"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "Que su conocimiento atienda por usted.",
+          "body": "Envíenos un ejemplo de las consultas que más recibe.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "soluciones/monitoreo-sicop",
+      "navLabel": "Monitoreo de SICOP",
+      "seo": {
+        "title": "Monitoreo automático de concursos en SICOP",
+        "description": "Automatización que revisa SICOP por usted: filtra concursos de compras públicas por palabras clave e institución y avisa a su equipo a tiempo.",
+        "priority": 0.9,
+        "service": {
+          "name": "Monitoreo automático de SICOP",
+          "serviceType": "Automatización de búsqueda de licitaciones"
+        }
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Automatización para proveedores del Estado",
+          "headline": "Ningún concurso de SICOP se le vuelve a pasar.",
+          "emphasis": "se le vuelve a pasar.",
+          "subhead": "Un sistema que revisa los concursos publicados en SICOP, filtra los que calzan con su negocio y avisa a su equipo con fechas y requisitos clave.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver cómo funciona",
+            "href": "#como-funciona"
+          },
+          "visual": "sicop"
+        },
+        {
+          "type": "beforeAfter",
+          "heading": "Más tiempo para preparar ofertas, menos para buscarlas",
+          "before": {
+            "title": "Hoy",
+            "items": [
+              "Alguien revisa SICOP manualmente cada día",
+              "Los concursos se encuentran cuando queda poco plazo",
+              "La búsqueda depende de quién la haga y cómo",
+              "No queda registro de lo que se revisó"
+            ]
+          },
+          "after": {
+            "title": "Con el monitoreo",
+            "items": [
+              "La revisión corre sola, todos los días",
+              "Las alertas llegan apenas se publica el concurso",
+              "Los filtros son los mismos siempre",
+              "Cada concurso revisado queda registrado"
+            ]
+          }
+        },
+        {
+          "type": "pipeline",
+          "heading": "Así trabaja el monitoreo cada día",
+          "steps": [
+            {
+              "title": "Revisión diaria",
+              "body": "El sistema revisa los concursos publicados.",
+              "icon": "clock"
+            },
+            {
+              "title": "Filtros",
+              "body": "Palabras clave, instituciones y montos.",
+              "icon": "magnifier"
+            },
+            {
+              "title": "Resumen",
+              "body": "Objeto, fechas límite y enlace directo.",
+              "icon": "file"
+            },
+            {
+              "title": "Alerta",
+              "body": "Por correo o WhatsApp al responsable.",
+              "icon": "bell"
+            },
+            {
+              "title": "Registro",
+              "body": "Historial para dar seguimiento.",
+              "icon": "chart"
+            }
+          ],
+          "result": "Concursos detectados a tiempo para ofertar",
+          "variant": "track"
+        },
+        {
+          "type": "features",
+          "id": "como-funciona",
+          "heading": "Qué hace el monitoreo de SICOP",
+          "items": [
+            {
+              "title": "Filtros a su medida",
+              "body": "Palabras clave, códigos de clasificación, instituciones y rangos de monto definidos según su línea de negocio.",
+              "icon": "magnifier"
+            },
+            {
+              "title": "Alertas oportunas",
+              "body": "Avisos por correo o WhatsApp a las personas responsables de cada tipo de concurso.",
+              "icon": "bell"
+            },
+            {
+              "title": "Resumen de cada concurso",
+              "body": "Institución, objeto, fechas límite y enlace directo, en un formato fácil de revisar.",
+              "icon": "file"
+            },
+            {
+              "title": "Historial y reportes",
+              "body": "Registro de concursos detectados para dar seguimiento y analizar oportunidades por periodo.",
+              "icon": "chart"
+            }
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas sobre el monitoreo de SICOP",
+          "items": [
+            {
+              "q": "¿El sistema presenta ofertas en SICOP por mí?",
+              "a": "No. El sistema encuentra y le avisa sobre los concursos que le interesan. La preparación y presentación de la oferta sigue en manos de su equipo, con más tiempo para hacerlo bien."
+            },
+            {
+              "q": "¿Puedo tener filtros distintos para cada área?",
+              "a": "Sí. Cada área o responsable puede recibir solo los concursos que le corresponden según sus propias palabras clave e instituciones."
+            },
+            {
+              "q": "¿Se puede adaptar a otros portales de compras?",
+              "a": "Sí. El mismo enfoque se aplica a otros portales públicos o privados de compras, previa revisión de cada sitio."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Otras soluciones que le pueden servir",
+          "slugs": [
+            "soluciones/presupuestos-de-construccion",
+            "soluciones/analisis-de-datos",
+            "software-a-la-medida"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "Entérese primero de cada concurso.",
+          "body": "Díganos qué vende o qué servicios presta y configuramos los filtros.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "soluciones/presupuestos-de-construccion",
+      "navLabel": "Presupuestos de construcción",
+      "seo": {
+        "title": "Sistema para generar presupuestos de construcción",
+        "description": "Software para presupuestos de construcción: partidas, cantidades de obra, base de precios, rendimientos y márgenes en un solo sistema, con salida a PDF y Excel.",
+        "priority": 0.9,
+        "service": {
+          "name": "Sistema de presupuestos de construcción",
+          "serviceType": "Software para empresas constructoras"
+        }
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Software para empresas constructoras",
+          "headline": "Presupuestos de obra en horas, no en semanas.",
+          "emphasis": "en horas,",
+          "subhead": "Un sistema que genera el presupuesto a partir de las cantidades de obra, con su base de precios, rendimientos de mano de obra, imprevistos y márgenes.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver cómo funciona",
+            "href": "#como-funciona"
+          },
+          "visual": "budget"
+        },
+        {
+          "type": "beforeAfter",
+          "heading": "Del archivo heredado al presupuesto confiable",
+          "before": {
+            "title": "Hoy",
+            "items": [
+              "Cada presupuesto parte de una copia del anterior",
+              "Los precios de materiales se actualizan a mano",
+              "Una fórmula rota puede cambiar el total sin que nadie lo note",
+              "Comparar versiones del presupuesto es difícil"
+            ]
+          },
+          "after": {
+            "title": "Con el sistema",
+            "items": [
+              "Partidas y rendimientos estándar listos para usar",
+              "Una sola base de precios para todos los proyectos",
+              "Cálculos consistentes y revisables",
+              "Versiones y cambios registrados por proyecto"
+            ]
+          }
+        },
+        {
+          "type": "pipeline",
+          "heading": "Del plano al presupuesto",
+          "steps": [
+            {
+              "title": "Cantidades de obra",
+              "body": "Se cargan por partida o desde una plantilla.",
+              "icon": "file"
+            },
+            {
+              "title": "Base de precios",
+              "body": "Materiales, mano de obra y equipo al día.",
+              "icon": "stack"
+            },
+            {
+              "title": "Partidas y rendimientos",
+              "body": "Cálculo consistente en cada línea.",
+              "icon": "calculator"
+            },
+            {
+              "title": "Indirectos y márgenes",
+              "body": "Imprevistos, utilidad e impuestos.",
+              "icon": "gauge"
+            },
+            {
+              "title": "PDF y Excel",
+              "body": "Listo para el cliente o el concurso.",
+              "icon": "file"
+            }
+          ],
+          "result": "Presupuesto listo para presentar",
+          "variant": "stairs"
+        },
+        {
+          "type": "features",
+          "id": "como-funciona",
+          "heading": "Qué incluye el sistema de presupuestos",
+          "items": [
+            {
+              "title": "Base de precios",
+              "body": "Materiales, mano de obra, equipo y subcontratos en un catálogo que se actualiza una vez para todos los proyectos.",
+              "icon": "stack"
+            },
+            {
+              "title": "Partidas y cantidades",
+              "body": "Presupuesto por partidas a partir de las cantidades de obra, con rendimientos y desperdicios configurables.",
+              "icon": "calculator"
+            },
+            {
+              "title": "Costos indirectos y márgenes",
+              "body": "Imprevistos, administración, utilidad e impuestos aplicados de forma consistente en cada presupuesto.",
+              "icon": "gauge"
+            },
+            {
+              "title": "Reportes para el cliente",
+              "body": "Salida a PDF y Excel con el formato de su empresa, lista para enviar o presentar en un concurso.",
+              "icon": "file"
+            }
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas sobre presupuestos de construcción",
+          "items": [
+            {
+              "q": "¿Puedo usar mis propias partidas y precios?",
+              "a": "Sí. Cargamos sus partidas, rendimientos y lista de precios actuales para que el sistema trabaje con su experiencia y no con datos genéricos."
+            },
+            {
+              "q": "¿Se conecta con el control de obra o la planilla?",
+              "a": "Puede hacerlo. El sistema se integra con Odoo y con otras herramientas para comparar lo presupuestado contra lo ejecutado."
+            },
+            {
+              "q": "¿Sirve para concursos públicos?",
+              "a": "Sí. Genera los desgloses que suelen pedirse en las ofertas y se complementa con el monitoreo de SICOP para encontrar los concursos."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Otras soluciones para constructoras",
+          "slugs": [
+            "soluciones/monitoreo-sicop",
+            "soluciones/planillas-odoo",
+            "soluciones/analisis-de-datos"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "Presupueste su próxima obra con datos.",
+          "body": "Envíenos un presupuesto actual y le mostramos cómo quedaría en el sistema.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "soluciones/analisis-de-datos",
+      "navLabel": "Análisis de datos",
+      "seo": {
+        "title": "Análisis de datos y tableros para empresas",
+        "description": "Unimos Excel, Odoo, sistemas contables y bases de datos en tableros e indicadores automáticos para que su empresa decida con información al día.",
+        "priority": 0.9,
+        "service": {
+          "name": "Análisis de datos y tableros de indicadores",
+          "serviceType": "Inteligencia de negocios"
+        }
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Análisis de datos para empresas",
+          "headline": "Sus números, juntos y al día, en una sola vista.",
+          "emphasis": "en una sola vista.",
+          "subhead": "Conectamos sus fuentes de información y construimos tableros e indicadores que se actualizan solos, para decidir con datos y no con intuición.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver cómo funciona",
+            "href": "#como-funciona"
+          },
+          "visual": "data"
+        },
+        {
+          "type": "beforeAfter",
+          "heading": "De reportes armados a mano a indicadores automáticos",
+          "before": {
+            "title": "Hoy",
+            "items": [
+              "Cada área lleva sus números en su propio Excel",
+              "El reporte del mes tarda días en armarse",
+              "Las cifras no coinciden entre departamentos",
+              "Las decisiones se toman con datos atrasados"
+            ]
+          },
+          "after": {
+            "title": "Con los tableros",
+            "items": [
+              "Una sola fuente de datos para toda la empresa",
+              "Indicadores que se actualizan solos",
+              "Definiciones claras para cada cifra",
+              "Alertas cuando un indicador se sale de rango"
+            ]
+          }
+        },
+        {
+          "type": "pipeline",
+          "heading": "De los datos dispersos a la decisión",
+          "steps": [
+            {
+              "title": "Fuentes",
+              "body": "Excel, Odoo, contabilidad y bases de datos.",
+              "icon": "plugs"
+            },
+            {
+              "title": "Limpieza y unión",
+              "body": "Una sola versión de cada cifra.",
+              "icon": "flow"
+            },
+            {
+              "title": "Indicadores",
+              "body": "Ventas, costos, márgenes y operación.",
+              "icon": "gauge"
+            },
+            {
+              "title": "Tableros",
+              "body": "Vistas claras para cada nivel.",
+              "icon": "chart"
+            },
+            {
+              "title": "Reportes automáticos",
+              "body": "Enviados solos a quien los necesita.",
+              "icon": "envelope"
+            }
+          ],
+          "result": "Decisiones con números al día",
+          "variant": "deck"
+        },
+        {
+          "type": "features",
+          "id": "como-funciona",
+          "heading": "Qué incluye el análisis de datos",
+          "items": [
+            {
+              "title": "Integración de fuentes",
+              "body": "Excel, Odoo, sistemas contables, bases de datos y APIs unidos en un mismo modelo de datos.",
+              "icon": "plugs"
+            },
+            {
+              "title": "Tableros de indicadores",
+              "body": "Ventas, costos, márgenes, inventario y operación en vistas claras para cada nivel de la empresa.",
+              "icon": "chart"
+            },
+            {
+              "title": "Reportes automáticos",
+              "body": "Informes que se generan y envían solos cada día, semana o mes a quien los necesita.",
+              "icon": "clock"
+            },
+            {
+              "title": "Acceso por rol",
+              "body": "Cada persona ve la información que le corresponde, con la seguridad que su empresa requiere.",
+              "icon": "users"
+            }
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas sobre análisis de datos",
+          "items": [
+            {
+              "q": "¿Necesito tener mis datos ordenados antes de empezar?",
+              "a": "No. Parte del trabajo es limpiar, ordenar y unir la información que hoy está dispersa. Empezamos por los indicadores que más le importan."
+            },
+            {
+              "q": "¿Qué herramientas usan para los tableros?",
+              "a": "Elegimos según su caso: tableros web propios, herramientas de inteligencia de negocios o reportes dentro de Odoo. Lo importante es que su equipo los use."
+            },
+            {
+              "q": "¿Pueden analizar datos para un proyecto puntual?",
+              "a": "Sí. Además de tableros permanentes, hacemos análisis puntuales para responder una pregunta concreta del negocio."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Otras soluciones que se integran",
+          "slugs": [
+            "soluciones/planillas-odoo",
+            "soluciones/presupuestos-de-construccion",
+            "software-a-la-medida"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "Vea su empresa completa en un tablero.",
+          "body": "Cuéntenos qué números revisa cada mes y le proponemos los indicadores.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "software-a-la-medida",
+      "navLabel": "Software a la medida",
+      "seo": {
+        "title": "Desarrollo de software a la medida en Costa Rica",
+        "description": "Desarrollo de software a la medida, ERP, integraciones y sitios web para empresas en Costa Rica. Sistemas construidos para su forma de trabajar.",
+        "priority": 0.95,
+        "service": {
+          "name": "Desarrollo de software a la medida",
+          "serviceType": "Desarrollo de software empresarial"
+        }
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Desarrollo de software a la medida en Costa Rica",
+          "headline": "Software hecho para su empresa, no al revés.",
+          "emphasis": "no al revés.",
+          "subhead": "Cuando ninguna herramienta calza con su proceso, diseñamos y construimos el sistema completo: aplicaciones web, ERP, integraciones y sitios conectados.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver qué construimos",
+            "href": "#que-construimos"
+          },
+          "visual": "data"
+        },
+        {
+          "type": "pipeline",
+          "heading": "Cómo construimos su sistema",
+          "steps": [
+            {
+              "title": "Diagnóstico",
+              "body": "Entendemos el proceso antes de programar.",
+              "icon": "magnifier"
+            },
+            {
+              "title": "Mapa del proceso",
+              "body": "Quién participa y qué datos se usan.",
+              "icon": "flow"
+            },
+            {
+              "title": "Prototipo",
+              "body": "Una primera versión con sus datos reales.",
+              "icon": "code"
+            },
+            {
+              "title": "Implementación",
+              "body": "Integración, capacitación y puesta en marcha.",
+              "icon": "stack"
+            },
+            {
+              "title": "Mejora continua",
+              "body": "Soporte y nuevas funciones.",
+              "icon": "spark"
+            }
+          ],
+          "result": "Sistema funcionando en su empresa",
+          "variant": "path"
+        },
+        {
+          "type": "features",
+          "id": "que-construimos",
+          "heading": "Qué construimos",
+          "intro": "Cada proyecto empieza por entender el proceso. La tecnología se elige después, según lo que su empresa necesita mantener y hacer crecer.",
+          "items": [
+            {
+              "title": "Aplicaciones web internas",
+              "body": "Sistemas para controlar operaciones, aprobaciones, inventarios, proyectos o cualquier proceso propio de su empresa.",
+              "icon": "code"
+            },
+            {
+              "title": "Implementación de ERP",
+              "body": "Odoo configurado y adaptado por módulos, con migración de datos y capacitación de su equipo.",
+              "icon": "stack"
+            },
+            {
+              "title": "Integraciones y APIs",
+              "body": "Conexión entre su ERP, sistema contable, tienda en línea, WhatsApp y otras plataformas.",
+              "icon": "plugs"
+            },
+            {
+              "title": "Sitios web con SEO",
+              "body": "Sitios rápidos y bien posicionados en Google, conectados con sus formularios, su CRM y WhatsApp.",
+              "icon": "globe"
+            },
+            {
+              "title": "Bots y asistentes",
+              "body": "Automatización de conversaciones con clientes, proveedores y colaboradores en los canales que ya usan.",
+              "icon": "robot"
+            },
+            {
+              "title": "Automatización de tareas",
+              "body": "Revisión de portales, generación de documentos, envío de reportes y flujos de aprobación que corren solos.",
+              "icon": "flow"
+            }
+          ]
+        },
+        {
+          "type": "richText",
+          "heading": "Por qué un automatizador y no solo un programador",
+          "paragraphs": [
+            "Programar es la parte final. Antes hay que entender cómo fluye el trabajo, dónde se pierde el tiempo y qué datos se repiten. Por eso cada proyecto de A.U.R.O.M. empieza con un diagnóstico del proceso, no con una cotización de horas.",
+            "El resultado no es un sistema más para mantener, sino menos trabajo manual, menos errores y más información para decidir. Y como diseñamos, programamos y damos soporte en el mismo equipo, usted habla siempre con quien conoce su sistema."
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas sobre software a la medida",
+          "items": [
+            {
+              "q": "¿Cuánto tarda un desarrollo a la medida?",
+              "a": "Depende del alcance. Trabajamos por entregas cortas para que pueda usar y probar partes del sistema desde las primeras semanas, en lugar de esperar meses por una entrega final."
+            },
+            {
+              "q": "¿El código queda a nombre de mi empresa?",
+              "a": "Las condiciones de propiedad y licencia se definen en la propuesta de cada proyecto, de forma clara y por escrito antes de empezar."
+            },
+            {
+              "q": "¿Pueden mejorar un sistema que ya tengo?",
+              "a": "Sí. Revisamos el sistema actual y le recomendamos si conviene mejorarlo, integrarlo con otras herramientas o reemplazarlo por partes."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Sistemas listos para adaptar",
+          "slugs": [
+            "soluciones/planillas-odoo",
+            "soluciones/gestion-de-equipos-y-mantenimiento",
+            "soluciones/clasificacion-de-correos",
+            "soluciones/sitios-web",
+            "soluciones/bot-airbnb",
+            "soluciones/asistente-de-consultas",
+            "soluciones/monitoreo-sicop",
+            "soluciones/presupuestos-de-construccion",
+            "soluciones/analisis-de-datos"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "Cuéntenos el proceso que quiere resolver.",
+          "body": "Le respondemos con una propuesta clara de cómo construirlo.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "soluciones/gestion-de-equipos-y-mantenimiento",
+      "navLabel": "Equipos y mantenimiento",
+      "seo": {
+        "title": "Software de gestión de equipos y mantenimiento",
+        "description": "Control de equipos por número de serie, inventario de repuestos, órdenes de trabajo y cronogramas de mantenimiento preventivo en un solo sistema.",
+        "priority": 0.9,
+        "keywords": [
+          "software de mantenimiento de equipos",
+          "control de activos por número de serie",
+          "mantenimiento preventivo",
+          "inventario de repuestos"
+        ],
+        "service": {
+          "name": "Sistema de gestión de equipos y mantenimiento",
+          "serviceType": "Software de mantenimiento y control de activos"
+        }
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Control de equipos, repuestos y mantenimiento",
+          "headline": "Cada equipo, con su historia y su próximo servicio.",
+          "emphasis": "su próximo servicio.",
+          "subhead": "Controle sus equipos por número de serie, los repuestos que consumen y los cronogramas de mantenimiento, con avisos antes de cada servicio.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver cómo funciona",
+            "href": "#como-funciona"
+          },
+          "visual": "maintenance"
+        },
+        {
+          "type": "beforeAfter",
+          "heading": "Menos paros sorpresa, más control de costos",
+          "before": {
+            "title": "Hoy",
+            "items": [
+              "El historial de cada equipo está en papeles o en la memoria de alguien",
+              "Los mantenimientos se hacen cuando el equipo ya falló",
+              "No se sabe cuántos repuestos quedan hasta que hacen falta",
+              "Es difícil saber cuánto cuesta mantener cada equipo"
+            ]
+          },
+          "after": {
+            "title": "Con el sistema",
+            "items": [
+              "Ficha por número de serie con todo su historial",
+              "Cronogramas preventivos con avisos automáticos",
+              "Inventario de repuestos que se descuenta solo",
+              "Costos de mantenimiento por equipo y por periodo"
+            ]
+          }
+        },
+        {
+          "type": "pipeline",
+          "heading": "El ciclo de mantenimiento, ordenado",
+          "steps": [
+            {
+              "title": "Registro del equipo",
+              "body": "Número de serie, ubicación, marca y modelo.",
+              "icon": "file"
+            },
+            {
+              "title": "Cronograma",
+              "body": "Mantenimientos preventivos por fecha u horas de uso.",
+              "icon": "clock"
+            },
+            {
+              "title": "Orden de trabajo",
+              "body": "Se crea y asigna antes de la fecha.",
+              "icon": "wrench"
+            },
+            {
+              "title": "Repuestos",
+              "body": "Lo usado se descuenta del inventario.",
+              "icon": "stack"
+            },
+            {
+              "title": "Historial y costos",
+              "body": "Todo queda en la ficha del equipo.",
+              "icon": "chart"
+            }
+          ],
+          "result": "Equipos al día, sin paros sorpresa",
+          "variant": "circuit"
+        },
+        {
+          "type": "features",
+          "id": "como-funciona",
+          "heading": "Qué incluye la gestión de equipos",
+          "items": [
+            {
+              "title": "Control por número de serie",
+              "body": "Cada equipo con su ficha: ubicación, responsable, garantía, documentos y fotos.",
+              "icon": "file"
+            },
+            {
+              "title": "Repuestos e inventario",
+              "body": "Existencias, consumos por equipo y alertas cuando un repuesto se está agotando.",
+              "icon": "stack"
+            },
+            {
+              "title": "Cronogramas preventivos",
+              "body": "Mantenimientos programados por fecha o por uso, con avisos al responsable.",
+              "icon": "clock"
+            },
+            {
+              "title": "Órdenes de trabajo",
+              "body": "Asignación a técnicos, tiempos, materiales usados y cierre con evidencia.",
+              "icon": "wrench"
+            }
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas sobre gestión de equipos",
+          "items": [
+            {
+              "q": "¿Sirve para equipos que están en varias sedes o en clientes?",
+              "a": "Sí. Cada equipo tiene su ubicación y su responsable, y puede filtrar por sede, cliente o tipo de equipo."
+            },
+            {
+              "q": "¿Puedo cargar los equipos que ya tengo registrados en Excel?",
+              "a": "Sí. Importamos sus equipos, números de serie e historial disponible desde Excel u otro sistema."
+            },
+            {
+              "q": "¿Los técnicos pueden usarlo desde el celular?",
+              "a": "Sí. El sistema funciona desde el navegador del celular para consultar equipos y cerrar órdenes de trabajo."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Otras soluciones que se integran",
+          "slugs": [
+            "soluciones/clasificacion-de-correos",
+            "soluciones/analisis-de-datos",
+            "software-a-la-medida"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "Sepa siempre qué equipo necesita atención.",
+          "body": "Cuéntenos cuántos equipos maneja y le mostramos cómo quedaría.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "soluciones/clasificacion-de-correos",
+      "navLabel": "Clasificación de correos",
+      "seo": {
+        "title": "Clasificación automática de correos para empresas",
+        "description": "Sistema que lee, clasifica y extrae datos de los correos de su empresa: facturas, cotizaciones, pedidos y consultas llegan solos al área correcta.",
+        "priority": 0.9,
+        "keywords": [
+          "clasificación automática de correos",
+          "automatización de correo empresarial",
+          "lectura de facturas electrónicas",
+          "flujo de datos"
+        ],
+        "service": {
+          "name": "Clasificación automática de correos y flujo de datos",
+          "serviceType": "Automatización administrativa"
+        }
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Automatización administrativa del correo",
+          "headline": "Su bandeja de entrada, ordenada sola.",
+          "emphasis": "ordenada sola.",
+          "subhead": "El sistema lee cada correo, lo clasifica, extrae los datos importantes y los envía al área o al sistema que corresponde.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver cómo funciona",
+            "href": "#como-funciona"
+          },
+          "visual": "email"
+        },
+        {
+          "type": "beforeAfter",
+          "heading": "Del correo revisado a mano al flujo automático",
+          "before": {
+            "title": "Hoy",
+            "items": [
+              "Alguien revisa cada correo y decide a quién reenviarlo",
+              "Los datos de facturas y pedidos se copian a mano",
+              "Los correos importantes se pierden entre los demás",
+              "No hay registro de qué se atendió y cuándo"
+            ]
+          },
+          "after": {
+            "title": "Con el sistema",
+            "items": [
+              "Cada correo se clasifica apenas llega",
+              "Los datos se extraen y se cargan solos",
+              "Cada área recibe solo lo que le toca",
+              "Cada caso queda registrado y con seguimiento"
+            ]
+          }
+        },
+        {
+          "type": "pipeline",
+          "heading": "El recorrido de cada correo",
+          "steps": [
+            {
+              "title": "Llega el correo",
+              "body": "Con o sin adjuntos, a cualquier hora.",
+              "icon": "envelope"
+            },
+            {
+              "title": "Lectura con IA",
+              "body": "Entiende el contenido y los adjuntos.",
+              "icon": "robot"
+            },
+            {
+              "title": "Clasificación",
+              "body": "Factura, cotización, pedido o consulta.",
+              "icon": "magnifier"
+            },
+            {
+              "title": "Extracción de datos",
+              "body": "Montos, fechas, números y clientes.",
+              "icon": "file"
+            },
+            {
+              "title": "Envío al flujo",
+              "body": "Al área, a Odoo o a su sistema.",
+              "icon": "flow"
+            }
+          ],
+          "result": "Bandeja al día y datos en su sistema",
+          "variant": "path"
+        },
+        {
+          "type": "features",
+          "id": "como-funciona",
+          "heading": "Qué incluye la clasificación de correos",
+          "items": [
+            {
+              "title": "Clasificación inteligente",
+              "body": "Reglas e inteligencia artificial para reconocer cada tipo de correo de su empresa.",
+              "icon": "magnifier"
+            },
+            {
+              "title": "Lectura de adjuntos",
+              "body": "Facturas electrónicas, órdenes de compra y documentos PDF convertidos en datos.",
+              "icon": "file"
+            },
+            {
+              "title": "Flujos de datos",
+              "body": "Los datos viajan a Odoo, a su sistema contable o a una hoja de cálculo sin copiar y pegar.",
+              "icon": "flow"
+            },
+            {
+              "title": "Seguimiento",
+              "body": "Cada caso con estado, responsable y fecha, para que nada quede sin atender.",
+              "icon": "chart"
+            }
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas sobre la clasificación de correos",
+          "items": [
+            {
+              "q": "¿Funciona con mi correo actual?",
+              "a": "Se conecta con los servicios de correo empresarial más usados, como Gmail y Microsoft 365. En el diagnóstico confirmamos cómo conectar el suyo."
+            },
+            {
+              "q": "¿Puede leer facturas electrónicas?",
+              "a": "Sí. Extrae los datos de los archivos de la factura y de sus adjuntos para registrarlos donde usted los necesita."
+            },
+            {
+              "q": "¿Qué pasa con los correos que no reconoce?",
+              "a": "Quedan marcados para revisión de una persona, y esa decisión ayuda a clasificar mejor los siguientes."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Otras soluciones que se integran",
+          "slugs": [
+            "soluciones/gestion-de-equipos-y-mantenimiento",
+            "soluciones/asistente-de-consultas",
+            "soluciones/analisis-de-datos"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "Que el correo trabaje para su equipo.",
+          "body": "Cuéntenos qué tipo de correos recibe y le proponemos el flujo.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "automatizacion-empresarial-centroamerica",
+      "navLabel": "Centroamérica y Latinoamérica",
+      "seo": {
+        "title": "Automatización empresarial en Centroamérica",
+        "description": "Software a la medida, Odoo, bots y automatización de procesos para empresas de Panamá, Nicaragua, Honduras, El Salvador, Guatemala y Latinoamérica.",
+        "priority": 0.9,
+        "keywords": [
+          "automatización empresarial Centroamérica",
+          "software a la medida Panamá",
+          "Odoo Guatemala",
+          "automatización de procesos Honduras",
+          "desarrollo de software El Salvador",
+          "chatbot para empresas Nicaragua",
+          "automatización empresarial Latinoamérica"
+        ],
+        "service": {
+          "name": "Automatización empresarial y software a la medida en Centroamérica",
+          "serviceType": "Automatización de procesos empresariales"
+        }
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Desde Costa Rica para Centroamérica y Latinoamérica",
+          "headline": "Automatizamos empresas en toda la región.",
+          "emphasis": "toda la región.",
+          "subhead": "Implementamos nuestros sistemas en forma remota para empresas de Panamá, Nicaragua, Honduras, El Salvador, Guatemala y el resto de Latinoamérica.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver cómo trabajamos",
+            "href": "#a-distancia"
+          },
+          "visual": "data"
+        },
+        {
+          "type": "pipeline",
+          "id": "a-distancia",
+          "heading": "Así trabajamos a distancia",
+          "intro": "Todo el proyecto se puede hacer en línea, con la misma cercanía que si estuviéramos en su oficina.",
+          "steps": [
+            {
+              "title": "Diagnóstico por videollamada",
+              "body": "Entendemos su proceso y sus prioridades.",
+              "icon": "video"
+            },
+            {
+              "title": "Propuesta",
+              "body": "Alcance, plazos y precio por escrito.",
+              "icon": "file"
+            },
+            {
+              "title": "Implementación remota",
+              "body": "Sistemas en la nube, sin instalar servidores.",
+              "icon": "code"
+            },
+            {
+              "title": "Capacitación en línea",
+              "body": "Sesiones grabadas para su equipo.",
+              "icon": "users"
+            },
+            {
+              "title": "Soporte continuo",
+              "body": "Por WhatsApp y videollamada.",
+              "icon": "whatsapp"
+            }
+          ],
+          "result": "Su sistema funcionando, esté donde esté",
+          "variant": "tabs"
+        },
+        {
+          "type": "features",
+          "heading": "Qué sistemas llevamos a su país",
+          "items": [
+            {
+              "title": "Odoo y planillas",
+              "body": "Implementación de Odoo por módulos y planillas configuradas según la legislación laboral de cada país, definida en el diagnóstico.",
+              "icon": "stack"
+            },
+            {
+              "title": "Bots y asistentes",
+              "body": "Atención automática por WhatsApp y sitio web para clientes, huéspedes y colaboradores.",
+              "icon": "robot"
+            },
+            {
+              "title": "Gestión de equipos",
+              "body": "Control por número de serie, repuestos y mantenimiento preventivo para operaciones en varias sedes.",
+              "icon": "wrench"
+            },
+            {
+              "title": "Correos y flujos de datos",
+              "body": "Clasificación automática de correos y datos que viajan solos a sus sistemas.",
+              "icon": "envelope"
+            },
+            {
+              "title": "Análisis de datos",
+              "body": "Tableros e indicadores con la información de todas sus sucursales y países.",
+              "icon": "chart"
+            },
+            {
+              "title": "Software a la medida",
+              "body": "Sistemas propios para procesos que ningún software resuelve.",
+              "icon": "code"
+            }
+          ]
+        },
+        {
+          "type": "richText",
+          "heading": "Una empresa costarricense con alcance regional",
+          "paragraphs": [
+            "A.U.R.O.M. nace en Costa Rica, donde nuestros sistemas ya trabajan en empresas reales. Esa experiencia es la base que llevamos a empresas de Panamá, Nicaragua, Honduras, El Salvador, Guatemala, Belice, República Dominicana y el resto de Latinoamérica.",
+            "Trabajamos en español y en inglés, con sistemas en la nube a los que su equipo accede desde cualquier lugar. Cada proyecto empieza con un diagnóstico para adaptar el sistema a las reglas, la moneda y la forma de trabajar de su país."
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas de empresas fuera de Costa Rica",
+          "items": [
+            {
+              "q": "¿Pueden implementar sistemas en Panamá, Guatemala u otros países?",
+              "a": "Sí. Implementamos en forma remota en toda Centroamérica y Latinoamérica. El diagnóstico, la puesta en marcha, la capacitación y el soporte se hacen en línea."
+            },
+            {
+              "q": "¿Las planillas funcionan con la legislación de mi país?",
+              "a": "El sistema de planillas parte de la configuración que usamos en Costa Rica. En el diagnóstico revisamos las cargas sociales e impuestos de su país y configuramos las reglas que correspondan."
+            },
+            {
+              "q": "¿En qué idioma trabajan?",
+              "a": "Trabajamos en español y también en inglés, tanto en la implementación como en la capacitación y el soporte."
+            },
+            {
+              "q": "¿Necesito comprar servidores o equipos?",
+              "a": "No. Los sistemas funcionan en la nube y se usan desde el navegador o el celular."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Sistemas disponibles en toda la región",
+          "slugs": [
+            "soluciones/planillas-odoo",
+            "soluciones/gestion-de-equipos-y-mantenimiento",
+            "soluciones/clasificacion-de-correos",
+            "soluciones/asistente-de-consultas",
+            "soluciones/analisis-de-datos",
+            "software-a-la-medida"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "Esté donde esté, automaticemos su empresa.",
+          "body": "Escríbanos por WhatsApp desde cualquier país y agendamos el diagnóstico por videollamada.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "soluciones/sitios-web",
+      "navLabel": "Sitios web profesionales",
+      "seo": {
+        "title": "Diseño de sitios web profesionales en Costa Rica",
+        "description": "Sitios web rápidos y optimizados para Google, entregados con dominio, hosting, correos empresariales, SSL, SEO y conexión con WhatsApp.",
+        "priority": 0.9,
+        "keywords": [
+          "diseño de sitios web Costa Rica",
+          "páginas web para empresas",
+          "SEO Costa Rica",
+          "correos empresariales",
+          "hosting Costa Rica",
+          "diseño web Centroamérica"
+        ],
+        "service": {
+          "name": "Diseño y desarrollo de sitios web profesionales",
+          "serviceType": "Diseño web, hosting, correo empresarial y SEO"
+        }
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Diseño web, hosting, correos y SEO",
+          "headline": "Su sitio web, entregado completo y funcionando.",
+          "emphasis": "completo y funcionando.",
+          "subhead": "Diseñamos, publicamos y cuidamos su sitio: dominio, hosting, correos empresariales, SEO y WhatsApp, todo en un solo lugar y con un solo contacto.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver sitios entregados",
+            "href": "#portafolio"
+          },
+          "visual": "website"
+        },
+        {
+          "type": "portfolio",
+          "id": "portafolio",
+          "heading": "Sitios que ya están trabajando para nuestros clientes",
+          "intro": "Cada sitio se diseña para el negocio y el cliente que lo visita. Puede abrirlos y verlos en vivo.",
+          "items": [
+            {
+              "name": "Grupo AMSO",
+              "url": "https://www.amsocr.com/",
+              "sector": "Construcción · Guanacaste",
+              "description": "Constructora de casas a la medida, villas, proyectos comerciales y piscinas para inversionistas y residentes extranjeros en Guanacaste."
+            },
+            {
+              "name": "HG Remodelaciones",
+              "url": "https://www.hgremodelaciones.com/",
+              "sector": "Construcción y remodelación · Alajuela",
+              "description": "Empresa con más de 20 años en construcción residencial, proyectos comerciales, remodelaciones y mantenimiento."
+            },
+            {
+              "name": "EsGo Legal Consulting",
+              "url": "https://esgolegal.com/",
+              "sector": "Asesoría legal",
+              "description": "Firma de asesoría en derecho laboral, propiedad intelectual y contratos comerciales para empresas en Costa Rica."
+            },
+            {
+              "name": "Blue One",
+              "url": "https://blueonepool.com/",
+              "sector": "Productos para piscinas",
+              "description": "Marca de cubos clarificadores de larga duración para piscinas de cloro y agua salada, con pedidos por WhatsApp."
+            }
+          ]
+        },
+        {
+          "type": "pipeline",
+          "heading": "De la idea al sitio publicado",
+          "steps": [
+            {
+              "title": "Diseño",
+              "body": "A la medida de su marca y de sus clientes.",
+              "icon": "spark"
+            },
+            {
+              "title": "Desarrollo",
+              "body": "Rápido, seguro y adaptable al celular.",
+              "icon": "code"
+            },
+            {
+              "title": "SEO",
+              "body": "Preparado para aparecer en Google desde el día uno.",
+              "icon": "magnifier"
+            },
+            {
+              "title": "Hosting y correos",
+              "body": "Dominio, SSL y correos @suempresa.",
+              "icon": "envelope"
+            },
+            {
+              "title": "Publicación y soporte",
+              "body": "En línea, medido y con mantenimiento.",
+              "icon": "globe"
+            }
+          ],
+          "result": "Sitio en línea, encontrado en Google y conectado a WhatsApp",
+          "variant": "circuit"
+        },
+        {
+          "type": "features",
+          "id": "que-incluye",
+          "heading": "Todo lo que incluye su sitio",
+          "intro": "Usted no tiene que coordinar con varios proveedores: nosotros nos encargamos de todo lo técnico.",
+          "items": [
+            {
+              "title": "Dominio y hosting",
+              "body": "Registro o traslado de su dominio y hosting rápido y confiable, con respaldos.",
+              "icon": "globe"
+            },
+            {
+              "title": "Correos empresariales",
+              "body": "Cuentas con su dominio, como ventas@suempresa.com, configuradas en computadora y celular.",
+              "icon": "envelope"
+            },
+            {
+              "title": "SEO técnico y local",
+              "body": "Títulos, descripciones, datos estructurados, sitemap y perfil de Google Business para su zona.",
+              "icon": "magnifier"
+            },
+            {
+              "title": "Seguridad y SSL",
+              "body": "Certificado SSL, actualizaciones y buenas prácticas de seguridad desde el inicio.",
+              "icon": "shield"
+            },
+            {
+              "title": "Velocidad",
+              "body": "Optimizado para cargar rápido en el celular, algo que Google y sus clientes premian.",
+              "icon": "lightning"
+            },
+            {
+              "title": "WhatsApp y formularios",
+              "body": "Botones de WhatsApp, formularios de contacto y cotización que llegan a su correo.",
+              "icon": "whatsapp"
+            },
+            {
+              "title": "Analítica",
+              "body": "Medición de visitas y contactos para saber qué funciona y qué mejorar.",
+              "icon": "chart"
+            },
+            {
+              "title": "Mantenimiento",
+              "body": "Cambios de contenido, nuevas secciones y soporte cuando lo necesite.",
+              "icon": "wrench"
+            }
+          ]
+        },
+        {
+          "type": "beforeAfter",
+          "heading": "Lo que cambia con un sitio bien hecho",
+          "before": {
+            "title": "Sin un buen sitio",
+            "items": [
+              "Los clientes no lo encuentran en Google",
+              "El correo es @gmail y genera desconfianza",
+              "El sitio tarda en cargar en el celular",
+              "Nadie sabe a quién llamar cuando algo falla"
+            ]
+          },
+          "after": {
+            "title": "Con su sitio de A.U.R.O.M.",
+            "items": [
+              "Aparece cuando lo buscan en su zona",
+              "Correos profesionales con su propio dominio",
+              "Carga rápido en cualquier dispositivo",
+              "Un solo contacto para todo lo técnico"
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas sobre sitios web",
+          "items": [
+            {
+              "q": "¿Ustedes se encargan del dominio, el hosting y los correos?",
+              "a": "Sí. Registramos o trasladamos su dominio, configuramos el hosting, el certificado SSL y sus correos empresariales. Usted recibe el sitio funcionando, sin coordinar con otros proveedores."
+            },
+            {
+              "q": "¿El sitio va a aparecer en Google?",
+              "a": "Lo entregamos con SEO técnico completo: títulos, descripciones, datos estructurados, sitemap, velocidad y registro en Google Search Console. El posicionamiento crece con el tiempo y con contenido de calidad, y le acompañamos en ese proceso."
+            },
+            {
+              "q": "¿Puedo hacer cambios después?",
+              "a": "Sí. Podemos dejarle un sitio que usted mismo edite o encargarnos de los cambios dentro de un plan de mantenimiento."
+            },
+            {
+              "q": "¿El sitio se puede conectar con mis sistemas?",
+              "a": "Sí. Lo conectamos con WhatsApp, formularios, Odoo y otras herramientas, y podemos sumar un asistente de consultas que atienda a sus visitantes."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Potencie su sitio con estas soluciones",
+          "slugs": [
+            "soluciones/asistente-de-consultas",
+            "soluciones/clasificacion-de-correos",
+            "soluciones/analisis-de-datos"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "Su próximo cliente lo está buscando en Google.",
+          "body": "Escríbanos y le mostramos cómo quedaría su sitio.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "nosotros",
+      "navLabel": "Nosotros",
+      "seo": {
+        "title": "Nosotros: calidad y estándares internacionales",
+        "description": "Conozca A.U.R.O.M.: automatización y software a la medida desde Costa Rica, con herramientas de primer nivel y buenas prácticas internacionales de calidad.",
+        "priority": 0.8,
+        "keywords": [
+          "empresa de automatización Costa Rica",
+          "desarrollo de software con calidad",
+          "buenas prácticas de software"
+        ]
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Quiénes somos",
+          "headline": "Tecnología de clase mundial, hecha cerca de usted.",
+          "emphasis": "hecha cerca de usted.",
+          "subhead": "Somos A.U.R.O.M., una empresa costarricense que diseña automatizaciones y software a la medida con las mejores herramientas del mercado y estándares internacionales de calidad.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Cómo trabajamos",
+            "href": "#calidad"
+          },
+          "visual": "orbit"
+        },
+        {
+          "type": "richText",
+          "heading": "Por qué existimos",
+          "paragraphs": [
+            "Vimos empresas valiosas perdiendo días enteros en tareas que una computadora puede hacer en segundos: planillas en Excel, correos reenviados a mano, concursos que se pasaban, equipos sin historial. A.U.R.O.M. nace para cambiar eso.",
+            "Combinamos ingeniería de software, conocimiento de procesos administrativos y operativos, y herramientas de primer nivel. El resultado son sistemas que se adaptan a cada empresa, que su equipo entiende y usa, y que siguen funcionando años después de la entrega."
+          ]
+        },
+        {
+          "type": "features",
+          "id": "estandares",
+          "heading": "Los estándares que guían nuestro trabajo",
+          "intro": "No improvisamos. Cada proyecto sigue buenas prácticas reconocidas internacionalmente en calidad, seguridad y experiencia de uso.",
+          "items": [
+            {
+              "title": "Gestión de la calidad",
+              "body": "Procesos documentados, revisión en cada entrega y mejora continua, con base en los principios de la norma ISO 9001.",
+              "icon": "target"
+            },
+            {
+              "title": "Calidad de software",
+              "body": "Diseñamos para que el sistema sea confiable, seguro, mantenible y fácil de usar, según el modelo ISO/IEC 25010.",
+              "icon": "code"
+            },
+            {
+              "title": "Seguridad",
+              "body": "Aplicamos las recomendaciones de OWASP: accesos por rol, conexiones cifradas, respaldos y actualizaciones.",
+              "icon": "shield"
+            },
+            {
+              "title": "Protección de datos",
+              "body": "Tratamos su información con confidencialidad y en línea con la Ley 8968 de protección de datos personales de Costa Rica.",
+              "icon": "lock"
+            },
+            {
+              "title": "Accesibilidad",
+              "body": "Interfaces que cualquier persona puede usar, siguiendo las pautas WCAG 2.2.",
+              "icon": "users"
+            },
+            {
+              "title": "Rendimiento y SEO",
+              "body": "Sitios y sistemas rápidos, medidos con los indicadores de experiencia de Google (Core Web Vitals).",
+              "icon": "lightning"
+            }
+          ]
+        },
+        {
+          "type": "pipeline",
+          "id": "calidad",
+          "heading": "Cómo aseguramos la calidad",
+          "intro": "La calidad no se revisa al final: se construye en cada etapa del proyecto.",
+          "steps": [
+            {
+              "title": "Requisitos claros",
+              "body": "Todo lo que se hará queda por escrito.",
+              "icon": "file"
+            },
+            {
+              "title": "Diseño",
+              "body": "Arquitectura pensada para crecer.",
+              "icon": "flow"
+            },
+            {
+              "title": "Revisión de código",
+              "body": "Cada cambio se revisa antes de entrar.",
+              "icon": "code"
+            },
+            {
+              "title": "Pruebas",
+              "body": "Con datos reales y con su equipo.",
+              "icon": "target"
+            },
+            {
+              "title": "Monitoreo",
+              "body": "Vigilamos que todo siga funcionando.",
+              "icon": "gauge"
+            }
+          ],
+          "result": "Sistemas confiables desde el primer día",
+          "variant": "checklist"
+        },
+        {
+          "type": "bento",
+          "heading": "Lo que puede esperar de nosotros",
+          "background": "surface",
+          "cells": [
+            {
+              "title": "Lo mejor en cada entrega",
+              "body": "Herramientas de primer nivel, buenas prácticas internacionales y atención al detalle en cada proyecto, por pequeño que sea.",
+              "icon": "spark",
+              "size": "lg",
+              "tone": "accent"
+            },
+            {
+              "title": "Transparencia",
+              "body": "Propuestas claras, avances que puede probar y precios definidos antes de empezar.",
+              "icon": "magnifier",
+              "size": "wide",
+              "tone": "base"
+            },
+            {
+              "title": "Cercanía",
+              "body": "Habla directamente con quien diseña y programa su sistema, por WhatsApp o videollamada.",
+              "icon": "heart",
+              "size": "md",
+              "tone": "base"
+            },
+            {
+              "title": "Resultados medibles",
+              "body": "Horas ahorradas, errores evitados y datos al día: lo que se mide, mejora.",
+              "icon": "chart",
+              "size": "md",
+              "tone": "base"
+            },
+            {
+              "title": "Acompañamiento",
+              "body": "Soporte y mejora continua después de la entrega.",
+              "icon": "users",
+              "size": "sm",
+              "tone": "inverse"
+            }
+          ]
+        },
+        {
+          "type": "clients",
+          "heading": "Empresas que ya trabajan con nosotros",
+          "highlight": {
+            "value": 6,
+            "label": "empresas en Costa Rica con nuestros sistemas y sitios web"
+          },
+          "items": [
+            {
+              "name": "MuntoPet",
+              "detail": "Planillas en Odoo"
+            },
+            {
+              "name": "Comtel Ingeniería",
+              "detail": "Planillas en Odoo"
+            },
+            {
+              "name": "Grupo AMSO",
+              "detail": "Sitios web",
+              "url": "https://www.amsocr.com/"
+            },
+            {
+              "name": "HG Remodelaciones",
+              "detail": "Sitios web",
+              "url": "https://www.hgremodelaciones.com/"
+            },
+            {
+              "name": "EsGo Legal Consulting",
+              "detail": "Sitios web",
+              "url": "https://esgolegal.com/"
+            },
+            {
+              "name": "Blue One",
+              "detail": "Sitios web",
+              "url": "https://blueonepool.com/"
+            }
+          ],
+          "variant": "compact"
+        },
+        {
+          "type": "cta",
+          "headline": "Conversemos sobre su empresa.",
+          "body": "Cuéntenos qué le quita más tiempo hoy y le proponemos cómo resolverlo.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "background": "accent"
+        }
+      ]
+    }
+  ]
+}

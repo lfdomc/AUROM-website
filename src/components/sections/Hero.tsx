@@ -1,0 +1,59 @@
+import type { SectionData, SiteData } from "@/lib/schema";
+import { Button } from "../ui/Button";
+import { KineticHeadline } from "../motion/KineticHeadline";
+import { Reveal } from "../motion/Reveal";
+import { HeroFlow } from "../visuals/HeroFlow";
+import { SolutionVisual } from "../visuals/SolutionVisual";
+
+type Props = { section: Extract<SectionData, { type: "hero" }>; site: SiteData };
+
+export function Hero({ section: s, site }: Props) {
+  const isFlow = s.variant === "flow";
+  return (
+    <section className={`grain relative isolate overflow-hidden ${isFlow ? "min-h-[100dvh]" : ""} flex items-center`}>
+      <div aria-hidden className="blueprint absolute inset-0 -z-10" />
+      <div
+        aria-hidden
+        className="absolute -right-40 top-[-10%] -z-10 size-[44rem] rounded-full opacity-60 blur-3xl"
+        style={{ background: "radial-gradient(circle, color-mix(in oklch, var(--c-accent) 14%, transparent), transparent 65%)" }}
+      />
+      <div className={`container-x grid w-full items-center gap-14 pt-28 lg:grid-cols-12 lg:gap-10 ${isFlow ? "pb-20 md:pt-32" : "pb-16 md:pb-24 md:pt-40"}`}>
+        <div className={isFlow || s.visual ? "lg:col-span-6" : "lg:col-span-10"}>
+          {s.kicker && (
+            <Reveal kind="blur">
+              <p className="mb-6 inline-flex items-center gap-2.5 text-[0.95rem] font-medium text-ink-muted">
+                <span aria-hidden className="h-px w-8 bg-accent" />
+                {s.kicker}
+              </p>
+            </Reveal>
+          )}
+          <KineticHeadline
+            text={s.headline}
+            emphasis={s.emphasis}
+            className={`${isFlow ? "text-[clamp(2.75rem,6.6vw,5.6rem)]" : "text-[clamp(2.5rem,5.4vw,4.6rem)]"} font-extrabold leading-[0.98] tracking-[-0.035em]`}
+          />
+          <Reveal kind="fade-up" delay={0.35}>
+            <p className="mt-7 max-w-[46ch] text-[1.15rem] leading-relaxed text-ink-muted md:text-xl">{s.subhead}</p>
+          </Reveal>
+          <Reveal kind="fade-up" delay={0.5}>
+            <div className="mt-10 flex flex-wrap items-center gap-3">
+              <Button site={site} href={s.primary.href} label={s.primary.label} size="lg" />
+              {s.secondary && <Button site={site} href={s.secondary.href} label={s.secondary.label} variant="ghost" size="lg" />}
+            </div>
+          </Reveal>
+        </div>
+        <div className={isFlow || s.visual ? "lg:col-span-6 lg:pl-6" : "hidden"}>
+          <Reveal kind="scale" delay={0.3}>
+            {isFlow && s.flow ? (
+              <HeroFlow lanes={s.flow} brand={site.site.logoText} />
+            ) : s.visual ? (
+              <div className="mx-auto max-w-md lg:ml-auto lg:mr-0">
+                <SolutionVisual name={s.visual} />
+              </div>
+            ) : null}
+          </Reveal>
+        </div>
+      </div>
+    </section>
+  );
+}
