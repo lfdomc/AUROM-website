@@ -21,7 +21,11 @@ export async function generateMetadata(): Promise<Metadata> {
     formatDetection: { telephone: false },
     icons: { icon: [{ url: "/icon.svg", type: "image/svg+xml" }], apple: "/apple-icon.png" },
     manifest: "/manifest.webmanifest",
-    other: { "geo.region": site.contact.country },
+    other: {
+      "geo.region": site.contact.country,
+      ...(site.seo.verification.bing ? { "msvalidate.01": site.seo.verification.bing } : {}),
+    },
+    ...(site.seo.verification.google ? { verification: { google: site.seo.verification.google } } : {}),
   };
 }
 

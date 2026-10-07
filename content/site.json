@@ -60,7 +60,9 @@
       "es_GT",
       "es_DO",
       "es_419"
-    ]
+    ],
+    "indexNowKey": "4cefc3a0fee34f614756ecdfb43f3dc2",
+    "verification": {}
   },
   "design": {
     "read": "Landing de servicios B2B para dueños y gerentes de pymes costarricenses, con lenguaje de ingeniería preciso y cálido, apoyado en un cinemático oscuro de grafito con un único acento oro.",
@@ -124,6 +126,10 @@
       {
         "label": "Proceso",
         "href": "/#proceso"
+      },
+      {
+        "label": "Recursos",
+        "href": "/recursos"
       },
       {
         "label": "Preguntas",
@@ -193,6 +199,10 @@
           {
             "label": "Software a la medida",
             "href": "/software-a-la-medida"
+          },
+          {
+            "label": "Guías y artículos",
+            "href": "/recursos"
           },
           {
             "label": "Centroamérica y Latinoamérica",
@@ -571,13 +581,18 @@
         "title": "Soluciones de automatización y software para empresas",
         "description": "Todas nuestras soluciones: planillas en Odoo, mantenimiento de equipos, correos, bots, SICOP, presupuestos, sitios web, análisis de datos y software a la medida.",
         "priority": 0.95,
-        "changeFrequency": "weekly"
+        "changeFrequency": "weekly",
+        "keywords": [
+          "soluciones de automatización",
+          "software para empresas Costa Rica",
+          "automatización de procesos"
+        ]
       },
       "sections": [
         {
           "type": "hero",
           "variant": "page",
-          "kicker": "Soluciones de A.U.R.O.M.",
+          "kicker": "Soluciones de automatización y software para empresas",
           "headline": "Elija el proceso que quiere dejar de hacer a mano.",
           "emphasis": "dejar de hacer a mano.",
           "subhead": "Sistemas propios, probados en empresas reales y listos para adaptarse a la suya. Toque cualquiera para ver cómo funciona.",
@@ -670,13 +685,21 @@
         "service": {
           "name": "Sistema de planillas en Odoo",
           "serviceType": "Automatización de planillas y recursos humanos"
-        }
+        },
+        "keywords": [
+          "sistema de planillas Costa Rica",
+          "software de planillas",
+          "planilla CCSS",
+          "nómina Odoo",
+          "cálculo de aguinaldo",
+          "planillas en Odoo"
+        ]
       },
       "sections": [
         {
           "type": "hero",
           "variant": "page",
-          "kicker": "Planillas en Odoo para Costa Rica",
+          "kicker": "Sistema de planillas en Odoo para Costa Rica",
           "headline": "La planilla, calculada sin una sola fórmula a mano.",
           "emphasis": "sin una sola fórmula",
           "subhead": "Configuramos Odoo para calcular salarios, cargas sociales de la CCSS, impuesto sobre la renta, aguinaldo y vacaciones según la normativa costarricense.",
@@ -792,6 +815,14 @@
           "variant": "compact"
         },
         {
+          "type": "richText",
+          "heading": "Software de planillas en Costa Rica, sin hojas de cálculo",
+          "paragraphs": [
+            "Un sistema de planillas calcula automáticamente el salario de cada colaborador, las cargas sociales de la CCSS, el impuesto sobre la renta, las horas extra, las vacaciones y el aguinaldo. Con nuestro sistema de planillas en Odoo, toda esa información queda en un solo lugar, con el historial de cada persona y reportes listos para contabilidad.",
+            "Es ideal para empresas costarricenses de construcción, servicios, comercio e industria que hoy calculan la planilla en Excel o con sistemas que no se integran con el resto de la operación. Si ya usa Odoo, lo configuramos sobre su instalación; si no, lo implementamos desde cero."
+          ]
+        },
+        {
           "type": "faq",
           "heading": "Preguntas sobre planillas en Odoo",
           "items": [
@@ -806,6 +837,14 @@
             {
               "q": "¿Puedo migrar el historial de mis colaboradores?",
               "a": "Sí. Importamos colaboradores, salarios e historial desde sus archivos de Excel o desde su sistema anterior para que el aguinaldo y las vacaciones se calculen bien desde el primer mes."
+            },
+            {
+              "q": "¿Cuánto tiempo toma implementar el sistema de planillas?",
+              "a": "Depende de la cantidad de colaboradores y de la información disponible. En el diagnóstico revisamos su planilla actual y le damos un plazo concreto antes de empezar."
+            },
+            {
+              "q": "¿El sistema prepara la información para la CCSS y el INS?",
+              "a": "Sí. El sistema ordena la información que solicitan la CCSS y el INS para que su equipo la revise y la presente sin volver a digitarla."
             }
           ]
         },
@@ -834,19 +873,26 @@
       "slug": "soluciones/bot-airbnb",
       "navLabel": "Bot para Airbnb",
       "seo": {
-        "title": "Bot de atención para anfitriones de Airbnb",
+        "title": "Bot para Airbnb: atención automática a huéspedes 24/7",
         "description": "Bot que responde a sus huéspedes de Airbnb al instante: check-in, wifi, normas y recomendaciones de cada propiedad, las 24 horas y en varios idiomas.",
         "priority": 0.9,
         "service": {
           "name": "Bot de atención para anfitriones de Airbnb",
           "serviceType": "Automatización de atención al cliente"
-        }
+        },
+        "keywords": [
+          "bot para Airbnb",
+          "chatbot para alquiler vacacional",
+          "respuestas automáticas Airbnb",
+          "atención a huéspedes",
+          "WhatsApp para hospedaje"
+        ]
       },
       "sections": [
         {
           "type": "hero",
           "variant": "page",
-          "kicker": "Automatización para anfitriones y administradores de propiedades",
+          "kicker": "Bot de atención automática para anfitriones de Airbnb",
           "headline": "Sus huéspedes reciben respuesta mientras usted duerme.",
           "emphasis": "mientras usted duerme.",
           "subhead": "Un asistente que conoce cada una de sus propiedades y responde al instante las preguntas de siempre, y le avisa a usted solo cuando de verdad hace falta.",
@@ -943,6 +989,14 @@
           ]
         },
         {
+          "type": "richText",
+          "heading": "Bot de mensajes y WhatsApp para alquileres en Airbnb",
+          "paragraphs": [
+            "Un bot para anfitriones de Airbnb responde automáticamente las preguntas frecuentes de los huéspedes: cómo llegar, a qué hora es el check-in, la clave del wifi, las normas de la casa o qué hacer en la zona. Funciona las 24 horas y en varios idiomas, algo clave en destinos turísticos de Costa Rica como Guanacaste, el Pacífico Central o el Caribe.",
+            "Es útil tanto para anfitriones con una sola propiedad como para administradores de varias casas o apartamentos de alquiler vacacional que quieren mejorar sus tiempos de respuesta y sus reseñas sin estar pendientes del teléfono todo el día."
+          ]
+        },
+        {
           "type": "faq",
           "heading": "Preguntas sobre el bot para Airbnb",
           "items": [
@@ -957,6 +1011,14 @@
             {
               "q": "¿Funciona también para otros canales de reservas?",
               "a": "Sí. El mismo asistente puede atender mensajes de otros canales y de WhatsApp. En el diagnóstico revisamos qué canales usa y cómo conectarlos."
+            },
+            {
+              "q": "¿El bot puede responder en inglés?",
+              "a": "Sí. Responde en el idioma en que le escribe el huésped, incluidos el inglés y el español."
+            },
+            {
+              "q": "¿Necesito cambiar de plataforma de reservas?",
+              "a": "No. El asistente trabaja con los canales que ya usa y se configura con la información de sus propiedades."
             }
           ]
         },
@@ -966,7 +1028,8 @@
           "slugs": [
             "soluciones/asistente-de-consultas",
             "soluciones/analisis-de-datos",
-            "software-a-la-medida"
+            "software-a-la-medida",
+            "recursos/como-responder-huespedes-de-airbnb-24-7"
           ]
         },
         {
@@ -985,19 +1048,26 @@
       "slug": "soluciones/asistente-de-consultas",
       "navLabel": "Asistente de consultas",
       "seo": {
-        "title": "Chatbot con IA para consultas de clientes y empresas",
+        "title": "Chatbot con inteligencia artificial para empresas",
         "description": "Asistente con inteligencia artificial que responde consultas de clientes y colaboradores a partir de sus documentos, por WhatsApp o en su sitio web.",
         "priority": 0.9,
         "service": {
           "name": "Asistente de consultas con inteligencia artificial",
           "serviceType": "Chatbot empresarial"
-        }
+        },
+        "keywords": [
+          "chatbot con inteligencia artificial",
+          "chatbot para empresas Costa Rica",
+          "chatbot WhatsApp Business",
+          "asistente virtual para empresas",
+          "atención al cliente automatizada"
+        ]
       },
       "sections": [
         {
           "type": "hero",
           "variant": "page",
-          "kicker": "Chatbot empresarial con inteligencia artificial",
+          "kicker": "Chatbot con inteligencia artificial para empresas",
           "headline": "Cada respuesta de su empresa, a un mensaje de distancia.",
           "emphasis": "a un mensaje",
           "subhead": "Un asistente que aprende de sus manuales, catálogos y políticas para responder a clientes y colaboradores por WhatsApp o en su sitio web.",
@@ -1094,6 +1164,14 @@
           ]
         },
         {
+          "type": "richText",
+          "heading": "Un chatbot entrenado con la información de su empresa",
+          "paragraphs": [
+            "Un chatbot empresarial con inteligencia artificial responde las preguntas de clientes y colaboradores usando sus propios documentos: catálogos, listas de precios, manuales, políticas y procedimientos. A diferencia de un chatbot genérico, responde con la información real de su empresa e indica de dónde la obtuvo.",
+            "Se usa para atención al cliente por WhatsApp, soporte en el sitio web, consultas internas de recursos humanos o fichas técnicas de productos. Es una de las formas más rápidas de reducir la carga de su equipo de servicio al cliente."
+          ]
+        },
+        {
           "type": "faq",
           "heading": "Preguntas sobre el asistente de consultas",
           "items": [
@@ -1108,6 +1186,14 @@
             {
               "q": "¿Cómo se actualiza la información?",
               "a": "Cuando cambia un documento, se actualiza en la base del asistente. Puede hacerlo su equipo o lo hacemos nosotros dentro del plan de soporte."
+            },
+            {
+              "q": "¿Qué diferencia hay entre un chatbot normal y uno con inteligencia artificial?",
+              "a": "Un chatbot tradicional sigue un menú fijo de opciones. Uno con inteligencia artificial entiende preguntas escritas con las palabras del cliente y responde a partir de sus documentos, sin que tenga que adivinar la opción correcta."
+            },
+            {
+              "q": "¿Funciona en WhatsApp Business?",
+              "a": "Sí. Se conecta con WhatsApp Business para atender a sus clientes en el canal que más usan en Centroamérica."
             }
           ]
         },
@@ -1136,19 +1222,27 @@
       "slug": "soluciones/monitoreo-sicop",
       "navLabel": "Monitoreo de SICOP",
       "seo": {
-        "title": "Monitoreo automático de concursos en SICOP",
+        "title": "Monitoreo de SICOP: alertas de licitaciones públicas",
         "description": "Automatización que revisa SICOP por usted: filtra concursos de compras públicas por palabras clave e institución y avisa a su equipo a tiempo.",
         "priority": 0.9,
         "service": {
           "name": "Monitoreo automático de SICOP",
           "serviceType": "Automatización de búsqueda de licitaciones"
-        }
+        },
+        "keywords": [
+          "SICOP",
+          "licitaciones Costa Rica",
+          "concursos SICOP",
+          "alertas de licitaciones",
+          "compras públicas Costa Rica",
+          "proveedores del Estado"
+        ]
       },
       "sections": [
         {
           "type": "hero",
           "variant": "page",
-          "kicker": "Automatización para proveedores del Estado",
+          "kicker": "Monitoreo automático de concursos y licitaciones en SICOP",
           "headline": "Ningún concurso de SICOP se le vuelve a pasar.",
           "emphasis": "se le vuelve a pasar.",
           "subhead": "Un sistema que revisa los concursos publicados en SICOP, filtra los que calzan con su negocio y avisa a su equipo con fechas y requisitos clave.",
@@ -1245,6 +1339,14 @@
           ]
         },
         {
+          "type": "richText",
+          "heading": "Cómo encontrar licitaciones en SICOP sin revisar el portal todos los días",
+          "paragraphs": [
+            "SICOP, el Sistema Integrado de Compras Públicas de Costa Rica, publica a diario concursos de ministerios, instituciones autónomas y municipalidades. Para un proveedor del Estado, revisarlo a mano consume tiempo y es fácil perder una oportunidad. Nuestro monitoreo automático revisa los concursos por usted y le avisa solo de los que calzan con su negocio.",
+            "Es ideal para empresas constructoras, proveedores de materiales, servicios de mantenimiento, limpieza, tecnología y cualquier empresa que venda al sector público y prefiera dedicar su tiempo a preparar buenas ofertas en lugar de buscarlas."
+          ]
+        },
+        {
           "type": "faq",
           "heading": "Preguntas sobre el monitoreo de SICOP",
           "items": [
@@ -1259,6 +1361,14 @@
             {
               "q": "¿Se puede adaptar a otros portales de compras?",
               "a": "Sí. El mismo enfoque se aplica a otros portales públicos o privados de compras, previa revisión de cada sitio."
+            },
+            {
+              "q": "¿Cada cuánto revisa SICOP el sistema?",
+              "a": "La frecuencia se configura según su necesidad. Lo usual es revisar varias veces al día para que las alertas lleguen poco después de cada publicación."
+            },
+            {
+              "q": "¿Sirve si apenas me estoy inscribiendo como proveedor?",
+              "a": "Sí. Le ayuda a conocer qué compran las instituciones en su área y a preparar su participación desde el inicio."
             }
           ]
         },
@@ -1268,7 +1378,8 @@
           "slugs": [
             "soluciones/presupuestos-de-construccion",
             "soluciones/analisis-de-datos",
-            "software-a-la-medida"
+            "software-a-la-medida",
+            "recursos/como-encontrar-licitaciones-en-sicop"
           ]
         },
         {
@@ -1287,19 +1398,26 @@
       "slug": "soluciones/presupuestos-de-construccion",
       "navLabel": "Presupuestos de construcción",
       "seo": {
-        "title": "Sistema para generar presupuestos de construcción",
+        "title": "Software de presupuestos de construcción en Costa Rica",
         "description": "Software para presupuestos de construcción: partidas, cantidades de obra, base de precios, rendimientos y márgenes en un solo sistema, con salida a PDF y Excel.",
         "priority": 0.9,
         "service": {
           "name": "Sistema de presupuestos de construcción",
           "serviceType": "Software para empresas constructoras"
-        }
+        },
+        "keywords": [
+          "software de presupuestos de construcción",
+          "presupuesto de obra",
+          "cálculo de costos de construcción",
+          "presupuestos para constructoras",
+          "presupuesto de remodelación"
+        ]
       },
       "sections": [
         {
           "type": "hero",
           "variant": "page",
-          "kicker": "Software para empresas constructoras",
+          "kicker": "Software de presupuestos de construcción en Costa Rica",
           "headline": "Presupuestos de obra en horas, no en semanas.",
           "emphasis": "en horas,",
           "subhead": "Un sistema que genera el presupuesto a partir de las cantidades de obra, con su base de precios, rendimientos de mano de obra, imprevistos y márgenes.",
@@ -1396,6 +1514,14 @@
           ]
         },
         {
+          "type": "richText",
+          "heading": "Software para presupuestos de obra, de la remodelación al edificio",
+          "paragraphs": [
+            "Un software de presupuestos de construcción calcula el costo de una obra a partir de sus cantidades: materiales, mano de obra, equipo y subcontratos, con rendimientos, desperdicios, costos indirectos, imprevistos, utilidad e impuestos. Así cada presupuesto parte de la misma base y se puede revisar línea por línea.",
+            "Está pensado para empresas constructoras, contratistas, ingenieros y arquitectos que presupuestan viviendas, remodelaciones, obra comercial u ofertas para licitaciones públicas, y que quieren dejar atrás las hojas de cálculo heredadas."
+          ]
+        },
+        {
           "type": "faq",
           "heading": "Preguntas sobre presupuestos de construcción",
           "items": [
@@ -1410,6 +1536,14 @@
             {
               "q": "¿Sirve para concursos públicos?",
               "a": "Sí. Genera los desgloses que suelen pedirse en las ofertas y se complementa con el monitoreo de SICOP para encontrar los concursos."
+            },
+            {
+              "q": "¿Sirve para remodelaciones y obras pequeñas?",
+              "a": "Sí. Funciona igual para una remodelación que para un edificio; lo único que cambia es la cantidad de partidas."
+            },
+            {
+              "q": "¿Puedo actualizar los precios de materiales fácilmente?",
+              "a": "Sí. Los precios están en un catálogo central y, al actualizarlos, los nuevos presupuestos usan los precios vigentes."
             }
           ]
         },
@@ -1438,19 +1572,26 @@
       "slug": "soluciones/analisis-de-datos",
       "navLabel": "Análisis de datos",
       "seo": {
-        "title": "Análisis de datos y tableros para empresas",
+        "title": "Análisis de datos y tableros para empresas en Costa Rica",
         "description": "Unimos Excel, Odoo, sistemas contables y bases de datos en tableros e indicadores automáticos para que su empresa decida con información al día.",
         "priority": 0.9,
         "service": {
           "name": "Análisis de datos y tableros de indicadores",
           "serviceType": "Inteligencia de negocios"
-        }
+        },
+        "keywords": [
+          "análisis de datos para empresas",
+          "tableros de indicadores",
+          "inteligencia de negocios Costa Rica",
+          "dashboard empresarial",
+          "reportes automáticos"
+        ]
       },
       "sections": [
         {
           "type": "hero",
           "variant": "page",
-          "kicker": "Análisis de datos para empresas",
+          "kicker": "Análisis de datos y tableros de indicadores para empresas",
           "headline": "Sus números, juntos y al día, en una sola vista.",
           "emphasis": "en una sola vista.",
           "subhead": "Conectamos sus fuentes de información y construimos tableros e indicadores que se actualizan solos, para decidir con datos y no con intuición.",
@@ -1547,6 +1688,14 @@
           ]
         },
         {
+          "type": "richText",
+          "heading": "Inteligencia de negocios para pymes de Costa Rica y Centroamérica",
+          "paragraphs": [
+            "El análisis de datos convierte la información que su empresa ya genera, como ventas, costos, inventarios, planillas o cobros, en indicadores claros para decidir. Unimos las fuentes, limpiamos los datos y construimos tableros que se actualizan solos.",
+            "No necesita un departamento de tecnología: diseñamos los indicadores junto con la gerencia y los dejamos funcionando para que cada área vea sus números al día, desde la computadora o el celular."
+          ]
+        },
+        {
           "type": "faq",
           "heading": "Preguntas sobre análisis de datos",
           "items": [
@@ -1561,6 +1710,14 @@
             {
               "q": "¿Pueden analizar datos para un proyecto puntual?",
               "a": "Sí. Además de tableros permanentes, hacemos análisis puntuales para responder una pregunta concreta del negocio."
+            },
+            {
+              "q": "¿Qué es un tablero de indicadores?",
+              "a": "Es una pantalla que reúne los números más importantes de su empresa, como ventas, márgenes o inventario, y se actualiza automáticamente con sus datos."
+            },
+            {
+              "q": "¿Puedo ver los tableros desde el celular?",
+              "a": "Sí. Los tableros se consultan desde cualquier navegador, en computadora, tableta o celular."
             }
           ]
         },
@@ -1595,7 +1752,14 @@
         "service": {
           "name": "Desarrollo de software a la medida",
           "serviceType": "Desarrollo de software empresarial"
-        }
+        },
+        "keywords": [
+          "software a la medida Costa Rica",
+          "desarrollo de software",
+          "aplicaciones web para empresas",
+          "programador para empresas",
+          "sistemas a la medida"
+        ]
       },
       "sections": [
         {
@@ -1709,6 +1873,14 @@
             {
               "q": "¿Pueden mejorar un sistema que ya tengo?",
               "a": "Sí. Revisamos el sistema actual y le recomendamos si conviene mejorarlo, integrarlo con otras herramientas o reemplazarlo por partes."
+            },
+            {
+              "q": "¿Qué tecnologías usan para desarrollar?",
+              "a": "Elegimos según el proyecto: aplicaciones web modernas, bases de datos robustas, Odoo cuando conviene un ERP e integraciones por API con sus sistemas actuales."
+            },
+            {
+              "q": "¿Trabajan con empresas pequeñas?",
+              "a": "Sí. Muchos de nuestros proyectos son para pymes que necesitan resolver un proceso concreto sin invertir en un sistema enorme."
             }
           ]
         },
@@ -1724,7 +1896,8 @@
             "soluciones/asistente-de-consultas",
             "soluciones/monitoreo-sicop",
             "soluciones/presupuestos-de-construccion",
-            "soluciones/analisis-de-datos"
+            "soluciones/analisis-de-datos",
+            "recursos/que-es-la-automatizacion-de-procesos"
           ]
         },
         {
@@ -1743,13 +1916,15 @@
       "slug": "soluciones/gestion-de-equipos-y-mantenimiento",
       "navLabel": "Equipos y mantenimiento",
       "seo": {
-        "title": "Software de gestión de equipos y mantenimiento",
+        "title": "Software de mantenimiento de equipos y activos (CMMS)",
         "description": "Control de equipos por número de serie, inventario de repuestos, órdenes de trabajo y cronogramas de mantenimiento preventivo en un solo sistema.",
         "priority": 0.9,
         "keywords": [
-          "software de mantenimiento de equipos",
-          "control de activos por número de serie",
+          "software de mantenimiento",
+          "CMMS Costa Rica",
           "mantenimiento preventivo",
+          "control de activos",
+          "control de equipos por número de serie",
           "inventario de repuestos"
         ],
         "service": {
@@ -1761,7 +1936,7 @@
         {
           "type": "hero",
           "variant": "page",
-          "kicker": "Control de equipos, repuestos y mantenimiento",
+          "kicker": "Software de mantenimiento y control de equipos por número de serie",
           "headline": "Cada equipo, con su historia y su próximo servicio.",
           "emphasis": "su próximo servicio.",
           "subhead": "Controle sus equipos por número de serie, los repuestos que consumen y los cronogramas de mantenimiento, con avisos antes de cada servicio.",
@@ -1858,6 +2033,14 @@
           ]
         },
         {
+          "type": "richText",
+          "heading": "Software de mantenimiento preventivo y control de activos",
+          "paragraphs": [
+            "Un software de mantenimiento, también llamado CMMS, registra cada equipo por número de serie, programa los mantenimientos preventivos, genera órdenes de trabajo y lleva el control de repuestos y costos. Así se reducen los paros inesperados y se alarga la vida útil de los equipos.",
+            "Es útil para empresas de construcción, industria, telecomunicaciones, salud, hoteles y servicios técnicos que manejan maquinaria, flotillas, equipos instalados en clientes o activos repartidos en varias sedes."
+          ]
+        },
+        {
           "type": "faq",
           "heading": "Preguntas sobre gestión de equipos",
           "items": [
@@ -1872,6 +2055,14 @@
             {
               "q": "¿Los técnicos pueden usarlo desde el celular?",
               "a": "Sí. El sistema funciona desde el navegador del celular para consultar equipos y cerrar órdenes de trabajo."
+            },
+            {
+              "q": "¿Qué es un CMMS?",
+              "a": "Es un sistema computarizado de gestión de mantenimiento: reúne los equipos, sus mantenimientos, las órdenes de trabajo y los repuestos en un solo lugar."
+            },
+            {
+              "q": "¿Puedo controlar equipos instalados en mis clientes?",
+              "a": "Sí. Cada equipo puede asociarse a un cliente y a una ubicación, con su historial de visitas y servicios."
             }
           ]
         },
@@ -1905,8 +2096,9 @@
         "priority": 0.9,
         "keywords": [
           "clasificación automática de correos",
-          "automatización de correo empresarial",
-          "lectura de facturas electrónicas",
+          "automatización de correo",
+          "lectura automática de facturas",
+          "automatización administrativa",
           "flujo de datos"
         ],
         "service": {
@@ -1918,7 +2110,7 @@
         {
           "type": "hero",
           "variant": "page",
-          "kicker": "Automatización administrativa del correo",
+          "kicker": "Clasificación automática de correos y flujos de datos para empresas",
           "headline": "Su bandeja de entrada, ordenada sola.",
           "emphasis": "ordenada sola.",
           "subhead": "El sistema lee cada correo, lo clasifica, extrae los datos importantes y los envía al área o al sistema que corresponde.",
@@ -2015,6 +2207,14 @@
           ]
         },
         {
+          "type": "richText",
+          "heading": "Automatización de correos y flujos de datos",
+          "paragraphs": [
+            "La clasificación automática de correos usa reglas e inteligencia artificial para leer cada mensaje que llega a su empresa, identificar si es una factura, una cotización, un pedido o una consulta, y enviar sus datos al lugar correcto. Es una de las automatizaciones administrativas que más tiempo ahorra.",
+            "Es ideal para departamentos de contabilidad que reciben facturas electrónicas, equipos de ventas que reciben solicitudes de cotización y áreas de servicio al cliente que atienden consultas por correo."
+          ]
+        },
+        {
           "type": "faq",
           "heading": "Preguntas sobre la clasificación de correos",
           "items": [
@@ -2029,6 +2229,14 @@
             {
               "q": "¿Qué pasa con los correos que no reconoce?",
               "a": "Quedan marcados para revisión de una persona, y esa decisión ayuda a clasificar mejor los siguientes."
+            },
+            {
+              "q": "¿Qué correos procesa el sistema?",
+              "a": "Usted define qué cuentas y qué tipos de correo se procesan. La conexión se configura con los permisos mínimos necesarios."
+            },
+            {
+              "q": "¿Puede registrar las facturas en Odoo automáticamente?",
+              "a": "Sí. Los datos extraídos de la factura pueden crear el registro en Odoo o en el sistema que use, para que contabilidad solo revise y apruebe."
             }
           ]
         },
@@ -2078,7 +2286,7 @@
         {
           "type": "hero",
           "variant": "page",
-          "kicker": "Desde Costa Rica para Centroamérica y Latinoamérica",
+          "kicker": "Automatización empresarial y software a la medida en Centroamérica y Latinoamérica",
           "headline": "Automatizamos empresas en toda la región.",
           "emphasis": "toda la región.",
           "subhead": "Implementamos nuestros sistemas en forma remota para empresas de Panamá, Nicaragua, Honduras, El Salvador, Guatemala y el resto de Latinoamérica.",
@@ -2221,16 +2429,15 @@
       "slug": "soluciones/sitios-web",
       "navLabel": "Sitios web profesionales",
       "seo": {
-        "title": "Diseño de sitios web profesionales en Costa Rica",
+        "title": "Diseño de páginas web profesionales en Costa Rica",
         "description": "Sitios web rápidos y optimizados para Google, entregados con dominio, hosting, correos empresariales, SSL, SEO y conexión con WhatsApp.",
         "priority": 0.9,
         "keywords": [
-          "diseño de sitios web Costa Rica",
-          "páginas web para empresas",
-          "SEO Costa Rica",
-          "correos empresariales",
-          "hosting Costa Rica",
-          "diseño web Centroamérica"
+          "diseño de páginas web Costa Rica",
+          "diseño web Costa Rica",
+          "sitios web para empresas",
+          "hosting y correos empresariales",
+          "SEO Costa Rica"
         ],
         "service": {
           "name": "Diseño y desarrollo de sitios web profesionales",
@@ -2241,7 +2448,7 @@
         {
           "type": "hero",
           "variant": "page",
-          "kicker": "Diseño web, hosting, correos y SEO",
+          "kicker": "Diseño de sitios web profesionales en Costa Rica",
           "headline": "Su sitio web, entregado completo y funcionando.",
           "emphasis": "completo y funcionando.",
           "subhead": "Diseñamos, publicamos y cuidamos su sitio: dominio, hosting, correos empresariales, SEO y WhatsApp, todo en un solo lugar y con un solo contacto.",
@@ -2391,6 +2598,14 @@
           }
         },
         {
+          "type": "richText",
+          "heading": "Diseño web en Costa Rica con todo incluido",
+          "paragraphs": [
+            "Un sitio web profesional es mucho más que un diseño bonito: necesita dominio propio, hosting confiable, certificado de seguridad, correos con su dominio, velocidad en el celular y SEO para aparecer en Google cuando lo buscan. Nosotros entregamos todo eso en un solo servicio.",
+            "Diseñamos sitios para constructoras, firmas legales, comercios, marcas de productos y empresas de servicios en Costa Rica y Centroamérica, conectados con WhatsApp y con las herramientas que ya usan."
+          ]
+        },
+        {
           "type": "faq",
           "heading": "Preguntas sobre sitios web",
           "items": [
@@ -2409,6 +2624,14 @@
             {
               "q": "¿El sitio se puede conectar con mis sistemas?",
               "a": "Sí. Lo conectamos con WhatsApp, formularios, Odoo y otras herramientas, y podemos sumar un asistente de consultas que atienda a sus visitantes."
+            },
+            {
+              "q": "¿Cuánto tarda en estar listo un sitio web?",
+              "a": "Depende del tamaño del sitio y de que el contenido esté disponible. En la propuesta le damos un plazo concreto."
+            },
+            {
+              "q": "¿Pueden rediseñar mi sitio actual?",
+              "a": "Sí. Podemos rediseñarlo conservando su dominio y su posicionamiento en Google, con las redirecciones necesarias."
             }
           ]
         },
@@ -2437,7 +2660,7 @@
       "slug": "nosotros",
       "navLabel": "Nosotros",
       "seo": {
-        "title": "Nosotros: calidad y estándares internacionales",
+        "title": "Nosotros: empresa de automatización y software en Costa Rica",
         "description": "Conozca A.U.R.O.M.: automatización y software a la medida desde Costa Rica, con herramientas de primer nivel y buenas prácticas internacionales de calidad.",
         "priority": 0.8,
         "keywords": [
@@ -2450,7 +2673,7 @@
         {
           "type": "hero",
           "variant": "page",
-          "kicker": "Quiénes somos",
+          "kicker": "Sobre A.U.R.O.M., empresa de automatización y software en Costa Rica",
           "headline": "Tecnología de clase mundial, hecha cerca de usted.",
           "emphasis": "hecha cerca de usted.",
           "subhead": "Somos A.U.R.O.M., una empresa costarricense que diseña automatizaciones y software a la medida con las mejores herramientas del mercado y estándares internacionales de calidad.",
@@ -2630,6 +2853,379 @@
           "type": "cta",
           "headline": "Conversemos sobre su empresa.",
           "body": "Cuéntenos qué le quita más tiempo hoy y le proponemos cómo resolverlo.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "recursos",
+      "navLabel": "Recursos",
+      "seo": {
+        "title": "Guías de automatización y software para empresas",
+        "description": "Guías prácticas sobre automatización de procesos, licitaciones en SICOP, atención a huéspedes de Airbnb y tecnología para empresas en Costa Rica.",
+        "priority": 0.7,
+        "changeFrequency": "weekly",
+        "keywords": [
+          "guías de automatización",
+          "artículos de tecnología para empresas",
+          "blog automatización Costa Rica"
+        ]
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Guías de automatización y tecnología para empresas",
+          "headline": "Aprenda a hacer más con menos trabajo manual.",
+          "emphasis": "menos trabajo manual.",
+          "subhead": "Guías prácticas y sin tecnicismos para dueños, gerentes y equipos administrativos de Costa Rica y Centroamérica.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver guías",
+            "href": "#guias"
+          }
+        },
+        {
+          "type": "solutionIndex",
+          "id": "guias",
+          "heading": "Guías y artículos",
+          "intro": "Cada guía responde una pregunta concreta y muestra cómo aplicarla en su empresa.",
+          "items": [
+            {
+              "slug": "recursos/que-es-la-automatizacion-de-procesos",
+              "icon": "flow",
+              "tag": "Automatización"
+            },
+            {
+              "slug": "recursos/como-encontrar-licitaciones-en-sicop",
+              "icon": "magnifier",
+              "tag": "Compras públicas"
+            },
+            {
+              "slug": "recursos/como-responder-huespedes-de-airbnb-24-7",
+              "icon": "house",
+              "tag": "Hospedaje"
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "¿Tiene una pregunta que no está aquí?",
+          "body": "Escríbanos y se la respondemos, o la convertimos en la próxima guía.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "recursos/que-es-la-automatizacion-de-procesos",
+      "navLabel": "Qué es la automatización de procesos",
+      "seo": {
+        "title": "Qué es la automatización de procesos y cómo empezar",
+        "description": "Guía práctica sobre automatización de procesos para empresas en Costa Rica y Centroamérica: qué automatizar primero, beneficios y cómo empezar.",
+        "keywords": [
+          "qué es la automatización de procesos",
+          "automatizar procesos en una empresa",
+          "automatización empresarial",
+          "RPA",
+          "transformación digital pymes"
+        ],
+        "priority": 0.7,
+        "changeFrequency": "monthly",
+        "article": {
+          "published": "2026-10-07"
+        }
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Qué es la automatización de procesos y cómo empezar en su empresa",
+          "headline": "Menos tareas repetitivas, más tiempo para crecer.",
+          "emphasis": "más tiempo para crecer.",
+          "subhead": "Una guía práctica para dueños y gerentes de pymes que quieren saber qué se puede automatizar, por dónde empezar y qué resultados esperar.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver soluciones",
+            "href": "/soluciones"
+          }
+        },
+        {
+          "type": "richText",
+          "heading": "Qué es la automatización de procesos",
+          "paragraphs": [
+            "Automatizar un proceso es lograr que un sistema haga, por sí solo, una tarea que hoy hace una persona siguiendo siempre los mismos pasos: copiar datos de un lugar a otro, calcular montos con las mismas fórmulas, revisar un portal cada mañana o responder la misma pregunta varias veces al día.",
+            "No se trata de reemplazar a su equipo, sino de quitarle el trabajo repetitivo para que dedique su tiempo a lo que sí requiere criterio: atender clientes, negociar, decidir y mejorar el negocio."
+          ]
+        },
+        {
+          "type": "richText",
+          "heading": "Qué procesos conviene automatizar primero",
+          "paragraphs": [
+            "Los mejores candidatos cumplen tres condiciones: se repiten con frecuencia, siguen reglas claras y hoy generan errores o retrasos. En la mayoría de las pymes aparecen en los mismos lugares: el cálculo de la planilla, la atención de consultas frecuentes, la revisión de correos y facturas, la búsqueda de licitaciones, la preparación de presupuestos y los reportes mensuales.",
+            "Una forma sencilla de detectarlos es preguntar a su equipo qué tarea harían con gusto si no tuvieran que hacerla todos los días. Casi siempre la respuesta señala el primer proceso a automatizar."
+          ]
+        },
+        {
+          "type": "richText",
+          "heading": "Cómo empezar sin un proyecto enorme",
+          "paragraphs": [
+            "Empiece por un solo proceso con un beneficio claro. Documente cómo se hace hoy, quién participa y qué datos usa. Con eso se diseña una primera versión que se prueba con datos reales antes de crecer.",
+            "Este enfoque por etapas reduce el riesgo, permite medir el ahorro de tiempo desde las primeras semanas y facilita que el equipo adopte el cambio. Cuando el primer proceso funciona, el siguiente cuesta menos porque ya existe la base."
+          ]
+        },
+        {
+          "type": "richText",
+          "heading": "Qué resultados esperar",
+          "paragraphs": [
+            "Los beneficios más comunes son menos horas dedicadas a tareas manuales, menos errores de digitación, información disponible al día y una atención al cliente más rápida. También mejora el control: cada paso queda registrado y es más fácil saber qué pasó y cuándo."
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas frecuentes",
+          "items": [
+            {
+              "q": "¿La automatización es solo para empresas grandes?",
+              "a": "No. Las pymes suelen ver el beneficio más rápido, porque cada hora que se libera pesa más en un equipo pequeño."
+            },
+            {
+              "q": "¿Necesito cambiar todos mis sistemas para automatizar?",
+              "a": "No necesariamente. Muchas automatizaciones se conectan con las herramientas que ya usa, como Excel, Odoo, su correo o WhatsApp."
+            },
+            {
+              "q": "¿Cuánto tiempo toma automatizar un proceso?",
+              "a": "Depende del proceso. Un flujo sencillo puede estar funcionando en pocas semanas; un sistema más completo se entrega por etapas."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Soluciones relacionadas",
+          "slugs": [
+            "soluciones",
+            "software-a-la-medida",
+            "soluciones/clasificacion-de-correos"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "¿Quiere aplicarlo en su empresa?",
+          "body": "Cuéntenos su caso por WhatsApp y le proponemos cómo hacerlo.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "recursos/como-encontrar-licitaciones-en-sicop",
+      "navLabel": "Cómo encontrar licitaciones en SICOP",
+      "seo": {
+        "title": "Cómo encontrar licitaciones en SICOP (guía)",
+        "description": "Guía para proveedores del Estado en Costa Rica: cómo buscar concursos en SICOP, qué filtros usar y cómo recibir alertas automáticas de licitaciones.",
+        "keywords": [
+          "cómo buscar licitaciones en SICOP",
+          "licitaciones Costa Rica",
+          "concursos públicos Costa Rica",
+          "proveedores del Estado",
+          "alertas SICOP"
+        ],
+        "priority": 0.7,
+        "changeFrequency": "monthly",
+        "article": {
+          "published": "2026-10-07"
+        }
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Cómo encontrar licitaciones en SICOP: guía para proveedores del Estado",
+          "headline": "Que las oportunidades lleguen a usted.",
+          "emphasis": "lleguen a usted.",
+          "subhead": "Qué es SICOP, cómo buscar concursos que calcen con su negocio y cómo dejar de revisar el portal a mano todos los días.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver soluciones",
+            "href": "/soluciones"
+          }
+        },
+        {
+          "type": "richText",
+          "heading": "Qué es SICOP",
+          "paragraphs": [
+            "SICOP es el Sistema Integrado de Compras Públicas de Costa Rica, la plataforma digital donde las instituciones del Estado publican sus procesos de compra y donde los proveedores presentan sus ofertas. Ministerios, instituciones autónomas y municipalidades publican ahí concursos de obras, bienes y servicios.",
+            "Para vender al Estado, una empresa debe estar registrada como proveedora en la plataforma. A partir de ahí puede consultar los concursos publicados, descargar los carteles y participar."
+          ]
+        },
+        {
+          "type": "richText",
+          "heading": "Cómo buscar concursos que calcen con su negocio",
+          "paragraphs": [
+            "La clave es definir bien qué busca. Haga una lista de palabras clave que describan lo que vende, incluidos sinónimos y términos técnicos, y otra de las instituciones a las que suele venderle o le interesa venderle. Con esas listas puede filtrar los concursos y descartar rápido los que no aplican.",
+            "Revise también los montos y las fechas límite. Un concurso que se descubre con pocos días de plazo es difícil de ofertar bien, por eso la frecuencia de revisión importa tanto como los filtros."
+          ]
+        },
+        {
+          "type": "richText",
+          "heading": "El problema de revisar a mano",
+          "paragraphs": [
+            "Revisar el portal todos los días toma tiempo, depende de que una persona se acuerde y busque siempre de la misma forma, y no deja registro de lo que se revisó. En semanas cargadas, es común que un concurso importante se encuentre tarde o que no se encuentre."
+          ]
+        },
+        {
+          "type": "richText",
+          "heading": "Cómo automatizar las alertas",
+          "paragraphs": [
+            "Un sistema de monitoreo revisa los concursos publicados de forma automática, aplica sus filtros de palabras, instituciones y montos, y envía una alerta por correo o WhatsApp con un resumen de cada oportunidad. Así su equipo dedica el tiempo a preparar ofertas y no a buscarlas."
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas frecuentes",
+          "items": [
+            {
+              "q": "¿Necesito estar inscrito en SICOP para ver los concursos?",
+              "a": "Para presentar ofertas sí debe estar registrado como proveedor. La búsqueda y el monitoreo de concursos le ayudan a preparar su participación desde antes."
+            },
+            {
+              "q": "¿Qué palabras clave conviene usar?",
+              "a": "Las que describen lo que vende con distintos nombres: el término común, el técnico y los sinónimos que usan las instituciones en sus carteles."
+            },
+            {
+              "q": "¿Se pueden recibir alertas por WhatsApp?",
+              "a": "Sí. Un sistema de monitoreo puede enviar cada concurso que coincide con sus filtros por correo o por WhatsApp."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Soluciones relacionadas",
+          "slugs": [
+            "soluciones/monitoreo-sicop",
+            "soluciones/presupuestos-de-construccion"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "¿Quiere aplicarlo en su empresa?",
+          "body": "Cuéntenos su caso por WhatsApp y le proponemos cómo hacerlo.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "recursos/como-responder-huespedes-de-airbnb-24-7",
+      "navLabel": "Responder huéspedes de Airbnb 24/7",
+      "seo": {
+        "title": "Cómo responder a huéspedes de Airbnb las 24 horas",
+        "description": "Consejos para anfitriones de Airbnb en Costa Rica: cómo responder rápido a los huéspedes, qué mensajes automatizar y cómo mejorar sus reseñas.",
+        "keywords": [
+          "responder huéspedes Airbnb",
+          "mensajes automáticos Airbnb",
+          "anfitrión Airbnb Costa Rica",
+          "alquiler vacacional Costa Rica",
+          "bot para Airbnb"
+        ],
+        "priority": 0.7,
+        "changeFrequency": "monthly",
+        "article": {
+          "published": "2026-10-07"
+        }
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Cómo responder a huéspedes de Airbnb las 24 horas sin estar pegado al teléfono",
+          "headline": "Huéspedes atendidos, anfitriones tranquilos.",
+          "emphasis": "anfitriones tranquilos.",
+          "subhead": "Qué preguntas se repiten, cuáles conviene automatizar y cómo mantener el toque personal que valoran los huéspedes.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver soluciones",
+            "href": "/soluciones"
+          }
+        },
+        {
+          "type": "richText",
+          "heading": "Por qué la velocidad de respuesta importa",
+          "paragraphs": [
+            "Los huéspedes escriben a cualquier hora, muchas veces desde otro país y en otro idioma. Una respuesta rápida da confianza antes de la reserva y evita problemas durante la estadía, y eso se refleja en mejores reseñas."
+          ]
+        },
+        {
+          "type": "richText",
+          "heading": "Las preguntas que más se repiten",
+          "paragraphs": [
+            "En casi todas las propiedades se repiten las mismas: la hora de entrada y salida, cómo llegar, dónde está la llave, la clave del wifi, si se permiten mascotas, dónde comprar comida y qué hacer en la zona. Todas tienen una respuesta fija por propiedad, y por eso son ideales para automatizar.",
+            "Ordenar esa información por propiedad es el primer paso, aunque todavía responda a mano: le permite contestar más rápido y sin errores."
+          ]
+        },
+        {
+          "type": "richText",
+          "heading": "Qué automatizar y qué no",
+          "paragraphs": [
+            "Conviene automatizar las respuestas a preguntas frecuentes y los mensajes informativos, como las instrucciones de llegada. Lo que requiere criterio, como un reclamo, una solicitud especial o un cambio de fechas, debe llegarle a usted o a su equipo de inmediato.",
+            "Un buen asistente automático hace exactamente eso: responde lo repetitivo al instante y avisa a una persona cuando hace falta. Así el huésped siente atención inmediata y usted mantiene el control de lo importante."
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas frecuentes",
+          "items": [
+            {
+              "q": "¿Los huéspedes notan que responde un bot?",
+              "a": "Si las respuestas son claras, cordiales y con la información correcta de la propiedad, la experiencia es positiva. Lo importante es que los casos especiales pasen a una persona."
+            },
+            {
+              "q": "¿Sirve para varias propiedades?",
+              "a": "Sí. Cada propiedad tiene su propia información, y el asistente responde según la casa en la que está el huésped."
+            },
+            {
+              "q": "¿Puede responder en inglés?",
+              "a": "Sí. Puede responder en el idioma en que escribe el huésped, algo clave en destinos turísticos de Costa Rica."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Soluciones relacionadas",
+          "slugs": [
+            "soluciones/bot-airbnb",
+            "soluciones/asistente-de-consultas"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "¿Quiere aplicarlo en su empresa?",
+          "body": "Cuéntenos su caso por WhatsApp y le proponemos cómo hacerlo.",
           "primary": {
             "label": "Hablemos de su proyecto",
             "href": "#whatsapp"

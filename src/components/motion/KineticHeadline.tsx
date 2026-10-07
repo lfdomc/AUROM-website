@@ -4,16 +4,18 @@ import { Fragment } from "react";
 import { useIntensity } from "./MotionRoot";
 
 /** h1 cinético: solo transform (opacidad 1) para no retrasar el LCP. El texto completo está en aria-label y en el HTML. */
-export function KineticHeadline({ text, emphasis, className }: { text: string; emphasis?: string; className?: string }) {
+export function KineticHeadline({ text, emphasis, className, as = "h1" }: { text: string; emphasis?: string; className?: string; as?: "h1" | "p" }) {
   const reduce = useReducedMotion();
   const intensity = useIntensity();
   const words = text.split(" ");
   const emph = new Set(emphasis ? emphasis.split(" ") : []);
   const emStart = emphasis ? text.indexOf(emphasis) : -1;
   let cursor = 0;
+  const Tag = as;
 
   return (
-    <h1 aria-label={text} className={className}>
+    <Tag className={className}>
+      <span className="sr-only">{text}</span>
       {words.map((w, i) => {
         const pos = text.indexOf(w, cursor);
         cursor = pos + w.length;
@@ -39,6 +41,6 @@ export function KineticHeadline({ text, emphasis, className }: { text: string; e
           </Fragment>
         );
       })}
-    </h1>
+    </Tag>
   );
 }

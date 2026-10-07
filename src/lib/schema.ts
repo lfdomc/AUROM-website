@@ -65,7 +65,7 @@ const Hero = z.object({
   ...base,
   type: z.literal("hero"),
   variant: z.enum(["flow", "page"]).default("page"),
-  kicker: Text(80).optional(),
+  kicker: Text(100).optional().describe("Se publica como H1: la frase que la gente busca en Google"),
   headline: Text(90),
   emphasis: z.string().optional().describe("Palabra(s) del titular que van en cursiva"),
   subhead: Text(220),
@@ -279,6 +279,10 @@ const PageSeo = z.object({
     .object({ name: Text(80), serviceType: Text(80) })
     .optional()
     .describe("Si existe, la página genera JSON-LD de tipo Service"),
+  article: z
+    .object({ published: z.iso.date(), modified: z.iso.date().optional() })
+    .optional()
+    .describe("Si existe, la página es un artículo y genera JSON-LD de tipo BlogPosting"),
 });
 
 export const Page = z.object({
@@ -341,6 +345,8 @@ export const SiteSchema = z
       email: z.email().optional(),
       github: z.url().optional(),
       country: z.string().length(2),
+      city: z.string().optional(),
+      region: z.string().optional(),
       areaServed: z.array(z.string()).min(1),
     }),
     seo: z.object({
@@ -350,6 +356,11 @@ export const SiteSchema = z
       keywords: z.array(z.string()),
       organizationType: z.enum(["Organization", "ProfessionalService", "LocalBusiness"]),
       alternateLocales: z.array(z.string()).default([]),
+      verification: z
+        .object({ google: z.string().optional(), bing: z.string().optional() })
+        .default({})
+        .describe("Códigos de verificación de Google Search Console y Bing Webmaster Tools"),
+      indexNowKey: z.string().regex(/^[a-f0-9]{32}$/).optional().describe("Clave IndexNow (archivo public/<clave>.txt)"),
     }),
     design: Design,
     navigation: z.object({

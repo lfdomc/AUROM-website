@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { getPage, getSite } from "@/lib/content";
 import { buildJsonLd, buildMetadata, safeJson } from "@/lib/seo";
 import { registry } from "@/components/registry";
-import type { SectionData, SiteData } from "@/lib/schema";
+import type { PageData, SectionData, SiteData } from "@/lib/schema";
 
 export const dynamicParams = false;
 
@@ -34,8 +34,8 @@ export default async function Page({ params }: { params: Promise<Params> }) {
         <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJson(d) }} />
       ))}
       {page.sections.map((s, i) => {
-        const C = registry[s.type] as ComponentType<{ section: SectionData; site: SiteData }>;
-        return <C key={s.id ?? `${s.type}-${i}`} section={s} site={site} />;
+        const C = registry[s.type] as ComponentType<{ section: SectionData; site: SiteData; page: PageData }>;
+        return <C key={s.id ?? `${s.type}-${i}`} section={s} site={site} page={page} />;
       })}
     </>
   );

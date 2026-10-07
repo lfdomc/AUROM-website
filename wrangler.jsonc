@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // Debe coincidir con el nombre del Worker en su cuenta de Cloudflare.
+  "name": "aurom-website",
+  "compatibility_date": "2026-10-06",
+  // Sitio estático: Cloudflare sirve la carpeta /out desde su red, sin servidor.
+  "assets": {
+    "directory": "./out",
+    "html_handling": "drop-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "observability": { "enabled": true }
+}

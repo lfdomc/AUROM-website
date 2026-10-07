@@ -29,17 +29,24 @@ Necesita [Node.js](https://nodejs.org) 20 o superior.
 
 ```bash
 npm install
-npm run dev        # abre http://localhost:3000
+npm run dev        # versión de trabajo en http://localhost:3000
+npm run build      # genera el sitio final en la carpeta /out
+npm run preview    # muestra /out tal como quedará publicado
 ```
 
-## Publicarlo (recomendado: Vercel, gratis para empezar)
+## Publicarlo en Cloudflare
 
-1. Suba esta carpeta a un repositorio de GitHub.
-2. En [vercel.com](https://vercel.com) elija **Add New → Project** e importe el repositorio. No hay que configurar nada.
-3. En **Settings → Domains** agregue `auromtec.com` y `www.auromtec.com`, y copie en su proveedor de dominio los registros DNS que Vercel le indique.
-4. Cuando el dominio esté activo, registre el sitio en [Google Search Console](https://search.google.com/search-console) y envíe `https://www.auromtec.com/sitemap.xml`.
+El sitio es 100 % estático: Cloudflare sirve la carpeta `/out` desde su red, sin servidor (más rápido y mejor para Google). La configuración está en `wrangler.jsonc` y los encabezados de seguridad y caché en `public/_headers`.
 
-¿Hosting sin Node (cPanel, Netlify, etc.)? Ejecute `npm run export` y suba el contenido de la carpeta `out/`.
+En Cloudflare, **Workers & Pages → su proyecto → Settings → Build**:
+
+- **Build command:** `npm run build`
+- **Deploy command:** `npx wrangler deploy`
+- El nombre del Worker debe ser `aurom-website` (igual que en `wrangler.jsonc`). Si usa otro nombre, cámbielo en ese archivo.
+
+Dominios: en **Settings → Domains & Routes** agregue `www.auromtec.com` y `auromtec.com`. Luego, en **Rules → Redirect Rules**, cree una regla que redirija `auromtec.com/*` a `https://www.auromtec.com/$1` (301), para que Google vea una sola versión del sitio.
+
+Desde su computadora también puede publicar con `npm run deploy` (pide iniciar sesión en Cloudflare la primera vez).
 
 ## Cómo editar el sitio (`content/site.json`)
 
@@ -64,12 +71,27 @@ Cada página genera su propia imagen de 1200×630 (`/og/....png`) con el logo, e
 - Solo funciona con el sitio publicado en su dominio (WhatsApp no puede leer `localhost`).
 - WhatsApp guarda la vista previa por un tiempo. Si cambia la imagen o el texto, pase el enlace por el [Depurador de Facebook](https://developers.facebook.com/tools/debug/) y presione **Volver a extraer**; WhatsApp usa los mismos datos.
 
+## SEO: qué hacer después de publicar (en este orden)
+
+1. **Google Search Console** ([search.google.com/search-console](https://search.google.com/search-console)): agregue la propiedad de dominio `auromtec.com`, verifíquela con el registro DNS que le indican (en Cloudflare es un clic) y envíe `https://www.auromtec.com/sitemap.xml`. Si prefiere verificar con etiqueta HTML, pegue el código en `seo.verification.google` dentro de `content/site.json`.
+2. **Solicite la indexación** de cada página importante: en Search Console, pegue la dirección en la barra de arriba y presione *Solicitar indexación*. Empiece por el inicio, `/soluciones` y cada servicio.
+3. **Bing Webmaster Tools** ([bing.com/webmasters](https://www.bing.com/webmasters)): puede importar todo desde Search Console. Bing también alimenta a ChatGPT y Copilot. El código opcional va en `seo.verification.bing`.
+4. **IndexNow:** después de cada publicación ejecute `npm run indexnow`. Avisa a Bing y a otros buscadores que el sitio cambió para que lo revisen en minutos.
+5. **Perfil de Empresa en Google** ([business.google.com](https://business.google.com)): créelo como empresa de servicios en Costa Rica, con el sitio web, WhatsApp, horario y categorías como "Servicio de desarrollo de software" y "Consultor informático". Es lo que más ayuda a aparecer en búsquedas locales y en Google Maps. Si agrega ciudad y provincia en `contact.city` y `contact.region`, el sitio las incluye en los datos para Google.
+6. **Enlaces de sus clientes:** pida a Grupo AMSO, HG Remodelaciones, EsGo Legal y Blue One un enlace en el pie de su sitio ("Sitio web por A.U.R.O.M." hacia https://www.auromtec.com/soluciones/sitios-web). Los enlaces desde sitios reales son una de las señales más fuertes para Google.
+7. **Reseñas:** pida a sus clientes una reseña en el Perfil de Empresa de Google.
+8. **Nuevas guías:** cada guía en `/recursos` atrae búsquedas nuevas. Una guía al mes con preguntas reales de sus clientes hace crecer el tráfico de forma constante.
+
 ## SEO incluido
 
 - Título, descripción, enlace canónico e imagen para redes en cada página.
 - Datos estructurados para Google: empresa, servicios, preguntas frecuentes y migas de pan, con cobertura en Costa Rica, Centroamérica y Latinoamérica.
 - `sitemap.xml`, `robots.txt` y `llms.txt` (resumen para buscadores con inteligencia artificial).
 - Página regional para búsquedas desde Panamá, Nicaragua, Honduras, El Salvador, Guatemala y el resto de la región.
+- En cada página, el H1 es la frase que la gente busca (por ejemplo "Sistema de planillas en Odoo para Costa Rica"); el titular creativo va grande debajo.
+- Migas de pan visibles y en los datos para Google (Inicio › Soluciones › Servicio).
+- Guías en `/recursos` con datos de artículo (BlogPosting) para búsquedas informativas.
+- Señales de idioma y región (es-CR), logo PNG para Google, encabezados de seguridad y caché, y sitio estático servido desde la red de Cloudflare.
 
 ## Pendiente antes de publicar
 

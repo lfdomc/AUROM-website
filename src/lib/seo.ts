@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import type { PageData, SiteData } from "./schema";
-import { pageUrl } from "./links";
+import { breadcrumbs, pageUrl } from "./links";
 
 export function buildMetadata(site: SiteData, page: PageData): Metadata {
   const url = pageUrl(site, page.slug);
@@ -13,10 +13,11 @@ export function buildMetadata(site: SiteData, page: PageData): Metadata {
     title,
     description: page.seo.description,
     keywords: [...(page.seo.keywords ?? []), ...site.seo.keywords],
-    alternates: { canonical: url },
+    alternates: { canonical: url, languages: { "es-CR": url, es: url, "x-default": url } },
     robots: page.seo.noindex ? { index: false, follow: true } : { index: true, follow: true, "max-image-preview": "large" },
     openGraph: {
-      type: "website",
+      type: page.seo.article ? "article" : "website",
+      ...(page.seo.article ? { publishedTime: page.seo.article.published, modifiedTime: page.seo.article.modified ?? page.seo.article.published } : {}),
       locale: "es_CR",
       alternateLocale: site.seo.alternateLocales,
       url,
@@ -52,11 +53,16 @@ export function buildJsonLd(site: SiteData, page: PageData): object[] {
         description: site.seo.description,
         slogan: site.site.tagline,
         url: site.site.url,
-        logo: `${site.site.url}/icon.svg`,
+        logo: { "@type": "ImageObject", url: `${site.site.url}/logo.png`, width: 512, height: 512 },
         image: `${site.site.url}/og/inicio.png`,
         telephone: site.contact.whatsapp,
         ...(site.contact.email ? { email: site.contact.email } : {}),
-        address: { "@type": "PostalAddress", addressCountry: site.contact.country },
+        address: {
+          "@type": "PostalAddress",
+          addressCountry: site.contact.country,
+          ...(site.contact.city ? { addressLocality: site.contact.city } : {}),
+          ...(site.contact.region ? { addressRegion: site.contact.region } : {}),
+        },
         areaServed: areaServed(site),
         knowsAbout: [
           "Automatización de procesos empresariales",
@@ -98,6 +104,22 @@ export function buildJsonLd(site: SiteData, page: PageData): object[] {
     );
   }
 
+  if (page.seo.article) {
+    graph.push({
+      "@type": "BlogPosting",
+      "@id": `${url}#articulo`,
+      headline: page.seo.title,
+      description: page.seo.description,
+      image: `${site.site.url}/og/${page.slug.replace(/\//g, "--")}.png`,
+      datePublished: page.seo.article.published,
+      dateModified: page.seo.article.modified ?? page.seo.article.published,
+      inLanguage: "es-CR",
+      mainEntityOfPage: url,
+      author: { "@id": orgId, "@type": site.seo.organizationType, name: site.site.name, url: site.site.url },
+      publisher: { "@id": orgId, "@type": site.seo.organizationType, name: site.site.name, logo: { "@type": "ImageObject", url: `${site.site.url}/logo.png` } },
+    });
+  }
+
   graph.push({
     "@type": "WebPage",
     "@id": `${url}#pagina`,
@@ -112,10 +134,7 @@ export function buildJsonLd(site: SiteData, page: PageData): object[] {
   if (page.slug !== "") {
     graph.push({
       "@type": "BreadcrumbList",
-      itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Inicio", item: site.site.url },
-        { "@type": "ListItem", position: 2, name: page.navLabel ?? page.seo.title, item: url },
-      ],
+      itemListElement: breadcrumbs(site, page).map((c, i) => ({ "@type": "ListItem", position: i + 1, name: c.name, item: c.url })),
     });
   }
 
