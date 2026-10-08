@@ -205,6 +205,10 @@
             "href": "/recursos"
           },
           {
+            "label": "Calculadoras de planilla",
+            "href": "/calculadoras"
+          },
+          {
             "label": "Centroamérica y Latinoamérica",
             "href": "/automatizacion-empresarial-centroamerica"
           },
@@ -794,6 +798,21 @@
               "icon": "chart"
             }
           ]
+        },
+        {
+          "type": "cta",
+          "id": "calculadoras",
+          "headline": "Calculadoras de planilla gratis",
+          "body": "Calcule salario neto, aguinaldo, liquidación y costo patronal con los tramos de renta y las cuotas de la CCSS de 2026.",
+          "primary": {
+            "label": "Abrir calculadoras",
+            "href": "/calculadoras"
+          },
+          "secondary": {
+            "label": "Salario neto 2026",
+            "href": "/calculadoras/salario-neto-costa-rica"
+          },
+          "background": "surface"
         },
         {
           "type": "clients",
