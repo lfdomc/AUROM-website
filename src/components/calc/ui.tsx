@@ -210,6 +210,13 @@ export function ResultCard({ report: r, query }: { report: Report; query?: strin
   );
 }
 
+/** Nombre único (fecha y hora) para que el navegador no abra un PDF anterior con el mismo nombre. */
+const pdfName = (slug: string) => {
+  const d = new Date();
+  const p = (n: number) => String(n).padStart(2, "0");
+  return `${slug.split("/").pop()}-${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}-${p(d.getHours())}${p(d.getMinutes())}${p(d.getSeconds())}.pdf`;
+};
+
 function Share({ report, url }: { report: Report; url: string }) {
   const ctx = useCalc();
   const [pdf, setPdf] = useState<"idle" | "busy" | "done" | "error">("idle");
@@ -237,7 +244,7 @@ function Share({ report, url }: { report: Report; url: string }) {
           onClick={async () => {
             setPdf("busy");
             try {
-              await sharePdf(report, url, ctx.brand, `${ctx.slug.split("/").pop()}-${new Date().toISOString().slice(0, 10)}.pdf`);
+              await sharePdf(report, url, ctx.brand, pdfName(ctx.slug));
               track("calculator_share", { calculator: ctx.kind, method: "pdf" });
               setPdf("done");
               setTimeout(() => setPdf("idle"), 2500);

@@ -33,7 +33,7 @@ export function Calculator({ section: s, site, page }: Props) {
   const fuentes = [...(s.sources ?? []), ...(FUENTES[s.kind] ?? [])].filter((f, i, a) => a.findIndex((x) => x.url === f.url) === i);
   const [lead, leadLabel] = s.lead ? [s.lead, LEAD[s.kind]?.[1] ?? LEAD_DEFAULT[1]] : (LEAD[s.kind] ?? LEAD_DEFAULT);
   const n = site.contact.whatsapp.replace(/\D/g, "");
-  const leadHref = `https://wa.me/${n}?text=${encodeURIComponent(`Hola, usé la herramienta "${page.navLabel ?? page.seo.title}" en su sitio y me interesa automatizar este proceso en mi empresa.`)}`;
+  const leadHref = `https://wa.me/${n}?text=${encodeURIComponent(`Hola, usé la herramienta "${page.navLabel ?? page.seo.title}" en su sitio y me gustaría conocer sus soluciones para mi empresa.`)}`;
 
   return (
     <Shell id={s.id ?? "calculadora"} background={s.background}>

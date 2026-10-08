@@ -8,7 +8,7 @@ export function buildMetadata(site: SiteData, page: PageData): Metadata {
   const title = isHome ? { absolute: site.seo.defaultTitle } : page.seo.title;
   const fullTitle = isHome ? site.seo.defaultTitle : site.seo.titleTemplate.replace("%s", page.seo.title);
   // Imagen para compartir. Mientras el dominio no esté conectado, OG_IMAGE_BASE_URL permite servirla
-  // desde la dirección temporal (por ejemplo https://aurom-website.lfdomc.workers.dev) sin cambiar el canonical.
+  // desde la dirección temporal (la dirección *.workers.dev de Cloudflare) sin cambiar el canonical.
   const imageBase = (process.env.OG_IMAGE_BASE_URL || site.site.url).replace(/\/$/, "");
   const ogImage = `${imageBase}/og/${page.slug ? page.slug.replace(/\//g, "--") : "inicio"}.png`;
 
@@ -79,7 +79,6 @@ export function buildJsonLd(site: SiteData, page: PageData): object[] {
           "Desarrollo de software a la medida",
         ],
         knowsLanguage: ["es", "en"],
-        sameAs: [site.contact.github].filter(Boolean),
         contactPoint: {
           "@type": "ContactPoint",
           telephone: site.contact.whatsapp,

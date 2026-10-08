@@ -12,8 +12,7 @@
   },
   "contact": {
     "whatsapp": "+50670120250",
-    "whatsappMessage": "Hola, vi su sitio web y quiero automatizar un proceso de mi empresa.",
-    "github": "https://github.com/lfdomc",
+    "whatsappMessage": "Hola, vi su sitio web y me gustaría conocer más sobre sus soluciones para mi empresa.",
     "country": "CR",
     "areaServed": [
       "Costa Rica",
@@ -219,10 +218,6 @@
           {
             "label": "Preguntas frecuentes",
             "href": "/#preguntas"
-          },
-          {
-            "label": "GitHub",
-            "href": "https://github.com/lfdomc"
           }
         ]
       },
