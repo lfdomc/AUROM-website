@@ -244,7 +244,17 @@ const RichText = z.object({
   paragraphs: z.array(Text(900)).min(1).max(8),
 });
 
+const Calculator = z.object({
+  ...base,
+  type: z.literal("calculator"),
+  kind: z.enum(["salario-neto", "aguinaldo", "liquidacion", "costo-patronal"]).describe("Qué calculadora mostrar (reglas en src/lib/planilla.ts)"),
+  heading: Text(90),
+  intro: Text(300).optional(),
+  sources: z.array(z.object({ label: Text(80), url: z.url() })).max(6).optional(),
+});
+
 export const Section = z.discriminatedUnion("type", [
+  Calculator,
   Hero,
   Marquee,
   StickyStack,

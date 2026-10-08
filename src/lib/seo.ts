@@ -158,6 +158,25 @@ export function buildJsonLd(site: SiteData, page: PageData): object[] {
     });
   }
 
+  const calc = page.sections.find((s) => s.type === "calculator");
+  if (calc) {
+    graph.push({
+      "@type": "WebApplication",
+      "@id": `${url}#calculadora`,
+      name: page.navLabel ?? page.seo.title,
+      description: page.seo.description,
+      url,
+      applicationCategory: "FinanceApplication",
+      operatingSystem: "Cualquiera (navegador web)",
+      browserRequirements: "Requiere JavaScript",
+      inLanguage: "es-CR",
+      isAccessibleForFree: true,
+      offers: { "@type": "Offer", price: "0", priceCurrency: "CRC" },
+      provider: { "@id": orgId, "@type": site.seo.organizationType, name: site.site.name, url: site.site.url },
+      areaServed: { "@type": "Country", name: "Costa Rica" },
+    });
+  }
+
   const index = page.sections.find((s) => s.type === "solutionIndex");
   if (index && index.type === "solutionIndex") {
     graph.push({

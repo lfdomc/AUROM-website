@@ -852,6 +852,7 @@
           "type": "related",
           "heading": "Otras soluciones que se integran",
           "slugs": [
+            "calculadoras",
             "soluciones/analisis-de-datos",
             "soluciones/presupuestos-de-construccion",
             "software-a-la-medida"
@@ -3229,6 +3230,522 @@
           "primary": {
             "label": "Hablemos de su proyecto",
             "href": "#whatsapp"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "calculadoras",
+      "navLabel": "Calculadoras de planilla",
+      "seo": {
+        "title": "Calculadoras de planilla Costa Rica 2026 gratis",
+        "description": "Calculadoras gratuitas para Costa Rica 2026: salario neto con renta y CCSS, aguinaldo, liquidación laboral y costo patronal por colaborador.",
+        "priority": 0.8,
+        "changeFrequency": "monthly",
+        "keywords": [
+          "calculadoras de planilla Costa Rica",
+          "calculadora laboral Costa Rica",
+          "calculadora CCSS 2026",
+          "calculadora de renta 2026"
+        ]
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Calculadoras de planilla para Costa Rica 2026",
+          "headline": "Los números de la planilla, claros en segundos.",
+          "emphasis": "claros en segundos.",
+          "subhead": "Salario neto, aguinaldo, liquidación y costo patronal con los tramos de renta y las cuotas de la CCSS vigentes en 2026. Gratis y sin registrarse.",
+          "primary": {
+            "label": "Calcular salario neto",
+            "href": "/calculadoras/salario-neto-costa-rica"
+          },
+          "secondary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "visual": "payroll"
+        },
+        {
+          "type": "solutionIndex",
+          "heading": "Elija su calculadora",
+          "intro": "Las mismas reglas que usa nuestro sistema de planillas en Odoo, ahora disponibles para cualquier persona.",
+          "items": [
+            {
+              "slug": "calculadoras/salario-neto-costa-rica",
+              "icon": "calculator",
+              "tag": "Trabajadores"
+            },
+            {
+              "slug": "calculadoras/aguinaldo-costa-rica",
+              "icon": "spark",
+              "tag": "Diciembre"
+            },
+            {
+              "slug": "calculadoras/liquidacion-laboral-costa-rica",
+              "icon": "file",
+              "tag": "Fin de contrato"
+            },
+            {
+              "slug": "calculadoras/costo-patronal-costa-rica",
+              "icon": "buildings",
+              "tag": "Empresas"
+            }
+          ]
+        },
+        {
+          "type": "richText",
+          "heading": "Datos actualizados para 2026",
+          "paragraphs": [
+            "Desde el 1 de enero de 2026 rigen nuevos tramos del impuesto al salario (Decreto 45333-H): los salarios de hasta ₡918.000 mensuales están exentos y el resto paga 10 %, 15 %, 20 % o 25 % según el tramo. Además, la cuota de la CCSS subió a 10,83 % para el trabajador y 26,83 % para el patrono.",
+            "Estas calculadoras aplican esas reglas para que trabajadores, contadores y empresas obtengan una referencia rápida. Si su empresa calcula la planilla todos los meses, un sistema de planillas lo hace automáticamente para cada colaborador."
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "¿Calcula la planilla de toda una empresa?",
+          "body": "Automatizamos el cálculo completo en Odoo: CCSS, renta, aguinaldo, vacaciones y liquidaciones.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver planillas en Odoo",
+            "href": "/soluciones/planillas-odoo"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "calculadoras/salario-neto-costa-rica",
+      "navLabel": "Calculadora de salario neto",
+      "seo": {
+        "title": "Calculadora de salario neto Costa Rica 2026",
+        "description": "Calcule su salario neto 2026 en Costa Rica: rebajo de CCSS 10,83 %, impuesto sobre la renta por tramos, créditos por hijos y horas extra.",
+        "priority": 0.9,
+        "changeFrequency": "monthly",
+        "keywords": [
+          "calculadora salario neto Costa Rica",
+          "salario neto 2026",
+          "calculadora de renta Costa Rica 2026",
+          "tramos de renta 2026",
+          "rebajo CCSS 10,83",
+          "impuesto al salario 2026",
+          "tramos de renta 2026 personas jurídicas",
+          "tramos renta actividad lucrativa 2026",
+          "Decreto 45333-H"
+        ]
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Calculadora de salario neto Costa Rica 2026",
+          "headline": "Sepa cuánto recibe de verdad cada mes.",
+          "emphasis": "de verdad",
+          "subhead": "Ingrese su salario bruto y vea el rebajo de la CCSS, el impuesto sobre la renta con los tramos 2026 y su salario neto mensual y quincenal.",
+          "primary": {
+            "label": "Calcular ahora",
+            "href": "#calculadora"
+          },
+          "secondary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          }
+        },
+        {
+          "type": "calculator",
+          "kind": "salario-neto",
+          "heading": "Calcule su salario neto",
+          "intro": "El cálculo se actualiza mientras escribe. Puede sumar horas extra, otros ingresos y los créditos fiscales por hijos y cónyuge.",
+          "sources": [
+            {
+              "label": "EY: Decreto 45333-H, tramos 2026",
+              "url": "https://www.ey.com/es_ce/technical/tax/tax-alerts/costa-rica-ministerio-de-hacienda-establecio-los-tramos-del-impuesto-sobre-la-renta-para-el-periodo-fiscal-2026"
+            },
+            {
+              "label": "El Observador: tramos 2026",
+              "url": "https://observador.cr/hacienda-cobrara-renta-a-salarios-a-partir-de-los-918-000-en-2026-antes-se-hacia-desde-los-922-000/"
+            },
+            {
+              "label": "EY: cuotas CCSS 2026",
+              "url": "https://www.ey.com/es_ce/technical/tax/tax-alerts/costa-rica-aumento-en-cuotas-obrero-patronales-aplicable-desde-enero-20261"
+            }
+          ]
+        },
+        {
+          "type": "richText",
+          "heading": "Cómo se calcula el salario neto en Costa Rica",
+          "paragraphs": [
+            "El salario neto es lo que queda después de dos rebajos de ley. Primero, la cuota obrera de la CCSS, que en 2026 es de 10,83 % del salario bruto (5,50 % Seguro de Salud, 4,33 % Invalidez, Vejez y Muerte y 1 % Banco Popular). Segundo, el impuesto sobre la renta, que solo se cobra a la parte del salario que supera ₡918.000 al mes.",
+            "La renta es progresiva: cada tramo paga su propia tarifa sobre el exceso. Por ejemplo, con un salario de ₡1.000.000 solo los ₡82.000 que pasan de ₡918.000 pagan 10 %, es decir ₡8.200. Si la persona es casada y tiene un hijo, se restan ₡4.300 en créditos fiscales (₡2.590 por cónyuge y ₡1.710 por hijo) y la retención queda en ₡3.900.",
+            "Las horas extra se pagan a tiempo y medio sobre el valor de la hora ordinaria (salario mensual ÷ 30 días ÷ 8 horas) y suman al salario bruto, por lo que también pagan CCSS y renta.",
+            "Los tramos se establecieron en el Decreto Ejecutivo 45333-H, publicado en La Gaceta 229 del 5 de diciembre de 2025, y rigen para todo el periodo fiscal 2026. Las personas con actividad lucrativa y las empresas tienen tablas anuales distintas, que también aparecen arriba como referencia."
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas sobre el salario neto",
+          "items": [
+            {
+              "q": "¿A partir de qué salario se paga renta en 2026?",
+              "a": "Desde el 1 de enero de 2026, el impuesto al salario se cobra a la parte que supera ₡918.000 mensuales. Hasta ese monto, el salario está exento."
+            },
+            {
+              "q": "¿Cuánto rebaja la CCSS del salario en 2026?",
+              "a": "Al trabajador se le rebaja 10,83 % del salario bruto: 5,50 % para el Seguro de Salud, 4,33 % para Invalidez, Vejez y Muerte y 1 % para el Banco Popular."
+            },
+            {
+              "q": "¿Cuáles son los tramos de renta 2026?",
+              "a": "Hasta ₡918.000: exento. Sobre ₡918.000 y hasta ₡1.347.000: 10 %. Sobre ₡1.347.000 y hasta ₡2.364.000: 15 %. Sobre ₡2.364.000 y hasta ₡4.727.000: 20 %. Sobre ₡4.727.000: 25 %."
+            },
+            {
+              "q": "¿Cuánto paga de renta un salario de ₡1.000.000 en 2026?",
+              "a": "₡8.200 al mes: el 10 % de los ₡82.000 que superan ₡918.000. Si la persona tiene cónyuge y un hijo, se restan ₡4.300 en créditos y la retención queda en ₡3.900."
+            },
+            {
+              "q": "¿Cuáles son los tramos de renta 2026 para personas jurídicas?",
+              "a": "Las pymes con renta bruta anual de hasta ₡119.174.000 pagan 5 % hasta ₡5.621.000, 10 % hasta ₡8.433.000, 15 % hasta ₡11.243.000 y 20 % sobre el exceso. Por encima de ese umbral se aplica la tarifa general de 30 %."
+            },
+            {
+              "q": "¿Cuánto es el crédito fiscal por hijos en 2026?",
+              "a": "₡1.710 por mes por cada hijo y ₡2.590 por cónyuge. Se restan del impuesto calculado, no del salario, y solo aplican si la persona paga renta."
+            },
+            {
+              "q": "¿El aguinaldo paga renta o CCSS?",
+              "a": "No. El aguinaldo está exento del impuesto sobre la renta y de las cargas sociales de la CCSS."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Otras calculadoras y soluciones",
+          "slugs": [
+            "calculadoras/aguinaldo-costa-rica",
+            "calculadoras/costo-patronal-costa-rica",
+            "calculadoras/liquidacion-laboral-costa-rica",
+            "soluciones/planillas-odoo"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "Que la planilla se calcule sola",
+          "body": "Con nuestro sistema en Odoo, cada colaborador recibe su comprobante con estos cálculos listos.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver planillas en Odoo",
+            "href": "/soluciones/planillas-odoo"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "calculadoras/aguinaldo-costa-rica",
+      "navLabel": "Calculadora de aguinaldo",
+      "seo": {
+        "title": "Calculadora de aguinaldo Costa Rica 2026",
+        "description": "Calcule su aguinaldo 2026 en Costa Rica: suma de salarios de diciembre a noviembre dividida entre 12. Exento de renta y CCSS. Gratis.",
+        "priority": 0.9,
+        "changeFrequency": "monthly",
+        "keywords": [
+          "calculadora de aguinaldo Costa Rica",
+          "aguinaldo 2026",
+          "cómo calcular el aguinaldo",
+          "aguinaldo proporcional",
+          "cuándo se paga el aguinaldo"
+        ]
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Calculadora de aguinaldo Costa Rica 2026",
+          "headline": "Su aguinaldo, calculado en un minuto.",
+          "emphasis": "en un minuto.",
+          "subhead": "Ingrese su salario mensual o mes por mes y obtenga el aguinaldo exacto o proporcional, tal como lo establece la ley costarricense.",
+          "primary": {
+            "label": "Calcular ahora",
+            "href": "#calculadora"
+          },
+          "secondary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          }
+        },
+        {
+          "type": "calculator",
+          "kind": "aguinaldo",
+          "heading": "Calcule su aguinaldo",
+          "intro": "El periodo va del 1 de diciembre del año anterior al 30 de noviembre. Si trabajó menos meses, el resultado es el aguinaldo proporcional.",
+          "sources": [
+            {
+              "label": "MTSS: cálculo del aguinaldo",
+              "url": "https://www.mtss.go.cr/temas-laborales/salarios/aguinaldo.html"
+            }
+          ]
+        },
+        {
+          "type": "richText",
+          "heading": "Cómo se calcula el aguinaldo en Costa Rica",
+          "paragraphs": [
+            "El aguinaldo es la suma de todos los salarios brutos ordinarios y extraordinarios recibidos entre el 1 de diciembre del año anterior y el 30 de noviembre, dividida entre 12. Incluye horas extra, comisiones y bonificaciones salariales.",
+            "Si la persona trabajó menos de un año, recibe un aguinaldo proporcional a lo que ganó en ese periodo. El patrono debe pagarlo a más tardar el 20 de diciembre y no se le rebajan cargas sociales ni impuesto sobre la renta: se recibe completo."
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas sobre el aguinaldo",
+          "items": [
+            {
+              "q": "¿Cuándo se paga el aguinaldo en Costa Rica?",
+              "a": "Debe pagarse dentro de los primeros 20 días de diciembre, es decir, a más tardar el 20 de diciembre."
+            },
+            {
+              "q": "¿El aguinaldo paga renta o CCSS?",
+              "a": "No. El aguinaldo está exento del impuesto sobre la renta y de las cuotas de la CCSS, siempre que no supere la doceava parte de los salarios del año."
+            },
+            {
+              "q": "¿Tengo derecho a aguinaldo si renuncio o me despiden?",
+              "a": "Sí. El aguinaldo proporcional se paga siempre, sin importar el motivo de salida, y forma parte de la liquidación."
+            },
+            {
+              "q": "¿Las horas extra cuentan para el aguinaldo?",
+              "a": "Sí. Se suman todos los salarios recibidos, incluidas horas extra, comisiones e incentivos salariales."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Otras calculadoras y soluciones",
+          "slugs": [
+            "calculadoras/salario-neto-costa-rica",
+            "calculadoras/liquidacion-laboral-costa-rica",
+            "calculadoras/costo-patronal-costa-rica",
+            "soluciones/planillas-odoo"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "Aguinaldos de toda la empresa, en un clic",
+          "body": "Nuestro sistema de planillas en Odoo calcula el aguinaldo de cada colaborador con su historial real.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver planillas en Odoo",
+            "href": "/soluciones/planillas-odoo"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "calculadoras/liquidacion-laboral-costa-rica",
+      "navLabel": "Calculadora de liquidación",
+      "seo": {
+        "title": "Calculadora de liquidación laboral Costa Rica 2026",
+        "description": "Calcule la liquidación laboral en Costa Rica: preaviso, cesantía según el artículo 29, vacaciones y aguinaldo proporcional. Gratis.",
+        "priority": 0.9,
+        "changeFrequency": "monthly",
+        "keywords": [
+          "calculadora de liquidación Costa Rica",
+          "calcular cesantía Costa Rica",
+          "preaviso Costa Rica",
+          "liquidación laboral 2026",
+          "prestaciones laborales Costa Rica",
+          "calculadora de prestaciones"
+        ]
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Calculadora de liquidación laboral Costa Rica",
+          "headline": "Preaviso, cesantía y vacaciones, sin adivinar.",
+          "emphasis": "sin adivinar.",
+          "subhead": "Calcule las prestaciones laborales según el Código de Trabajo: preaviso, cesantía, vacaciones pendientes y aguinaldo proporcional.",
+          "primary": {
+            "label": "Calcular ahora",
+            "href": "#calculadora"
+          },
+          "secondary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          }
+        },
+        {
+          "type": "calculator",
+          "kind": "liquidacion",
+          "heading": "Calcule la liquidación",
+          "intro": "Use el promedio de los últimos 6 meses de salario. El preaviso y la cesantía solo aplican cuando el despido es sin justa causa.",
+          "sources": [
+            {
+              "label": "Código de Trabajo, artículos 28 y 29",
+              "url": "https://www.pgrweb.go.cr/scij/Busqueda/Normativa/Normas/nrm_texto_completo.aspx?nValor1=1&nValor2=8045"
+            }
+          ]
+        },
+        {
+          "type": "richText",
+          "heading": "Qué incluye una liquidación en Costa Rica",
+          "paragraphs": [
+            "Siempre se pagan las vacaciones pendientes y el aguinaldo proporcional, sin importar el motivo de salida. Cuando el despido es sin justa causa, se suman el preaviso y la cesantía, calculados con el salario diario promedio de los últimos seis meses (promedio mensual ÷ 30).",
+            "El preaviso depende de la antigüedad: una semana entre 3 y 6 meses, 15 días entre 6 meses y un año, y un mes después del primer año. Si el patrono avisó con esa anticipación y la persona siguió trabajando, no se paga.",
+            "La cesantía es de 7 días entre 3 y 6 meses, 14 días entre 6 meses y un año y, a partir del primer año, los días por año que indica la tabla del artículo 29, con un máximo de 8 años. En caso de renuncia o despido con justa causa no se pagan preaviso ni cesantía."
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas sobre la liquidación",
+          "items": [
+            {
+              "q": "¿Si renuncio me pagan cesantía?",
+              "a": "No. Al renunciar se pagan las vacaciones pendientes y el aguinaldo proporcional. La persona que renuncia debe dar preaviso al patrono."
+            },
+            {
+              "q": "¿Cuál es el máximo de cesantía en Costa Rica?",
+              "a": "La cesantía cubre como máximo 8 años de servicio, aunque la persona haya trabajado más tiempo."
+            },
+            {
+              "q": "¿Con qué salario se calcula la liquidación?",
+              "a": "Con el promedio de los salarios de los últimos 6 meses, o de todo el tiempo laborado si fue menor. El salario diario es ese promedio dividido entre 30."
+            },
+            {
+              "q": "¿En cuánto tiempo deben pagar la liquidación?",
+              "a": "La ley indica que las prestaciones deben pagarse al terminar la relación laboral. Si no se pagan, la persona puede acudir al Ministerio de Trabajo."
+            },
+            {
+              "q": "¿Este cálculo sustituye una asesoría legal?",
+              "a": "No. Es una referencia con las reglas generales del Código de Trabajo. Casos especiales, como convenciones colectivas o pensión, pueden cambiar el resultado."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Otras calculadoras y soluciones",
+          "slugs": [
+            "calculadoras/aguinaldo-costa-rica",
+            "calculadoras/salario-neto-costa-rica",
+            "calculadoras/costo-patronal-costa-rica",
+            "soluciones/planillas-odoo"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "Liquidaciones listas desde el historial",
+          "body": "En Odoo, la liquidación se genera con los salarios reales de los últimos 6 meses de cada colaborador.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver planillas en Odoo",
+            "href": "/soluciones/planillas-odoo"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "calculadoras/costo-patronal-costa-rica",
+      "navLabel": "Calculadora de costo patronal",
+      "seo": {
+        "title": "Calculadora de costo patronal Costa Rica 2026",
+        "description": "Cuánto cuesta un empleado en Costa Rica en 2026: CCSS patronal 26,83 %, póliza de riesgos del INS y reservas de aguinaldo y vacaciones.",
+        "priority": 0.85,
+        "changeFrequency": "monthly",
+        "keywords": [
+          "costo patronal Costa Rica",
+          "cuánto cuesta un empleado en Costa Rica",
+          "cargas sociales patronales 2026",
+          "CCSS patronal 26,83",
+          "calculadora cargas sociales"
+        ]
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Calculadora de costo patronal Costa Rica 2026",
+          "headline": "Lo que realmente cuesta cada colaborador.",
+          "emphasis": "realmente",
+          "subhead": "Sume el salario, las cargas sociales patronales de la CCSS, la póliza de riesgos del trabajo y las reservas de aguinaldo y vacaciones.",
+          "primary": {
+            "label": "Calcular ahora",
+            "href": "#calculadora"
+          },
+          "secondary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          }
+        },
+        {
+          "type": "calculator",
+          "kind": "costo-patronal",
+          "heading": "Calcule el costo de un colaborador",
+          "intro": "Ideal para presupuestar una contratación o revisar el costo real de su planilla.",
+          "sources": [
+            {
+              "label": "Cuotas CCSS 2026",
+              "url": "https://www.ey.com/es_ce/technical/tax/tax-alerts/costa-rica-aumento-en-cuotas-obrero-patronales-aplicable-desde-enero-20261"
+            }
+          ]
+        },
+        {
+          "type": "richText",
+          "heading": "Cuánto cuesta un empleado en Costa Rica",
+          "paragraphs": [
+            "Además del salario, el patrono paga 26,83 % en cargas sociales a la CCSS (salud, pensiones, Banco Popular, FODESAF, IMAS, INA y fondos de capitalización y pensión complementaria) y la póliza de riesgos del trabajo del INS, cuya tarifa depende de la actividad.",
+            "También conviene reservar cada mes 8,33 % para el aguinaldo y cerca de 4,17 % para las vacaciones. Con todo esto, un colaborador suele costar entre 1,40 y 1,47 veces su salario bruto."
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas sobre el costo patronal",
+          "items": [
+            {
+              "q": "¿Cuánto paga el patrono a la CCSS en 2026?",
+              "a": "26,83 % del salario bruto de cada colaborador, desde enero de 2026."
+            },
+            {
+              "q": "¿Cuánto cuesta la póliza de riesgos del trabajo?",
+              "a": "Depende de la actividad. Las tarifas de referencia van de cerca de 0,87 % en oficinas a más de 6 % en construcción. La tarifa exacta aparece en la póliza del INS."
+            },
+            {
+              "q": "¿Debo incluir la cesantía en el costo?",
+              "a": "La cesantía solo se paga en despidos sin justa causa, por eso no se incluye en el costo mensual. Algunas empresas reservan un porcentaje adicional por prudencia."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Otras calculadoras y soluciones",
+          "slugs": [
+            "calculadoras/salario-neto-costa-rica",
+            "calculadoras/aguinaldo-costa-rica",
+            "soluciones/planillas-odoo",
+            "soluciones/presupuestos-de-construccion"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "Controle el costo real de su planilla",
+          "body": "Le mostramos el costo por colaborador, por proyecto y por centro de costo, directamente en Odoo.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver planillas en Odoo",
+            "href": "/soluciones/planillas-odoo"
           },
           "background": "accent"
         }

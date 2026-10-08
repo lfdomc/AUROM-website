@@ -16,6 +16,7 @@ import { Clients } from "./sections/Clients";
 import { Pipeline } from "./sections/Pipeline";
 import { Portfolio } from "./sections/Portfolio";
 import { SolutionIndex } from "./sections/SolutionIndex";
+import { Calculator } from "./sections/Calculator";
 
 type Registry = { [K in SectionData["type"]]: ComponentType<{ section: Extract<SectionData, { type: K }>; site: SiteData }> };
 
@@ -37,4 +38,5 @@ export const registry: Registry = {
   pipeline: Pipeline,
   portfolio: Portfolio,
   solutionIndex: SolutionIndex,
+  calculator: Calculator,
 };

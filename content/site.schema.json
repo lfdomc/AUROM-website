@@ -637,6 +637,102 @@
                     },
                     "type": {
                       "type": "string",
+                      "const": "calculator"
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "salario-neto",
+                        "aguinaldo",
+                        "liquidacion",
+                        "costo-patronal"
+                      ],
+                      "description": "Qué calculadora mostrar (reglas en src/lib/planilla.ts)"
+                    },
+                    "heading": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 90
+                    },
+                    "intro": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 300
+                    },
+                    "sources": {
+                      "maxItems": 6,
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "label": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 80
+                          },
+                          "url": {
+                            "type": "string",
+                            "format": "uri"
+                          }
+                        },
+                        "required": [
+                          "label",
+                          "url"
+                        ]
+                      }
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "kind",
+                    "heading"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "background": {
+                      "default": "base",
+                      "type": "string",
+                      "enum": [
+                        "base",
+                        "surface",
+                        "accent",
+                        "inverse"
+                      ]
+                    },
+                    "motion": {
+                      "default": {
+                        "reveal": "fade-up",
+                        "delay": 0
+                      },
+                      "type": "object",
+                      "properties": {
+                        "reveal": {
+                          "default": "fade-up",
+                          "type": "string",
+                          "enum": [
+                            "fade-up",
+                            "mask",
+                            "blur",
+                            "stagger",
+                            "scale",
+                            "none"
+                          ]
+                        },
+                        "delay": {
+                          "default": 0,
+                          "type": "number",
+                          "minimum": 0,
+                          "maximum": 2
+                        }
+                      }
+                    },
+                    "type": {
+                      "type": "string",
                       "const": "hero"
                     },
                     "variant": {

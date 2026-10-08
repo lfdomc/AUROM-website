@@ -18,6 +18,11 @@ Sitio de **A.U.R.O.M.** (www.auromtec.com) hecho con Next.js. **Todo el contenid
 | Clasificación de correos | `/soluciones/clasificacion-de-correos` |
 | Software a la medida | `/software-a-la-medida` |
 | Centroamérica y Latinoamérica | `/automatizacion-empresarial-centroamerica` |
+| Calculadoras de planilla | `/calculadoras` |
+| Salario neto 2026 | `/calculadoras/salario-neto-costa-rica` |
+| Aguinaldo | `/calculadoras/aguinaldo-costa-rica` |
+| Liquidación laboral | `/calculadoras/liquidacion-laboral-costa-rica` |
+| Costo patronal | `/calculadoras/costo-patronal-costa-rica` |
 
 Cada página tiene su propio título, descripción, imagen para redes sociales (`/og/...png`), datos estructurados para Google (empresa, servicio, preguntas frecuentes, migas de pan), y aparece en `sitemap.xml`.
 
@@ -62,7 +67,11 @@ Después de editar, ejecute `npm run validar`. Si algo está mal, le dice exacta
 
 ## Tipos de sección disponibles
 
-`hero`, `marquee`, `clients` (full o compact), `solutionIndex`, `portfolio`, `pipeline` (variantes: track, timeline, stairs, circuit, deck, checklist, path, tabs), `stickyStack`, `bento`, `horizontal`, `stats`, `beforeAfter`, `features`, `faq`, `related`, `cta`, `richText`.
+`hero`, `marquee`, `clients` (full o compact), `solutionIndex`, `portfolio`, `calculator` (salario-neto, aguinaldo, liquidacion, costo-patronal), `pipeline` (variantes: track, timeline, stairs, circuit, deck, checklist, path, tabs), `stickyStack`, `bento`, `horizontal`, `stats`, `beforeAfter`, `features`, `faq`, `related`, `cta`, `richText`.
+
+## Calculadoras
+
+Las reglas (tramos de renta, CCSS, créditos fiscales, INS, preaviso y cesantía) están en **`src/lib/planilla.ts`**. Cuando Hacienda publique los tramos de 2027, solo hay que cambiar los números de ese archivo, `VIGENCIA` y `ACTUALIZADO`. Las tablas visibles, los resultados y los datos para Google se actualizan solos. Los textos y las preguntas de cada calculadora están en `content/site.json` (sección `calculator`).
 
 ## Vista previa al compartir por WhatsApp
 
