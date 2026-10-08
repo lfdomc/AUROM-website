@@ -26,7 +26,8 @@ export const registry: Registry = {
   marquee: Marquee,
   stickyStack: StickyStack,
   bento: Bento,
-  horizontal: Horizontal,
+  // Componentes de cliente: solo reciben su sección (si recibieran `site`, todo el sitio viajaría en el HTML).
+  horizontal: ({ section }) => <Horizontal section={section} />,
   stats: Stats,
   beforeAfter: BeforeAfter,
   features: Features,
@@ -35,7 +36,7 @@ export const registry: Registry = {
   cta: Cta,
   richText: RichText,
   clients: Clients,
-  pipeline: Pipeline,
+  pipeline: ({ section }) => <Pipeline section={section} />,
   portfolio: Portfolio,
   solutionIndex: SolutionIndex,
   calculator: Calculator,

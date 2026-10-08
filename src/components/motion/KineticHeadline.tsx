@@ -1,12 +1,10 @@
-"use client";
-import { motion, useReducedMotion } from "motion/react";
-import { Fragment } from "react";
-import { useIntensity } from "./MotionRoot";
+import { Fragment, type CSSProperties } from "react";
 
-/** h1 cinético: solo transform (opacidad 1) para no retrasar el LCP. El texto completo está en aria-label y en el HTML. */
+/**
+ * Titular cinético con animación CSS: arranca en el primer pintado, sin esperar a que cargue JavaScript
+ * (mejor LCP en celulares). Solo usa transform. El texto completo queda en el HTML para Google y lectores de pantalla.
+ */
 export function KineticHeadline({ text, emphasis, className, as = "h1" }: { text: string; emphasis?: string; className?: string; as?: "h1" | "p" }) {
-  const reduce = useReducedMotion();
-  const intensity = useIntensity();
   const words = text.split(" ");
   const emph = new Set(emphasis ? emphasis.split(" ") : []);
   const emStart = emphasis ? text.indexOf(emphasis) : -1;
@@ -24,18 +22,9 @@ export function KineticHeadline({ text, emphasis, className, as = "h1" }: { text
         return (
           <Fragment key={i}>
             <span aria-hidden className="inline-block overflow-hidden pb-[0.1em] -mb-[0.1em] pr-[0.04em] -mr-[0.04em] align-bottom">
-              {reduce || intensity <= 3 ? (
-                <span className="inline-block">{inner}</span>
-              ) : (
-                <motion.span
-                  className="inline-block will-change-transform"
-                  initial={{ y: "108%" }}
-                  animate={{ y: "0%" }}
-                  transition={{ duration: 0.85, delay: 0.06 + i * 0.055, ease: [0.16, 1, 0.3, 1] }}
-                >
-                  {inner}
-                </motion.span>
-              )}
+              <span className="kw" style={{ "--d": `${(0.04 + i * 0.05).toFixed(2)}s` } as CSSProperties}>
+                {inner}
+              </span>
             </span>
             {i < words.length - 1 ? " " : null}
           </Fragment>

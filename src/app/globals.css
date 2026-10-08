@@ -160,6 +160,12 @@
   .flow-dot { display: none; }
 }
 
+/* ───────── Entrada del hero en CSS: corre desde el primer pintado, sin esperar JavaScript (LCP rápido) ───────── */
+@keyframes rise { from { opacity: 0.01; transform: translateY(var(--rise, 14px)); } to { opacity: 1; transform: none; } }
+@keyframes word-up { from { transform: translateY(108%); } to { transform: none; } }
+.rise { animation: rise 0.8s cubic-bezier(0.16, 1, 0.3, 1) both; animation-delay: var(--d, 0s); }
+.kw { display: inline-block; animation: word-up 0.85s cubic-bezier(0.16, 1, 0.3, 1) both; animation-delay: var(--d, 0s); }
+
 /* ───────── Micro-animaciones ───────── */
 @keyframes nudge { 0%, 100% { transform: translateX(-2px); } 50% { transform: translateX(3px); } }
 @keyframes soft-pulse { 0%, 100% { opacity: 0; transform: scale(1); } 50% { opacity: 1; transform: scale(1.12); } }

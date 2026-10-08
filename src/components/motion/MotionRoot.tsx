@@ -22,7 +22,8 @@ export function MotionRoot({
     if (!smoothScroll || reduce || intensity < 6) return;
     let lenis: { destroy: () => void } | undefined;
     let cancelled = false;
-    (async () => {
+    // Lenis se carga cuando el navegador está libre, para no competir con la primera carga.
+    const start = async () => {
       const { default: Lenis } = await import("lenis");
       if (cancelled) return;
       const l = new Lenis({ autoRaf: true, lerp: 0.12, anchors: { offset: -88 } });
@@ -30,9 +31,12 @@ export function MotionRoot({
       // ScrollTrigger (si se carga) se sincroniza con Lenis
       const w = window as unknown as { __lenis?: typeof l };
       w.__lenis = l;
-    })();
+    };
+    const ric = (window as unknown as { requestIdleCallback?: (cb: () => void, o?: { timeout: number }) => number }).requestIdleCallback;
+    const id = ric ? ric(() => void start(), { timeout: 2500 }) : window.setTimeout(() => void start(), 1500);
     return () => {
       cancelled = true;
+      if (!ric) window.clearTimeout(id);
       lenis?.destroy();
     };
   }, [smoothScroll, reduce, intensity]);
