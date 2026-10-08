@@ -1,0 +1,864 @@
+{
+ "$comment": "Datos oficiales de Costa Rica que usan las calculadoras. Cambie aquí los números cuando salga un decreto nuevo y vuelva a publicar. Todo el sitio se actualiza solo.",
+ "vigencia": "2026",
+ "actualizado": "2026-10-07",
+ "renta": {
+  "decreto": "Decreto Ejecutivo 45333-H (La Gaceta 229, 5 de diciembre de 2025)",
+  "asalariados_mensual": [
+   [
+    0,
+    918000,
+    0
+   ],
+   [
+    918000,
+    1347000,
+    0.1
+   ],
+   [
+    1347000,
+    2364000,
+    0.15
+   ],
+   [
+    2364000,
+    4727000,
+    0.2
+   ],
+   [
+    4727000,
+    null,
+    0.25
+   ]
+  ],
+  "credito_hijo_mensual": 1710,
+  "credito_conyuge_mensual": 2590,
+  "lucrativa_anual": [
+   [
+    0,
+    6244000,
+    0
+   ],
+   [
+    6244000,
+    8329000,
+    0.1
+   ],
+   [
+    8329000,
+    10414000,
+    0.15
+   ],
+   [
+    10414000,
+    20872000,
+    0.2
+   ],
+   [
+    20872000,
+    null,
+    0.25
+   ]
+  ],
+  "credito_hijo_anual": 20520,
+  "credito_conyuge_anual": 31080,
+  "juridicas_anual": [
+   [
+    0,
+    5621000,
+    0.05
+   ],
+   [
+    5621000,
+    8433000,
+    0.1
+   ],
+   [
+    8433000,
+    11243000,
+    0.15
+   ],
+   [
+    11243000,
+    null,
+    0.2
+   ]
+  ],
+  "umbral_pyme": 119174000,
+  "tarifa_general_juridicas": 0.3,
+  "fuentes": [
+   {
+    "label": "EY: Decreto 45333-H, tramos 2026",
+    "url": "https://www.ey.com/es_ce/technical/tax/tax-alerts/costa-rica-ministerio-de-hacienda-establecio-los-tramos-del-impuesto-sobre-la-renta-para-el-periodo-fiscal-2026"
+   },
+   {
+    "label": "El Observador: tramos 2026",
+    "url": "https://observador.cr/hacienda-cobrara-renta-a-salarios-a-partir-de-los-918-000-en-2026-antes-se-hacia-desde-los-922-000/"
+   }
+  ]
+ },
+ "ccss": {
+  "trabajador": 0.1083,
+  "trabajador_detalle": [
+   [
+    "Seguro de Salud (SEM)",
+    0.055
+   ],
+   [
+    "Invalidez, Vejez y Muerte (IVM)",
+    0.0433
+   ],
+   [
+    "Banco Popular (LPT)",
+    0.01
+   ]
+  ],
+  "patrono": 0.2683,
+  "fuentes": [
+   {
+    "label": "EY: cuotas CCSS 2026",
+    "url": "https://www.ey.com/es_ce/technical/tax/tax-alerts/costa-rica-aumento-en-cuotas-obrero-patronales-aplicable-desde-enero-20261"
+   }
+  ]
+ },
+ "ins_clases": [
+  [
+   "I",
+   0.0087,
+   "Oficinas, servicios profesionales"
+  ],
+  [
+   "II",
+   0.0149,
+   "Comercio, ventas, bodegas livianas"
+  ],
+  [
+   "III",
+   0.0247,
+   "Manufactura liviana, transporte"
+  ],
+  [
+   "IV",
+   0.0413,
+   "Industria, mantenimiento, agricultura"
+  ],
+  [
+   "V",
+   0.0688,
+   "Construcción y trabajos de alto riesgo"
+  ]
+ ],
+ "jornada": {
+  "dias_mes": 30,
+  "horas_dia": 8,
+  "he_sencilla": 1.5,
+  "he_doble": 2,
+  "he_feriado": 3,
+  "vacaciones_dias_anio": 12
+ },
+ "cesantia_por_anio": [
+  0,
+  19.5,
+  20,
+  20.5,
+  21,
+  21.24,
+  21.5,
+  22,
+  22,
+  22,
+  21.5,
+  21,
+  20.5,
+  20
+ ],
+ "cesantia_max_anios": 8,
+ "salario_minimo": {
+  "decreto": "Decreto Ejecutivo 45303-MTSS (Alcance 156, La Gaceta 229, 5 de diciembre de 2025)",
+  "aumento": "1,63 % general (trabajo doméstico 3,96 %, TOEG 2,18 %, TMED 2,50 %)",
+  "categorias": [
+   [
+    "TONC",
+    "Trabajador en ocupación no calificada",
+    12436.41,
+    "jornada"
+   ],
+   [
+    "TOSC",
+    "Trabajador en ocupación semicalificada",
+    13523.69,
+    "jornada"
+   ],
+   [
+    "TOC",
+    "Trabajador en ocupación calificada",
+    13991.86,
+    "jornada"
+   ],
+   [
+    "TOE",
+    "Trabajador en ocupación especializada",
+    16244.5,
+    "jornada"
+   ],
+   [
+    "TES",
+    "Trabajador de especialización superior",
+    25209.8,
+    "jornada"
+   ],
+   [
+    "TONCG",
+    "No calificada (genérico)",
+    373092.3,
+    "mes"
+   ],
+   [
+    "TOSCG",
+    "Semicalificada (genérico)",
+    405710.7,
+    "mes"
+   ],
+   [
+    "TOCG",
+    "Calificada (genérico)",
+    419755.8,
+    "mes"
+   ],
+   [
+    "TOEG",
+    "Especializada (genérico)",
+    487335.0,
+    "mes"
+   ],
+   [
+    "TMED",
+    "Técnico medio de educación diversificada",
+    496838.17,
+    "mes"
+   ],
+   [
+    "TEdS",
+    "Técnico de educación superior",
+    542096.58,
+    "mes"
+   ],
+   [
+    "DES",
+    "Diplomado de educación superior",
+    585484.58,
+    "mes"
+   ],
+   [
+    "Bach",
+    "Bachiller universitario",
+    664078.07,
+    "mes"
+   ],
+   [
+    "Lic",
+    "Licenciado universitario",
+    796921.0,
+    "mes"
+   ],
+   [
+    "TD",
+    "Trabajo doméstico",
+    268731.31,
+    "mes"
+   ]
+  ],
+  "especificos": [
+   [
+    "Recolector de café",
+    1184.1,
+    "por cajuela"
+   ],
+   [
+    "Estibador",
+    450.56,
+    "por movimiento"
+   ],
+   [
+    "Estibador",
+    105.66,
+    "por tonelada"
+   ],
+   [
+    "Estibador de frutas y vegetales",
+    0.0854,
+    "por kilo"
+   ]
+  ],
+  "ocupaciones": [
+   [
+    "Peón de construcción",
+    "TONC"
+   ],
+   [
+    "Ayudante de operario de construcción",
+    "TOSC"
+   ],
+   [
+    "Albañil",
+    "TOC"
+   ],
+   [
+    "Operario de construcción",
+    "TOC"
+   ],
+   [
+    "Maestro de obras",
+    "TOE"
+   ],
+   [
+    "Carpintero",
+    "TOC"
+   ],
+   [
+    "Ebanista",
+    "TOE"
+   ],
+   [
+    "Electricista",
+    "TOC"
+   ],
+   [
+    "Electromecánico",
+    "TOE"
+   ],
+   [
+    "Fontanero",
+    "TOC"
+   ],
+   [
+    "Soldador",
+    "TOC"
+   ],
+   [
+    "Soldador de soldaduras especiales",
+    "TOE"
+   ],
+   [
+    "Pintor de brocha gorda",
+    "TOC"
+   ],
+   [
+    "Mecánico general",
+    "TOC"
+   ],
+   [
+    "Tornero en metal",
+    "TOE"
+   ],
+   [
+    "Pintor automotriz",
+    "TOE"
+   ],
+   [
+    "Operador de maquinaria pesada",
+    "TOC"
+   ],
+   [
+    "Tractorista",
+    "TOC"
+   ],
+   [
+    "Montacarguista",
+    "TOSC"
+   ],
+   [
+    "Mantenimiento de edificios",
+    "TOC"
+   ],
+   [
+    "Misceláneo",
+    "TONCG"
+   ],
+   [
+    "Conserje",
+    "TONCG"
+   ],
+   [
+    "Mensajero",
+    "TONCG"
+   ],
+   [
+    "Bodeguero (peón)",
+    "TONCG"
+   ],
+   [
+    "Bodeguero (encargado)",
+    "TOSCG"
+   ],
+   [
+    "Agente de seguridad / guarda",
+    "TOSCG"
+   ],
+   [
+    "Custodio de valores",
+    "TOCG"
+   ],
+   [
+    "Cajero",
+    "TOCG"
+   ],
+   [
+    "Dependiente de comercio",
+    "TOSC"
+   ],
+   [
+    "Agente de ventas",
+    "TOCG"
+   ],
+   [
+    "Cobrador",
+    "TOSCG"
+   ],
+   [
+    "Chofer de vehículo liviano",
+    "TOSC"
+   ],
+   [
+    "Chofer de vehículo pesado",
+    "TOC"
+   ],
+   [
+    "Chofer de tráiler",
+    "TOE"
+   ],
+   [
+    "Chofer de bus",
+    "TOC"
+   ],
+   [
+    "Taxista",
+    "TOC"
+   ],
+   [
+    "Pistero",
+    "TOSC"
+   ],
+   [
+    "Secretaria (sin título)",
+    "TOCG"
+   ],
+   [
+    "Recepcionista",
+    "TOSCG"
+   ],
+   [
+    "Telefonista",
+    "TOSCG"
+   ],
+   [
+    "Oficinista",
+    "TOSCG"
+   ],
+   [
+    "Digitador",
+    "TOC"
+   ],
+   [
+    "Auxiliar de contabilidad",
+    "TOCG"
+   ],
+   [
+    "Contador con bachillerato",
+    "Bach"
+   ],
+   [
+    "Contador con licenciatura",
+    "Lic"
+   ],
+   [
+    "Salonero / mesero",
+    "TONC"
+   ],
+   [
+    "Camarero",
+    "TONC"
+   ],
+   [
+    "Mucama",
+    "TONC"
+   ],
+   [
+    "Pilero (lavaplatos)",
+    "TONC"
+   ],
+   [
+    "Ayudante de cocina",
+    "TOSC"
+   ],
+   [
+    "Cocinero",
+    "TOC"
+   ],
+   [
+    "Chef",
+    "TOE"
+   ],
+   [
+    "Panadero",
+    "TOC"
+   ],
+   [
+    "Cantinero",
+    "TOSC"
+   ],
+   [
+    "Bartender",
+    "TOC"
+   ],
+   [
+    "Peón agrícola",
+    "TONC"
+   ],
+   [
+    "Peón de jardín",
+    "TONC"
+   ],
+   [
+    "Jardinero (diseño de jardines)",
+    "TOC"
+   ],
+   [
+    "Peón de carga y descarga",
+    "TONC"
+   ],
+   [
+    "Empacador",
+    "TONC"
+   ],
+   [
+    "Recolector de basura",
+    "TONC"
+   ],
+   [
+    "Estilista / barbero",
+    "TOC"
+   ],
+   [
+    "Costurera (modista)",
+    "TOE"
+   ],
+   [
+    "Programador (sin título)",
+    "TOE"
+   ],
+   [
+    "Guía de turismo",
+    "TOC"
+   ],
+   [
+    "Niñera (fuera del hogar del niño)",
+    "TONC"
+   ],
+   [
+    "Niñera en el hogar del niño",
+    "TD"
+   ],
+   [
+    "Trabajadora doméstica",
+    "TD"
+   ]
+  ],
+  "fuentes": [
+   {
+    "label": "MTSS: lista de salarios mínimos 2026",
+    "url": "https://www.mtss.go.cr/temas-laborales/salarios/lista_salarios_minimos_2026.pdf"
+   },
+   {
+    "label": "MTSS: salario mínimo",
+    "url": "https://www.mtss.go.cr/temas-laborales/salarios/salario_minimo.html"
+   }
+  ]
+ },
+ "feriados": {
+  "nota": "Desde 2025 los feriados se disfrutan en su fecha real (no se trasladan a lunes).",
+  "dias": [
+   [
+    "2026-01-01",
+    "Año Nuevo",
+    true
+   ],
+   [
+    "2026-04-02",
+    "Jueves Santo",
+    true
+   ],
+   [
+    "2026-04-03",
+    "Viernes Santo",
+    true
+   ],
+   [
+    "2026-04-11",
+    "Día de Juan Santamaría",
+    true
+   ],
+   [
+    "2026-05-01",
+    "Día Internacional del Trabajo",
+    true
+   ],
+   [
+    "2026-07-25",
+    "Anexión del Partido de Nicoya",
+    true
+   ],
+   [
+    "2026-08-02",
+    "Día de la Virgen de los Ángeles",
+    false
+   ],
+   [
+    "2026-08-15",
+    "Día de la Madre",
+    true
+   ],
+   [
+    "2026-08-31",
+    "Día de la Persona Negra y la Cultura Afrocostarricense",
+    false
+   ],
+   [
+    "2026-09-15",
+    "Día de la Independencia",
+    true
+   ],
+   [
+    "2026-12-01",
+    "Día de la Abolición del Ejército",
+    false
+   ],
+   [
+    "2026-12-25",
+    "Navidad",
+    true
+   ],
+   [
+    "2027-01-01",
+    "Año Nuevo",
+    true
+   ],
+   [
+    "2027-03-25",
+    "Jueves Santo",
+    true
+   ],
+   [
+    "2027-03-26",
+    "Viernes Santo",
+    true
+   ],
+   [
+    "2027-04-11",
+    "Día de Juan Santamaría",
+    true
+   ],
+   [
+    "2027-05-01",
+    "Día Internacional del Trabajo",
+    true
+   ],
+   [
+    "2027-07-25",
+    "Anexión del Partido de Nicoya",
+    true
+   ],
+   [
+    "2027-08-02",
+    "Día de la Virgen de los Ángeles",
+    false
+   ],
+   [
+    "2027-08-15",
+    "Día de la Madre",
+    true
+   ],
+   [
+    "2027-08-31",
+    "Día de la Persona Negra y la Cultura Afrocostarricense",
+    false
+   ],
+   [
+    "2027-09-15",
+    "Día de la Independencia",
+    true
+   ],
+   [
+    "2027-12-01",
+    "Día de la Abolición del Ejército",
+    false
+   ],
+   [
+    "2027-12-25",
+    "Navidad",
+    true
+   ]
+  ],
+  "fuentes": [
+   {
+    "label": "MTSS: calendario de feriados 2026",
+    "url": "https://www.mtss.go.cr/temas-laborales/feriados/feriados_calendario_2026.pdf"
+   },
+   {
+    "label": "MTSS: criterio sobre feriados (arts. 148, 149 y 152)",
+    "url": "https://www.mtss.go.cr/elministerio/estructura/direccion-asuntos-juridicos/criterios_juridicos/documetos/OFP-MTSS-DAJ-AER-062-2024.pdf"
+   }
+  ]
+ },
+ "construccion": {
+  "fuente_texto": "Manual de Valores Base Unitarios por Tipología Constructiva 2023, Ministerio de Hacienda (ONT), Alcance 187 a La Gaceta 178, valores a marzo de 2023",
+  "tipologias": [
+   [
+    "VC01",
+    "Vivienda de concreto económica, interés social",
+    "42–90 m²",
+    260000
+   ],
+   [
+    "VC02",
+    "Vivienda de concreto económica",
+    "80–110 m²",
+    320000
+   ],
+   [
+    "VC03",
+    "Vivienda de concreto, calidad media",
+    "100–150 m²",
+    365000
+   ],
+   [
+    "VC04",
+    "Vivienda de concreto, calidad media-buena",
+    "140–220 m²",
+    425000
+   ],
+   [
+    "VC05",
+    "Vivienda de concreto, calidad buena",
+    "210–250 m²",
+    485000
+   ],
+   [
+    "VC06",
+    "Vivienda de concreto, calidad muy buena",
+    "240–300 m²",
+    545000
+   ],
+   [
+    "VC07",
+    "Vivienda de concreto, muy buena superior",
+    "290–350 m²",
+    700000
+   ],
+   [
+    "VC08",
+    "Vivienda de lujo",
+    "340–400 m²",
+    920000
+   ],
+   [
+    "VC09",
+    "Vivienda de lujo, materiales importados",
+    "390 m² o más",
+    1495000
+   ],
+   [
+    "VC10",
+    "Vivienda de lujo, acabados importados y artesanales",
+    "390 m² o más",
+    1835000
+   ],
+   [
+    "VS01",
+    "Muro seco (acero galvanizado), básica",
+    "100–150 m²",
+    310000
+   ],
+   [
+    "VS02",
+    "Muro seco, mejores acabados",
+    "140–350 m²",
+    500000
+   ],
+   [
+    "VM01",
+    "Madera, acabados económicos",
+    "36–90 m²",
+    290000
+   ],
+   [
+    "VM02",
+    "Madera, una o dos plantas",
+    "80–150 m²",
+    425000
+   ],
+   [
+    "VP01",
+    "Paneles de PVC, una planta",
+    "45 m² o más",
+    370000
+   ],
+   [
+    "VE01",
+    "Modular de acero ensamblada",
+    "24–90 m²",
+    550000
+   ],
+   [
+    "VR01",
+    "Contenedor reciclado (uno)",
+    "—",
+    285000
+   ],
+   [
+    "VR02",
+    "Varios contenedores",
+    "—",
+    355000
+   ],
+   [
+    "VL01",
+    "Loft industrial",
+    "200–250 m²",
+    515000
+   ],
+   [
+    "VV01",
+    "Vivienda de vidrio",
+    "390 m² o más",
+    1550000
+   ]
+  ],
+  "fuentes": [
+   {
+    "label": "Hacienda (ONT): Manual de tipologías constructivas 2023",
+    "url": "https://www.hacienda.go.cr/docs/ManualdeValoresBaseUnitariosporTipologiaConstructiva.pdf"
+   },
+   {
+    "label": "CFIA: costo por metro cuadrado",
+    "url": "https://centrodeayuda.cfia.or.cr/hc/es/articles/115003352293-Costo-por-metro-cuadrado"
+   }
+  ]
+ },
+ "codigo_trabajo": {
+  "fuentes": [
+   {
+    "label": "Código de Trabajo (SCIJ)",
+    "url": "https://www.pgrweb.go.cr/scij/Busqueda/Normativa/Normas/nrm_texto_completo.aspx?nValor1=1&nValor2=8045"
+   }
+  ]
+ },
+ "aguinaldo": {
+  "fuentes": [
+   {
+    "label": "MTSS: aguinaldo",
+    "url": "https://www.mtss.go.cr/temas-laborales/salarios/aguinaldo.html"
+   }
+  ]
+ }
+}

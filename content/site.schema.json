@@ -151,6 +151,11 @@
             }
           }
         },
+        "ga4Id": {
+          "description": "ID de medición de Google Analytics 4 (G-XXXXXXX)",
+          "type": "string",
+          "pattern": "^G-[A-Z0-9]{4,}$"
+        },
         "indexNowKey": {
           "description": "Clave IndexNow (archivo public/<clave>.txt)",
           "type": "string",
@@ -645,7 +650,13 @@
                         "salario-neto",
                         "aguinaldo",
                         "liquidacion",
-                        "costo-patronal"
+                        "costo-patronal",
+                        "horas-extra",
+                        "vacaciones",
+                        "salario-minimo",
+                        "feriados",
+                        "construccion",
+                        "ahorro-automatizacion"
                       ],
                       "description": "Qué calculadora mostrar (reglas en src/lib/planilla.ts)"
                     },
@@ -680,6 +691,12 @@
                           "url"
                         ]
                       }
+                    },
+                    "lead": {
+                      "description": "Mensaje para captar clientes debajo del resultado",
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 160
                     }
                   },
                   "required": [

@@ -18,7 +18,13 @@ Sitio de **A.U.R.O.M.** (www.auromtec.com) hecho con Next.js. **Todo el contenid
 | Clasificación de correos | `/soluciones/clasificacion-de-correos` |
 | Software a la medida | `/software-a-la-medida` |
 | Centroamérica y Latinoamérica | `/automatizacion-empresarial-centroamerica` |
-| Calculadoras de planilla | `/calculadoras` |
+| Herramientas gratis | `/calculadoras` |
+| Salario mínimo 2026 | `/calculadoras/salario-minimo-costa-rica` |
+| Feriados 2026 y 2027 | `/calculadoras/feriados-costa-rica` |
+| Horas extra | `/calculadoras/horas-extra-costa-rica` |
+| Vacaciones | `/calculadoras/vacaciones-costa-rica` |
+| Costo de construcción por m² | `/calculadoras/costo-construccion-m2-costa-rica` |
+| Ahorro por automatización | `/calculadoras/ahorro-por-automatizacion` |
 | Salario neto 2026 | `/calculadoras/salario-neto-costa-rica` |
 | Aguinaldo | `/calculadoras/aguinaldo-costa-rica` |
 | Liquidación laboral | `/calculadoras/liquidacion-laboral-costa-rica` |
@@ -67,11 +73,30 @@ Después de editar, ejecute `npm run validar`. Si algo está mal, le dice exacta
 
 ## Tipos de sección disponibles
 
-`hero`, `marquee`, `clients` (full o compact), `solutionIndex`, `portfolio`, `calculator` (salario-neto, aguinaldo, liquidacion, costo-patronal), `pipeline` (variantes: track, timeline, stairs, circuit, deck, checklist, path, tabs), `stickyStack`, `bento`, `horizontal`, `stats`, `beforeAfter`, `features`, `faq`, `related`, `cta`, `richText`.
+`hero`, `marquee`, `clients` (full o compact), `solutionIndex`, `portfolio`, `calculator` (salario-neto, aguinaldo, liquidacion, costo-patronal, horas-extra, vacaciones, salario-minimo, feriados, construccion, ahorro-automatizacion), `pipeline` (variantes: track, timeline, stairs, circuit, deck, checklist, path, tabs), `stickyStack`, `bento`, `horizontal`, `stats`, `beforeAfter`, `features`, `faq`, `related`, `cta`, `richText`.
 
-## Calculadoras
+## Calculadoras y datos oficiales
 
-Las reglas (tramos de renta, CCSS, créditos fiscales, INS, preaviso y cesantía) están en **`src/lib/planilla.ts`**. Cuando Hacienda publique los tramos de 2027, solo hay que cambiar los números de ese archivo, `VIGENCIA` y `ACTUALIZADO`. Las tablas visibles, los resultados y los datos para Google se actualizan solos. Los textos y las preguntas de cada calculadora están en `content/site.json` (sección `calculator`).
+**Todos los números oficiales están en `content/datos-cr.json`:** tramos de renta, CCSS, INS, cesantía, salarios mínimos por categoría y ocupación, feriados, y valores por m² de Hacienda. Cuando salga un decreto nuevo:
+
+1. Cambie los números en ese archivo, junto con `vigencia` (año) y `actualizado` (fecha).
+2. Ejecute `npm run build` y publique.
+
+Las calculadoras, tablas, PDF, mensajes de WhatsApp y la fecha "actualizado en" se actualizan solos. Las fórmulas están en `src/lib/planilla.ts`. Los textos y las preguntas de cada página están en `content/site.json` (sección `calculator`).
+
+**Calendario de revisión:**
+- Salario mínimo: decreto en diciembre, rige el 1 de enero.
+- Tramos de renta: decreto de Hacienda en noviembre o diciembre.
+- CCSS: cambios en enero.
+- Feriados del año siguiente: calendario del MTSS en noviembre o diciembre.
+- Hacienda (m²): manual cada 2 años.
+
+**Compartir resultados.** Cada calculadora tiene tres opciones:
+- **WhatsApp:** abre WhatsApp con el desglose y un enlace que reabre la calculadora con los mismos datos.
+- **PDF:** reporte de una página con logo, datos, desglose y base legal. En el celular abre el menú de compartir.
+- **Copiar enlace.**
+
+**Google Analytics 4.** Pegue su ID en `seo.ga4Id` dentro de `content/site.json` (por ejemplo `"ga4Id": "G-ABC123XYZ"`). El sitio mide estos eventos: `calculator_use`, `calculator_share` (whatsapp, pdf o link), `calculator_lead` y `whatsapp_click`. En GA4 márquelos como eventos clave (**Administrar → Eventos**).
 
 ## Vista previa al compartir por WhatsApp
 

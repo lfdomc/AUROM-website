@@ -1,5 +1,5 @@
 import type { ComponentType } from "react";
-import type { SectionData, SiteData } from "@/lib/schema";
+import type { PageData, SectionData, SiteData } from "@/lib/schema";
 import { Hero } from "./sections/Hero";
 import { Marquee } from "./sections/Marquee";
 import { StickyStack } from "./sections/StickyStack";
@@ -18,7 +18,7 @@ import { Portfolio } from "./sections/Portfolio";
 import { SolutionIndex } from "./sections/SolutionIndex";
 import { Calculator } from "./sections/Calculator";
 
-type Registry = { [K in SectionData["type"]]: ComponentType<{ section: Extract<SectionData, { type: K }>; site: SiteData }> };
+type Registry = { [K in SectionData["type"]]: ComponentType<{ section: Extract<SectionData, { type: K }>; site: SiteData; page: PageData }> };
 
 /** "type" del JSON → componente. TypeScript avisa si falta un tipo. */
 export const registry: Registry = {

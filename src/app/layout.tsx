@@ -7,6 +7,7 @@ import { resolveHref } from "@/lib/links";
 import { MotionRoot } from "@/components/motion/MotionRoot";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
+import { Analytics } from "@/components/Analytics";
 
 export async function generateMetadata(): Promise<Metadata> {
   const site = await getSite();
@@ -65,6 +66,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           <main id="contenido">{children}</main>
           <Footer site={site} />
         </MotionRoot>
+        {site.seo.ga4Id && <Analytics id={site.seo.ga4Id} />}
       </body>
     </html>
   );

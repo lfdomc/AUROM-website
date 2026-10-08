@@ -247,10 +247,11 @@ const RichText = z.object({
 const Calculator = z.object({
   ...base,
   type: z.literal("calculator"),
-  kind: z.enum(["salario-neto", "aguinaldo", "liquidacion", "costo-patronal"]).describe("Qué calculadora mostrar (reglas en src/lib/planilla.ts)"),
+  kind: z.enum(["salario-neto", "aguinaldo", "liquidacion", "costo-patronal", "horas-extra", "vacaciones", "salario-minimo", "feriados", "construccion", "ahorro-automatizacion"]).describe("Qué calculadora mostrar (reglas en src/lib/planilla.ts)"),
   heading: Text(90),
   intro: Text(300).optional(),
   sources: z.array(z.object({ label: Text(80), url: z.url() })).max(6).optional(),
+  lead: Text(160).optional().describe("Mensaje para captar clientes debajo del resultado"),
 });
 
 export const Section = z.discriminatedUnion("type", [
@@ -370,6 +371,7 @@ export const SiteSchema = z
         .object({ google: z.string().optional(), bing: z.string().optional() })
         .default({})
         .describe("Códigos de verificación de Google Search Console y Bing Webmaster Tools"),
+      ga4Id: z.string().regex(/^G-[A-Z0-9]{4,}$/).optional().describe("ID de medición de Google Analytics 4 (G-XXXXXXX)"),
       indexNowKey: z.string().regex(/^[a-f0-9]{32}$/).optional().describe("Clave IndexNow (archivo public/<clave>.txt)"),
     }),
     design: Design,

@@ -124,8 +124,8 @@
         "href": "/nosotros"
       },
       {
-        "label": "Proceso",
-        "href": "/#proceso"
+        "label": "Herramientas",
+        "href": "/calculadoras"
       },
       {
         "label": "Recursos",
@@ -205,7 +205,7 @@
             "href": "/recursos"
           },
           {
-            "label": "Calculadoras de planilla",
+            "label": "Herramientas gratis",
             "href": "/calculadoras"
           },
           {
@@ -536,6 +536,44 @@
           ]
         },
         {
+          "type": "solutionIndex",
+          "id": "herramientas",
+          "heading": "Herramientas y calculadoras gratis",
+          "intro": "Salario neto, aguinaldo, salario mínimo, feriados y más, con los datos oficiales de 2026. Resultado en PDF o por WhatsApp.",
+          "items": [
+            {
+              "slug": "calculadoras/salario-neto-costa-rica",
+              "icon": "calculator",
+              "tag": "Trabajadores"
+            },
+            {
+              "slug": "calculadoras/aguinaldo-costa-rica",
+              "icon": "spark",
+              "tag": "Diciembre"
+            },
+            {
+              "slug": "calculadoras/salario-minimo-costa-rica",
+              "icon": "users",
+              "tag": "Decreto 2026"
+            },
+            {
+              "slug": "calculadoras/feriados-costa-rica",
+              "icon": "clock",
+              "tag": "Calendario"
+            },
+            {
+              "slug": "calculadoras/costo-construccion-m2-costa-rica",
+              "icon": "house",
+              "tag": "Construcción"
+            },
+            {
+              "slug": "calculadoras",
+              "icon": "stack",
+              "tag": "Ver todas"
+            }
+          ]
+        },
+        {
           "type": "faq",
           "id": "preguntas",
           "heading": "Preguntas frecuentes sobre automatización",
@@ -831,7 +869,8 @@
               "detail": "Planillas en Odoo"
             }
           ],
-          "variant": "compact"
+          "variant": "compact",
+          "more": "Y 2 empresas más ya tienen su planilla en Odoo con nosotros."
         },
         {
           "type": "richText",
@@ -2834,7 +2873,7 @@
           "type": "clients",
           "heading": "Empresas que ya trabajan con nosotros",
           "highlight": {
-            "value": 6,
+            "value": 8,
             "label": "empresas en Costa Rica con nuestros sistemas y sitios web"
           },
           "items": [
@@ -2867,7 +2906,8 @@
               "url": "https://blueonepool.com/"
             }
           ],
-          "variant": "compact"
+          "variant": "compact",
+          "more": "Y 2 empresas más con su planilla en Odoo."
         },
         {
           "type": "cta",
@@ -3256,27 +3296,29 @@
     },
     {
       "slug": "calculadoras",
-      "navLabel": "Calculadoras de planilla",
+      "navLabel": "Herramientas gratis",
       "seo": {
-        "title": "Calculadoras de planilla Costa Rica 2026 gratis",
-        "description": "Calculadoras gratuitas para Costa Rica 2026: salario neto con renta y CCSS, aguinaldo, liquidación laboral y costo patronal por colaborador.",
+        "title": "Herramientas y calculadoras gratis Costa Rica 2026",
+        "description": "Calculadoras gratis para Costa Rica 2026: salario neto, aguinaldo, liquidación, salario mínimo, feriados, horas extra, vacaciones y costo de construcción.",
         "priority": 0.8,
         "changeFrequency": "monthly",
         "keywords": [
-          "calculadoras de planilla Costa Rica",
+          "calculadoras Costa Rica",
           "calculadora laboral Costa Rica",
+          "herramientas gratis Costa Rica",
           "calculadora CCSS 2026",
-          "calculadora de renta 2026"
+          "calculadora de renta 2026",
+          "salario mínimo 2026"
         ]
       },
       "sections": [
         {
           "type": "hero",
           "variant": "page",
-          "kicker": "Calculadoras de planilla para Costa Rica 2026",
+          "kicker": "Herramientas y calculadoras gratis para Costa Rica 2026",
           "headline": "Los números de la planilla, claros en segundos.",
           "emphasis": "claros en segundos.",
-          "subhead": "Salario neto, aguinaldo, liquidación y costo patronal con los tramos de renta y las cuotas de la CCSS vigentes en 2026. Gratis y sin registrarse.",
+          "subhead": "Salario neto, aguinaldo, liquidación, salario mínimo, feriados y más, con los datos oficiales de 2026. Gratis, sin registrarse y con resultado en PDF o por WhatsApp.",
           "primary": {
             "label": "Calcular salario neto",
             "href": "/calculadoras/salario-neto-costa-rica"
@@ -3289,7 +3331,7 @@
         },
         {
           "type": "solutionIndex",
-          "heading": "Elija su calculadora",
+          "heading": "Elija su herramienta",
           "intro": "Las mismas reglas que usa nuestro sistema de planillas en Odoo, ahora disponibles para cualquier persona.",
           "items": [
             {
@@ -3303,6 +3345,26 @@
               "tag": "Diciembre"
             },
             {
+              "slug": "calculadoras/salario-minimo-costa-rica",
+              "icon": "users",
+              "tag": "Decreto 2026"
+            },
+            {
+              "slug": "calculadoras/feriados-costa-rica",
+              "icon": "clock",
+              "tag": "Calendario"
+            },
+            {
+              "slug": "calculadoras/horas-extra-costa-rica",
+              "icon": "lightning",
+              "tag": "Jornada"
+            },
+            {
+              "slug": "calculadoras/vacaciones-costa-rica",
+              "icon": "heart",
+              "tag": "Días pendientes"
+            },
+            {
               "slug": "calculadoras/liquidacion-laboral-costa-rica",
               "icon": "file",
               "tag": "Fin de contrato"
@@ -3311,6 +3373,16 @@
               "slug": "calculadoras/costo-patronal-costa-rica",
               "icon": "buildings",
               "tag": "Empresas"
+            },
+            {
+              "slug": "calculadoras/costo-construccion-m2-costa-rica",
+              "icon": "house",
+              "tag": "Construcción"
+            },
+            {
+              "slug": "calculadoras/ahorro-por-automatizacion",
+              "icon": "gauge",
+              "tag": "Automatización"
             }
           ]
         },
@@ -3319,7 +3391,7 @@
           "heading": "Datos actualizados para 2026",
           "paragraphs": [
             "Desde el 1 de enero de 2026 rigen nuevos tramos del impuesto al salario (Decreto 45333-H): los salarios de hasta ₡918.000 mensuales están exentos y el resto paga 10 %, 15 %, 20 % o 25 % según el tramo. Además, la cuota de la CCSS subió a 10,83 % para el trabajador y 26,83 % para el patrono.",
-            "Estas calculadoras aplican esas reglas para que trabajadores, contadores y empresas obtengan una referencia rápida. Si su empresa calcula la planilla todos los meses, un sistema de planillas lo hace automáticamente para cada colaborador."
+            "Estas herramientas aplican esas reglas para que trabajadores, contadores, constructores y empresas obtengan una referencia rápida, con el resultado listo para enviar por WhatsApp o guardar en PDF. Si su empresa hace estos cálculos todos los meses, un sistema los hace automáticamente para cada colaborador."
           ]
         },
         {
@@ -3379,21 +3451,7 @@
           "type": "calculator",
           "kind": "salario-neto",
           "heading": "Calcule su salario neto",
-          "intro": "El cálculo se actualiza mientras escribe. Puede sumar horas extra, otros ingresos y los créditos fiscales por hijos y cónyuge.",
-          "sources": [
-            {
-              "label": "EY: Decreto 45333-H, tramos 2026",
-              "url": "https://www.ey.com/es_ce/technical/tax/tax-alerts/costa-rica-ministerio-de-hacienda-establecio-los-tramos-del-impuesto-sobre-la-renta-para-el-periodo-fiscal-2026"
-            },
-            {
-              "label": "El Observador: tramos 2026",
-              "url": "https://observador.cr/hacienda-cobrara-renta-a-salarios-a-partir-de-los-918-000-en-2026-antes-se-hacia-desde-los-922-000/"
-            },
-            {
-              "label": "EY: cuotas CCSS 2026",
-              "url": "https://www.ey.com/es_ce/technical/tax/tax-alerts/costa-rica-aumento-en-cuotas-obrero-patronales-aplicable-desde-enero-20261"
-            }
-          ]
+          "intro": "El cálculo se actualiza mientras escribe. Puede sumar horas extra, otros ingresos y los créditos fiscales por hijos y cónyuge."
         },
         {
           "type": "richText",
@@ -3441,11 +3499,11 @@
         },
         {
           "type": "related",
-          "heading": "Otras calculadoras y soluciones",
+          "heading": "Otras herramientas y soluciones",
           "slugs": [
+            "calculadoras/salario-minimo-costa-rica",
             "calculadoras/aguinaldo-costa-rica",
-            "calculadoras/costo-patronal-costa-rica",
-            "calculadoras/liquidacion-laboral-costa-rica",
+            "calculadoras/horas-extra-costa-rica",
             "soluciones/planillas-odoo"
           ]
         },
@@ -3502,13 +3560,7 @@
           "type": "calculator",
           "kind": "aguinaldo",
           "heading": "Calcule su aguinaldo",
-          "intro": "El periodo va del 1 de diciembre del año anterior al 30 de noviembre. Si trabajó menos meses, el resultado es el aguinaldo proporcional.",
-          "sources": [
-            {
-              "label": "MTSS: cálculo del aguinaldo",
-              "url": "https://www.mtss.go.cr/temas-laborales/salarios/aguinaldo.html"
-            }
-          ]
+          "intro": "El periodo va del 1 de diciembre del año anterior al 30 de noviembre. Si trabajó menos meses, el resultado es el aguinaldo proporcional."
         },
         {
           "type": "richText",
@@ -3542,11 +3594,11 @@
         },
         {
           "type": "related",
-          "heading": "Otras calculadoras y soluciones",
+          "heading": "Otras herramientas y soluciones",
           "slugs": [
             "calculadoras/salario-neto-costa-rica",
             "calculadoras/liquidacion-laboral-costa-rica",
-            "calculadoras/costo-patronal-costa-rica",
+            "calculadoras/feriados-costa-rica",
             "soluciones/planillas-odoo"
           ]
         },
@@ -3604,13 +3656,7 @@
           "type": "calculator",
           "kind": "liquidacion",
           "heading": "Calcule la liquidación",
-          "intro": "Use el promedio de los últimos 6 meses de salario. El preaviso y la cesantía solo aplican cuando el despido es sin justa causa.",
-          "sources": [
-            {
-              "label": "Código de Trabajo, artículos 28 y 29",
-              "url": "https://www.pgrweb.go.cr/scij/Busqueda/Normativa/Normas/nrm_texto_completo.aspx?nValor1=1&nValor2=8045"
-            }
-          ]
+          "intro": "Use el promedio de los últimos 6 meses de salario. El preaviso y la cesantía solo aplican cuando el despido es sin justa causa."
         },
         {
           "type": "richText",
@@ -3649,11 +3695,11 @@
         },
         {
           "type": "related",
-          "heading": "Otras calculadoras y soluciones",
+          "heading": "Otras herramientas y soluciones",
           "slugs": [
+            "calculadoras/vacaciones-costa-rica",
             "calculadoras/aguinaldo-costa-rica",
             "calculadoras/salario-neto-costa-rica",
-            "calculadoras/costo-patronal-costa-rica",
             "soluciones/planillas-odoo"
           ]
         },
@@ -3710,13 +3756,7 @@
           "type": "calculator",
           "kind": "costo-patronal",
           "heading": "Calcule el costo de un colaborador",
-          "intro": "Ideal para presupuestar una contratación o revisar el costo real de su planilla.",
-          "sources": [
-            {
-              "label": "Cuotas CCSS 2026",
-              "url": "https://www.ey.com/es_ce/technical/tax/tax-alerts/costa-rica-aumento-en-cuotas-obrero-patronales-aplicable-desde-enero-20261"
-            }
-          ]
+          "intro": "Ideal para presupuestar una contratación o revisar el costo real de su planilla."
         },
         {
           "type": "richText",
@@ -3746,12 +3786,12 @@
         },
         {
           "type": "related",
-          "heading": "Otras calculadoras y soluciones",
+          "heading": "Otras herramientas y soluciones",
           "slugs": [
+            "calculadoras/ahorro-por-automatizacion",
+            "calculadoras/salario-minimo-costa-rica",
             "calculadoras/salario-neto-costa-rica",
-            "calculadoras/aguinaldo-costa-rica",
-            "soluciones/planillas-odoo",
-            "soluciones/presupuestos-de-construccion"
+            "soluciones/planillas-odoo"
           ]
         },
         {
@@ -3765,6 +3805,589 @@
           "secondary": {
             "label": "Ver planillas en Odoo",
             "href": "/soluciones/planillas-odoo"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "calculadoras/salario-minimo-costa-rica",
+      "navLabel": "Salario mínimo 2026",
+      "seo": {
+        "title": "Salario mínimo 2026 Costa Rica por ocupación",
+        "description": "Salario mínimo 2026 en Costa Rica: busque su ocupación y vea el mínimo por jornada y mensual según el Decreto 45303-MTSS, con su salario neto.",
+        "priority": 0.9,
+        "changeFrequency": "monthly",
+        "keywords": [
+          "salario mínimo 2026 Costa Rica",
+          "salario mínimo peón de construcción",
+          "salario mínimo por ocupación",
+          "tabla de salarios mínimos 2026",
+          "decreto 45303-MTSS",
+          "salario mínimo trabajadora doméstica 2026"
+        ]
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Salario mínimo 2026 en Costa Rica por ocupación",
+          "headline": "Busque su puesto y vea el mínimo de ley.",
+          "emphasis": "el mínimo de ley.",
+          "subhead": "Más de 60 ocupaciones con su categoría oficial del MTSS, el monto por jornada, el equivalente mensual y el salario neto aproximado.",
+          "primary": {
+            "label": "Calcular ahora",
+            "href": "#calculadora"
+          },
+          "secondary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          }
+        },
+        {
+          "type": "calculator",
+          "kind": "salario-minimo",
+          "heading": "Busque el salario mínimo de su ocupación",
+          "intro": "Escriba su puesto (por ejemplo albañil, cajero o misceláneo) o elija la categoría. Puede enviar el resultado por WhatsApp o descargarlo en PDF."
+        },
+        {
+          "type": "richText",
+          "heading": "Cómo funcionan los salarios mínimos en Costa Rica",
+          "paragraphs": [
+            "Los salarios mínimos del sector privado se fijan cada año por decreto del Ministerio de Trabajo, a partir de lo que acuerda el Consejo Nacional de Salarios. Para 2026 rige el Decreto Ejecutivo 45303-MTSS, con un aumento general de 1,63 % desde el 1 de enero.",
+            "Cada ocupación pertenece a una categoría según su nivel de calificación: no calificada, semicalificada, calificada, especializada o de especialización superior. Algunas categorías se pagan por jornada ordinaria y otras por mes; para comparar, el equivalente mensual de una jornada es el monto diario multiplicado por 30.",
+            "Los mínimos son el piso legal: ningún patrono puede pagar menos, pero sí más. La categoría correcta depende de las funciones reales del puesto, no solo del nombre."
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas sobre el salario mínimo",
+          "items": [
+            {
+              "q": "¿Cuánto es el salario mínimo de un peón de construcción en 2026?",
+              "a": "Un peón de construcción es trabajador en ocupación no calificada (TONC): ₡12.436,41 por jornada ordinaria, que equivale a ₡373.092,30 al mes."
+            },
+            {
+              "q": "¿Cuánto es el salario mínimo de un albañil en 2026?",
+              "a": "El albañil es trabajador en ocupación calificada (TOC): ₡13.991,86 por jornada, cerca de ₡419.755,80 al mes."
+            },
+            {
+              "q": "¿Cuánto es el salario mínimo de una trabajadora doméstica en 2026?",
+              "a": "₡268.731,31 al mes. En 2026 esta categoría tuvo un aumento mayor al general, de alrededor de 3,96 %."
+            },
+            {
+              "q": "¿Cuánto aumentó el salario mínimo en 2026?",
+              "a": "El aumento general fue de 1,63 %. Trabajo doméstico, técnico medio (TMED) y especializado genérico (TOEG) recibieron un ajuste adicional."
+            },
+            {
+              "q": "¿El salario mínimo es antes o después de rebajos?",
+              "a": "Es el salario bruto. A ese monto se le rebaja la cuota de la CCSS (10,83 %) y, si supera ₡918.000, el impuesto sobre la renta."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Otras herramientas y soluciones",
+          "slugs": [
+            "calculadoras/salario-neto-costa-rica",
+            "calculadoras/horas-extra-costa-rica",
+            "calculadoras/costo-patronal-costa-rica",
+            "soluciones/planillas-odoo"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "Salarios mínimos al día en su planilla",
+          "body": "Cuando cambia el decreto, su planilla en Odoo se actualiza sin fórmulas a mano.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver planillas en Odoo",
+            "href": "/soluciones/planillas-odoo"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "calculadoras/feriados-costa-rica",
+      "navLabel": "Feriados 2026 y 2027",
+      "seo": {
+        "title": "Feriados Costa Rica 2026 y 2027: calendario y pago",
+        "description": "Calendario de feriados de Costa Rica 2026 y 2027: fechas, cuáles son de pago obligatorio y cuánto se paga si trabaja un feriado. Con calculadora.",
+        "priority": 0.9,
+        "changeFrequency": "monthly",
+        "keywords": [
+          "feriados Costa Rica 2026",
+          "feriados 2027 Costa Rica",
+          "calendario de feriados",
+          "feriados de pago obligatorio",
+          "pago doble feriado",
+          "próximo feriado Costa Rica"
+        ]
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Feriados de Costa Rica 2026 y 2027",
+          "headline": "Cada feriado, su fecha y cómo se paga.",
+          "emphasis": "cómo se paga.",
+          "subhead": "El calendario oficial con los feriados de pago obligatorio y no obligatorio, el próximo feriado y una calculadora del pago si le toca trabajar.",
+          "primary": {
+            "label": "Calcular ahora",
+            "href": "#calculadora"
+          },
+          "secondary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          }
+        },
+        {
+          "type": "calculator",
+          "kind": "feriados",
+          "heading": "¿Trabajó un feriado? Calcule el pago",
+          "intro": "El pago depende de si su salario es mensual o semanal y de si el feriado es de pago obligatorio. Abajo está el calendario completo de 2026 y 2027."
+        },
+        {
+          "type": "richText",
+          "heading": "Feriados de pago obligatorio y no obligatorio",
+          "paragraphs": [
+            "El Código de Trabajo (artículo 148) establece 12 feriados. Son de pago obligatorio el 1 de enero, Jueves y Viernes Santo, el 11 de abril, el 1 de mayo, el 25 de julio, el 15 de agosto, el 15 de setiembre y el 25 de diciembre. Son de pago no obligatorio el 2 de agosto, el 31 de agosto y el 1 de diciembre.",
+            "Desde 2025 los feriados se disfrutan en su fecha real: ya no se trasladan al lunes. Existe un proyecto de ley para volver a trasladar algunos, pero no ha sido aprobado.",
+            "Quien trabaja un feriado recibe el doble del salario de ese día. Si el salario es mensual o quincenal, el feriado ya está pagado y se agrega un día sencillo. Si es semanal, el feriado obligatorio trabajado se paga doble y el no obligatorio, sencillo."
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas sobre los feriados",
+          "items": [
+            {
+              "q": "¿Cuántos feriados tiene Costa Rica?",
+              "a": "Doce: nueve de pago obligatorio y tres de pago no obligatorio (2 de agosto, 31 de agosto y 1 de diciembre)."
+            },
+            {
+              "q": "¿Se trasladan los feriados al lunes en 2026 y 2027?",
+              "a": "No. Desde 2025 todos los feriados se disfrutan en su fecha. Un proyecto de ley propone trasladar algunos, pero no ha sido aprobado."
+            },
+            {
+              "q": "¿Cuánto me deben pagar si trabajo un feriado?",
+              "a": "El doble del salario ordinario de ese día. Con salario mensual, se agrega un día sencillo porque el feriado ya está incluido en el salario."
+            },
+            {
+              "q": "¿Cuándo es Semana Santa en 2027?",
+              "a": "Jueves Santo es el 25 de marzo y Viernes Santo el 26 de marzo de 2027. Ambos son feriados de pago obligatorio."
+            },
+            {
+              "q": "¿Me pueden obligar a trabajar un feriado?",
+              "a": "La ley prohíbe obligar a trabajar en feriados, salvo excepciones por la naturaleza de la actividad. Si se trabaja, debe pagarse doble."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Otras herramientas y soluciones",
+          "slugs": [
+            "calculadoras/horas-extra-costa-rica",
+            "calculadoras/salario-neto-costa-rica",
+            "calculadoras/vacaciones-costa-rica",
+            "soluciones/planillas-odoo"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "Feriados y dobles calculados solos",
+          "body": "Su planilla en Odoo aplica el pago correcto de cada feriado sin revisar el calendario a mano.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver planillas en Odoo",
+            "href": "/soluciones/planillas-odoo"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "calculadoras/horas-extra-costa-rica",
+      "navLabel": "Calculadora de horas extra",
+      "seo": {
+        "title": "Calculadora de horas extra Costa Rica 2026",
+        "description": "Calcule horas extra en Costa Rica: valor de la hora, tiempo y medio, feriados y días de descanso trabajados, con jornada diurna, mixta o nocturna.",
+        "priority": 0.85,
+        "changeFrequency": "monthly",
+        "keywords": [
+          "calculadora horas extra Costa Rica",
+          "cómo se pagan las horas extra",
+          "valor hora extra",
+          "tiempo y medio",
+          "horas extra feriado",
+          "jornada nocturna"
+        ]
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Calculadora de horas extra Costa Rica",
+          "headline": "Cada hora extra, pagada como manda la ley.",
+          "emphasis": "como manda la ley.",
+          "subhead": "Calcule el valor de la hora, el tiempo y medio, el doble de los feriados y las extras en días de descanso según su jornada.",
+          "primary": {
+            "label": "Calcular ahora",
+            "href": "#calculadora"
+          },
+          "secondary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          }
+        },
+        {
+          "type": "calculator",
+          "kind": "horas-extra",
+          "heading": "Calcule sus horas extra",
+          "intro": "Ingrese su salario mensual, el tipo de jornada y las horas trabajadas de más. El resultado muestra el monto adicional a pagar."
+        },
+        {
+          "type": "richText",
+          "heading": "Cómo se calculan las horas extra en Costa Rica",
+          "paragraphs": [
+            "El valor de la hora ordinaria se obtiene dividiendo el salario mensual entre 30 días y luego entre las horas de la jornada: 8 en jornada diurna, 7 en mixta y 6 en nocturna. Cada hora extra se paga a tiempo y medio, es decir 1,5 veces ese valor.",
+            "Si se trabaja un feriado o el día de descanso, el pago es doble; y las horas extra hechas ese día se pagan a tiempo y medio doble. La jornada ordinaria más las horas extra no puede superar 12 horas al día.",
+            "Las horas extra forman parte del salario: pagan CCSS, cuentan para el impuesto sobre la renta y se suman para calcular el aguinaldo y las vacaciones."
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas sobre horas extra",
+          "items": [
+            {
+              "q": "¿Cómo calculo el valor de una hora extra?",
+              "a": "Divida el salario mensual entre 30 y luego entre las horas de su jornada (8, 7 o 6). Multiplique ese valor por 1,5."
+            },
+            {
+              "q": "¿Cuántas horas extra se pueden trabajar al día?",
+              "a": "La jornada ordinaria más las extras no puede pasar de 12 horas diarias, según el Código de Trabajo."
+            },
+            {
+              "q": "¿Las horas extra pagan CCSS y renta?",
+              "a": "Sí. Se suman al salario bruto del mes, por lo que pagan cargas sociales e impuesto si corresponde."
+            },
+            {
+              "q": "¿Cuánto se paga una hora extra en un feriado?",
+              "a": "Tiempo y medio doble, es decir tres veces el valor de la hora ordinaria."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Otras herramientas y soluciones",
+          "slugs": [
+            "calculadoras/salario-neto-costa-rica",
+            "calculadoras/feriados-costa-rica",
+            "calculadoras/salario-minimo-costa-rica",
+            "soluciones/planillas-odoo"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "Horas extra directo de las marcas",
+          "body": "En Odoo, las marcas de asistencia calculan las extras y pasan a la planilla sin digitarlas.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver planillas en Odoo",
+            "href": "/soluciones/planillas-odoo"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "calculadoras/vacaciones-costa-rica",
+      "navLabel": "Calculadora de vacaciones",
+      "seo": {
+        "title": "Calculadora de vacaciones Costa Rica: días y pago",
+        "description": "Calcule cuántos días de vacaciones tiene pendientes en Costa Rica y cuánto valen, según el Código de Trabajo: 2 semanas por cada 50 trabajadas.",
+        "priority": 0.85,
+        "changeFrequency": "monthly",
+        "keywords": [
+          "calculadora de vacaciones Costa Rica",
+          "cuántos días de vacaciones me corresponden",
+          "vacaciones proporcionales",
+          "pago de vacaciones",
+          "vacaciones Código de Trabajo"
+        ]
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Calculadora de vacaciones Costa Rica",
+          "headline": "Sepa cuántos días le quedan y cuánto valen.",
+          "emphasis": "cuánto valen.",
+          "subhead": "Con su fecha de ingreso y los días que ya tomó, calcule las vacaciones pendientes y su valor en colones.",
+          "primary": {
+            "label": "Calcular ahora",
+            "href": "#calculadora"
+          },
+          "secondary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          }
+        },
+        {
+          "type": "calculator",
+          "kind": "vacaciones",
+          "heading": "Calcule sus vacaciones pendientes",
+          "intro": "Se gana 1 día de vacaciones por cada mes completo trabajado, es decir 12 días hábiles por año."
+        },
+        {
+          "type": "richText",
+          "heading": "Cuántas vacaciones corresponden en Costa Rica",
+          "paragraphs": [
+            "El Código de Trabajo da derecho a dos semanas de vacaciones pagadas por cada 50 semanas de trabajo continuo. En la práctica son 12 días hábiles por año, o 1 día por cada mes trabajado cuando la relación termina antes de completar el año.",
+            "Las vacaciones se pagan con el promedio de los salarios ordinarios y extraordinarios de las últimas 50 semanas. Si la persona deja la empresa, los días pendientes se pagan en la liquidación."
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas sobre vacaciones",
+          "items": [
+            {
+              "q": "¿Cuántos días de vacaciones tengo por año?",
+              "a": "Dos semanas por cada 50 semanas trabajadas, que equivalen a 12 días hábiles por año."
+            },
+            {
+              "q": "¿Me pagan las vacaciones si renuncio?",
+              "a": "Sí. Los días ganados y no disfrutados se pagan siempre en la liquidación, sin importar el motivo de salida."
+            },
+            {
+              "q": "¿Se pueden acumular vacaciones?",
+              "a": "Por regla general no. El Código de Trabajo permite acumularlas una sola vez (hasta dos periodos) en casos especiales, como puestos de confianza difíciles de reemplazar."
+            },
+            {
+              "q": "¿Con qué salario se pagan las vacaciones?",
+              "a": "Con el promedio de los salarios ordinarios y extraordinarios de las últimas 50 semanas."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Otras herramientas y soluciones",
+          "slugs": [
+            "calculadoras/liquidacion-laboral-costa-rica",
+            "calculadoras/aguinaldo-costa-rica",
+            "calculadoras/salario-neto-costa-rica",
+            "soluciones/planillas-odoo"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "Saldos de vacaciones siempre al día",
+          "body": "Cada colaborador ve sus días disponibles y las solicitudes se aprueban en Odoo.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver planillas en Odoo",
+            "href": "/soluciones/planillas-odoo"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "calculadoras/costo-construccion-m2-costa-rica",
+      "navLabel": "Costo de construcción por m²",
+      "seo": {
+        "title": "Costo de construcción por m² en Costa Rica 2026",
+        "description": "Calcule cuánto cuesta construir una casa en Costa Rica por metro cuadrado, con los valores de referencia de Hacienda por tipo de vivienda.",
+        "priority": 0.85,
+        "changeFrequency": "monthly",
+        "keywords": [
+          "costo de construcción por metro cuadrado Costa Rica",
+          "cuánto cuesta construir una casa en Costa Rica",
+          "precio metro cuadrado construcción 2026",
+          "calculadora de construcción",
+          "tipologías constructivas Hacienda"
+        ]
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Costo de construcción por m² en Costa Rica",
+          "headline": "Calcule su casa antes de poner el primer block.",
+          "emphasis": "antes de poner el primer block.",
+          "subhead": "Elija el tipo de construcción y el área, y obtenga un costo estimado con los valores de referencia del Ministerio de Hacienda.",
+          "primary": {
+            "label": "Calcular ahora",
+            "href": "#calculadora"
+          },
+          "secondary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "visual": "budget"
+        },
+        {
+          "type": "calculator",
+          "kind": "construccion",
+          "heading": "Calcule el costo de su construcción",
+          "intro": "Los valores base son los de Hacienda por tipología. Ajuste el precio a su zona o a la cotización de su constructor y sume imprevistos."
+        },
+        {
+          "type": "richText",
+          "heading": "Cuánto cuesta construir en Costa Rica",
+          "paragraphs": [
+            "El Ministerio de Hacienda publica el Manual de Valores Base Unitarios por Tipología Constructiva, que asigna un valor por metro cuadrado a cada tipo de construcción según materiales, acabados y tamaño. Es la referencia oficial que usan las municipalidades y los peritos.",
+            "Estos valores son de reposición y no incluyen el terreno, los permisos, los planos ni la dirección técnica. Los precios que cotiza un constructor suelen ser mayores, sobre todo en acabados de calidad media y alta, por eso la calculadora permite ajustar el precio y sumar imprevistos.",
+            "Para un presupuesto real se necesitan cantidades de obra y precios unitarios: concreto, acero, block, mano de obra y acabados. Ese es el trabajo que automatizamos en nuestra solución de presupuestos de construcción."
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas sobre el costo de construcción",
+          "items": [
+            {
+              "q": "¿Cuánto cuesta construir una casa de 100 m² en Costa Rica?",
+              "a": "Con los valores de referencia de Hacienda, una vivienda de concreto de calidad media ronda ₡365.000 por m², unos ₡36,5 millones, sin terreno ni permisos. El precio de mercado suele ser mayor según la zona y los acabados."
+            },
+            {
+              "q": "¿El costo incluye el terreno?",
+              "a": "No. Los valores por metro cuadrado son solo de la construcción. Terreno, permisos, planos, dirección técnica e impuestos se suman aparte."
+            },
+            {
+              "q": "¿Qué porcentaje de imprevistos debo considerar?",
+              "a": "Se recomienda reservar entre 10 % y 15 % del costo de la obra para imprevistos."
+            },
+            {
+              "q": "¿El CFIA publica un costo por metro cuadrado?",
+              "a": "No. El CFIA tasa cada proyecto de forma individual y remite al manual de tipologías constructivas de Hacienda como referencia."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Otras herramientas y soluciones",
+          "slugs": [
+            "soluciones/presupuestos-de-construccion",
+            "calculadoras/costo-patronal-costa-rica",
+            "calculadoras/salario-minimo-costa-rica",
+            "calculadoras"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "Presupuestos de obra en minutos",
+          "body": "Generamos presupuestos con cantidades, precios unitarios y mano de obra a partir de sus planos.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver presupuestos de obra",
+            "href": "/soluciones/presupuestos-de-construccion"
+          },
+          "background": "accent"
+        }
+      ]
+    },
+    {
+      "slug": "calculadoras/ahorro-por-automatizacion",
+      "navLabel": "Calculadora de ahorro por automatización",
+      "seo": {
+        "title": "Calculadora de ahorro por automatización de procesos",
+        "description": "Calcule cuánto le cuesta a su empresa una tarea repetitiva y cuánto ahorraría al automatizarla: horas recuperadas y colones al año.",
+        "priority": 0.8,
+        "changeFrequency": "monthly",
+        "keywords": [
+          "ahorro por automatización",
+          "cuánto ahorra automatizar procesos",
+          "ROI automatización",
+          "costo de tareas manuales",
+          "automatización de procesos Costa Rica"
+        ]
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "variant": "page",
+          "kicker": "Calculadora de ahorro por automatización",
+          "headline": "Lo que cuesta hacerlo a mano, en colones.",
+          "emphasis": "en colones.",
+          "subhead": "Indique cuántas personas hacen una tarea y cuántas horas le dedican. Vea el costo real al año y cuánto podría ahorrar al automatizarla.",
+          "primary": {
+            "label": "Calcular ahora",
+            "href": "#calculadora"
+          },
+          "secondary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "visual": "data"
+        },
+        {
+          "type": "calculator",
+          "kind": "ahorro-automatizacion",
+          "heading": "Calcule su ahorro",
+          "intro": "El costo de cada hora incluye el salario, las cargas sociales de la CCSS, la póliza del INS y las reservas de aguinaldo y vacaciones."
+        },
+        {
+          "type": "richText",
+          "heading": "Por qué automatizar tareas repetitivas",
+          "paragraphs": [
+            "Copiar datos entre sistemas, revisar correos, armar reportes o calcular la planilla consume horas que se repiten cada semana. Aunque parezcan pocas, multiplicadas por el número de personas y por 52 semanas se convierten en un costo importante.",
+            "Automatizar no elimina puestos: libera tiempo para atender clientes, vender y decidir. Además reduce errores de digitación y deja cada paso registrado."
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Preguntas sobre automatización",
+          "items": [
+            {
+              "q": "¿Qué tareas se pueden automatizar?",
+              "a": "Las que se repiten y siguen reglas claras: cálculo de planillas, clasificación de correos, respuesta a consultas frecuentes, búsqueda de licitaciones, reportes y presupuestos."
+            },
+            {
+              "q": "¿Cuánto cuesta automatizar un proceso?",
+              "a": "Depende del proceso y de los sistemas que use. En una conversación por WhatsApp revisamos su caso y le damos una propuesta por etapas."
+            },
+            {
+              "q": "¿Cómo se calcula el costo de una hora de trabajo?",
+              "a": "Salario mensual más cargas sociales y reservas, dividido entre las horas efectivas del mes (unas 208 en jornada de 48 horas semanales)."
+            }
+          ]
+        },
+        {
+          "type": "related",
+          "heading": "Otras herramientas y soluciones",
+          "slugs": [
+            "software-a-la-medida",
+            "soluciones",
+            "recursos/que-es-la-automatizacion-de-procesos",
+            "calculadoras/costo-patronal-costa-rica"
+          ]
+        },
+        {
+          "type": "cta",
+          "headline": "Recupere esas horas",
+          "body": "Le decimos qué automatizar primero y cuánto tiempo va a ahorrar.",
+          "primary": {
+            "label": "Hablemos de su proyecto",
+            "href": "#whatsapp"
+          },
+          "secondary": {
+            "label": "Ver soluciones",
+            "href": "/soluciones"
           },
           "background": "accent"
         }
